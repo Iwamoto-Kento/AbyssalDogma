@@ -30,4 +30,3 @@ public class MouseControll : MonoBehaviour
         Cursor.visible = false;
     }
 }
-

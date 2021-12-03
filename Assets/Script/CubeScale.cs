@@ -23,7 +23,7 @@ public class CubeScale : MonoBehaviour
     {
         if (m_clickBotton == false)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetKey(KeyCode.Space))
             {
                 m_clickBotton = true;
                 Sphere.transform.gameObject.SetActive(true);

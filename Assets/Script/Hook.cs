@@ -10,7 +10,7 @@ public class Hook : MonoBehaviour
     public bool m_AttractFlg = false;
     public bool m_ComeEnemyFlg = false;
     private Player m_Player;
-    //private Enemy m_Enemy;
+    private Enemy m_Enemy;
     [SerializeField] private GameObject m_Hook;
     [SerializeField] private Camera m_Camera;
     [SerializeField] private int m_Distance = 20;
@@ -24,7 +24,7 @@ public class Hook : MonoBehaviour
     {
         m_Hook.SetActive(false);
         this.m_Player = FindObjectOfType<Player>();
-        //this.m_Enemy = FindObjectOfType<Enemy>();
+        this.m_Enemy = FindObjectOfType<Enemy>();
     }
 
     // Update is called once per frame
@@ -34,20 +34,20 @@ public class Hook : MonoBehaviour
         //クリック時のフックを飛ばす準備
         if (m_HookFlg != true)
         {
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButton(1))
             {
                 ray = m_Camera.ScreenPointToRay(Input.mousePosition);
                 if (Physics.Raycast(m_Camera.transform.position, ray.direction, out hit))
                 {
                     float len;
                     len= Vector3.Distance(hit.point, m_Player.transform.position);
-                    if (len > 2)
-                    {
+                    //if (len > 2)
+                    //{
                         m_Hook.SetActive(true);
                         m_Hook.transform.position = m_Player.transform.position;
                         m_HookFlg = true;
                         m_HookShotFlg = true;
-                    }
+                   //2 }
                 }
             }
         }
@@ -93,7 +93,7 @@ public class Hook : MonoBehaviour
         //敵に当たったら敵が自分のところに来る
         if (m_ComeEnemyFlg == true)
         {
-            //m_HookFlg = m_Enemy.MoveEnemy(m_Player.transform.position);
+            m_HookFlg = m_Enemy.MoveEnemy(m_Player.transform.position);
 
             if (m_HookFlg == false)
             {
