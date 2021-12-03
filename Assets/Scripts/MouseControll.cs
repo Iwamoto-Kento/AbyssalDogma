@@ -14,8 +14,9 @@ public class MouseControll : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // ƒ}ƒEƒXƒ|ƒCƒ“ƒ^[‚ª’†‰›‚©‚ç—£‚ê‚·‚¬‚½ê‡
-        if (Mathf.Abs(Screen.width / 2 - Input.mousePosition.x) > 50 || Mathf.Abs(Screen.height / 2 - Input.mousePosition.y) > 50)
+
+        // ãƒžã‚¦ã‚¹ãƒã‚¤ãƒ³ã‚¿ãƒ¼ãŒä¸­å¤®ã‹ã‚‰é›¢ã‚Œã™ãŽãŸå ´åˆ
+        if (Mathf.Abs(Screen.width / 2 - Input.mousePosition.x) > 10 || Mathf.Abs(Screen.height / 2 - Input.mousePosition.y) > 10)
         {
             Cursor.lockState = CursorLockMode.Locked;
             lastMousePosition = Input.mousePosition;
@@ -25,5 +26,7 @@ public class MouseControll : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             lastMousePosition = Input.mousePosition;
         }
+
+        Cursor.visible = false;
     }
 }
