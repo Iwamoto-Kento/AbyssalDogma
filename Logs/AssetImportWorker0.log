@@ -99,3 +99,73 @@ Received Import Request.
 Start importing Assets/Script/Collision.cs using Guid(f6654e07222557b44a04f5910b71e046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2cc27ec800f36aa4d02df7c7f6fe5a') in 0.004388 seconds
   Import took 0.015034 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.1 MB.
+System memory in use after: 86.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1906.
+Total: 1.677900 ms (FindLiveObjects: 0.137100 ms CreateObjectMapping: 0.040100 ms MarkObjects: 1.404600 ms  DeleteObjects: 0.095000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004059 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.1 MB.
+System memory in use after: 86.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1909.
+Total: 1.868000 ms (FindLiveObjects: 0.135100 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.608400 ms  DeleteObjects: 0.089000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Import Request.
+  Time since last request: 107.702675 seconds.
+  path: Assets/Script/Enemy.cs
+  artifactKey: Guid(7c88a21fa9b6aeb4eb023a26ac35f6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Enemy.cs using Guid(7c88a21fa9b6aeb4eb023a26ac35f6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc9e435f38db34ab275a6fa5c365c65') in 0.004486 seconds
+  Import took 0.008148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027418 seconds.
+  path: Assets/Script/Enemy.cs
+  artifactKey: Guid(7c88a21fa9b6aeb4eb023a26ac35f6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Enemy.cs using Guid(7c88a21fa9b6aeb4eb023a26ac35f6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc9e435f38db34ab275a6fa5c365c65') in 0.003097 seconds
+  Import took 0.005238 seconds .
+
