@@ -3,19 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Sonar
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Fog
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Sonar
+  - Outline
+  - Terrain
+  - rockObj
   - 
   - 
   - 
