@@ -14,8 +14,9 @@ public class MouseControll : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // マウスポインターが中央から離れすぎた場合
-        if (Mathf.Abs(Screen.width / 2 - Input.mousePosition.x) > 50 || Mathf.Abs(Screen.height / 2 - Input.mousePosition.y) > 50)
+
+        // 繝槭え繧ｹ繝昴う繝ｳ繧ｿ繝ｼ縺御ｸｭ螟ｮ縺九ｉ髮｢繧後☆縺弱◆蝣ｴ蜷・
+        if (Mathf.Abs(Screen.width / 2 - Input.mousePosition.x) > 10 || Mathf.Abs(Screen.height / 2 - Input.mousePosition.y) > 10)
         {
             Cursor.lockState = CursorLockMode.Locked;
             lastMousePosition = Input.mousePosition;
@@ -25,5 +26,7 @@ public class MouseControll : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             lastMousePosition = Input.mousePosition;
         }
+
+        Cursor.visible = false;
     }
 }
