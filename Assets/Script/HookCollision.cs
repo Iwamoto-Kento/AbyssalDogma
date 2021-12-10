@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Collision : MonoBehaviour
+public class HookCollision : MonoBehaviour
 {
     Hook m_Hook;
 
@@ -23,7 +23,7 @@ public class Collision : MonoBehaviour
             m_Hook.m_HookShotFlg = false;
         }
 
-        if(collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy")
         {
             m_Hook.m_ComeEnemyFlg = true;
             m_Hook.m_HookShotFlg = false;

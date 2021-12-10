@@ -47,7 +47,7 @@ public class Hook : MonoBehaviour
                         m_Hook.transform.position = m_Player.transform.position;
                         m_HookFlg = true;
                         m_HookShotFlg = true;
-                   //2 }
+                   // }
                 }
             }
         }

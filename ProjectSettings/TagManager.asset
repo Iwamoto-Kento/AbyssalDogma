@@ -7,6 +7,7 @@ TagManager:
   - Sonar
   - Enemy
   - Object
+  - Weapon
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Outline
   - Terrain
   - rockObj
-  - 
+  - Weapon
   - 
   - 
   - 
