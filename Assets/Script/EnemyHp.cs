@@ -2,27 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHp : MonoBehaviour
+public class EnemyHP : MonoBehaviour, hidame, death
 {
-    [SerializeField] private int hp;
+    //MonoBehaviorのあとに「、」を付けて
+    //hidame(自分で作ったインターフェースの名前ファイル名
+    //これをやるとインターフェースの中のやつが使える
+    public int hp = 10;                   //敵の体力
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        hp = 5;
+    void hidame.hidame_01(int damage)    //hidameというファイルの中の
+    {                                  //hidame_01という機能を使うぞって意味です
+        hp -= damage;
     }
 
+    void death.death_01()
+    {
+        gameObject.SetActive(false);
+    }
+
+    // Use this for initialization
+    void Start()
+    {
+
+    }
     // Update is called once per frame
     void Update()
     {
-        if (hp <= 0)
-        {
-            gameObject.SetActive(false);
-        }
-    }
 
-    public void Damage()
-    {
-        hp--;
     }
 }
