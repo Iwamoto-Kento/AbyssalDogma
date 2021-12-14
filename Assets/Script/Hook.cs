@@ -19,6 +19,7 @@ public class Hook : MonoBehaviour
     private Ray ray;
     private RaycastHit hit;
     [SerializeField] private float speed = 5.0f;
+    public Move EnemyHook;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,30 +32,32 @@ public class Hook : MonoBehaviour
     void Update()
     {
 
-        //ƒNƒŠƒbƒN‚ÌƒtƒbƒN‚ğ”ò‚Î‚·€”õ
+        //ã‚¯ãƒªãƒƒã‚¯æ™‚ã®ãƒ•ãƒƒã‚¯ã‚’é£›ã°ã™æº–å‚™
         if (m_HookFlg != true)
         {
             if (Input.GetMouseButton(1))
             {
+                int layer = LayerMask.NameToLayer("Player");
+                int layer_mask = 1 << layer;
                 ray = m_Camera.ScreenPointToRay(Input.mousePosition);
-                if (Physics.Raycast(m_Camera.transform.position, ray.direction, out hit))
+                if (Physics.Raycast(m_Camera.transform.position, ray.direction, out hit, layer_mask))
                 {
                     float len;
-                    len= Vector3.Distance(hit.point, m_Player.transform.position);
-                    //if (len > 2)
-                    //{
-                        m_Hook.SetActive(true);
-                        m_Hook.transform.position = m_Player.transform.position;
-                        m_HookFlg = true;
-                        m_HookShotFlg = true;
-                   // }
+                    len = Vector3.Distance(hit.point, m_Player.transform.position);
+
+                    Vector3 front = ray.direction.normalized * 5;
+                    m_Hook.SetActive(true);
+                    m_Hook.transform.position = m_Player.transform.position + front;
+                    m_HookFlg = true;
+                    m_HookShotFlg = true;
+                    
                 }
             }
         }
 
         m_Hook.transform.LookAt(m_Player.transform.position);
 
-        //ƒtƒbƒN‚ğ”ò‚Î‚·ˆ—
+        //ãƒ•ãƒƒã‚¯ã‚’é£›ã°ã™å‡¦ç†
         if (m_HookShotFlg == true)
         {
             float step = speed * Time.deltaTime;
@@ -62,13 +65,14 @@ public class Hook : MonoBehaviour
             m_Hook.transform.position = Vector3.MoveTowards(m_Hook.transform.position, m_TargetPos, step);
 
 
-            //ƒvƒŒƒCƒ„[‚©‚çƒtƒbƒN‚Ì‹——£ŒvZ
+            //ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã‹ã‚‰ãƒ•ãƒƒã‚¯ã®è·é›¢è¨ˆç®—
             float length = Vector3.Distance(m_Hook.transform.position, m_Player.transform.position);
 
 
-            Debug.Log(length);
+            
             if (length >= m_Distance)
             {
+                
                 m_HookShotFlg = false;
                 m_HookReturnFlg = true;
                 m_HookVec.Normalize();
@@ -78,7 +82,7 @@ public class Hook : MonoBehaviour
 
         }
 
-        //“–‚½‚Á‚½æ‚ÉƒvƒŒƒCƒ„[‚ª‹ß‚Ã‚­
+        //å½“ãŸã£ãŸå…ˆã«ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ãŒè¿‘ã¥ã
         if (m_AttractFlg == true)
         {
             m_HookFlg = m_Player.Attract(hit.point, ray);
@@ -90,10 +94,12 @@ public class Hook : MonoBehaviour
             }
         }
 
-        //“G‚É“–‚½‚Á‚½‚ç“G‚ª©•ª‚Ì‚Æ‚±‚ë‚É—ˆ‚é
+        //æ•µã«å½“ãŸã£ãŸã‚‰æ•µãŒè‡ªåˆ†ã®ã¨ã“ã‚ã«æ¥ã‚‹
         if (m_ComeEnemyFlg == true)
         {
-            m_HookFlg = m_Enemy.MoveEnemy(m_Player.transform.position);
+            
+
+            m_HookFlg = EnemyHook.MoveEnemy(m_Player.transform.position);
 
             if (m_HookFlg == false)
             {
@@ -102,7 +108,7 @@ public class Hook : MonoBehaviour
             }
         }
 
-        //ƒtƒbƒN‚ª©•ª‚ÌŠ‚É–ß‚Á‚Ä‚­‚é
+        //ãƒ•ãƒƒã‚¯ãŒè‡ªåˆ†ã®æ‰€ã«æˆ»ã£ã¦ãã‚‹
         if (m_HookReturnFlg == true)
         {
             float step = speed * Time.deltaTime;
@@ -111,7 +117,7 @@ public class Hook : MonoBehaviour
             m_TargetPos = m_Hook.transform.position + pos;
             m_Hook.transform.position = Vector3.MoveTowards(m_Hook.transform.position, m_TargetPos, step);
 
-            //ƒvƒŒƒCƒ„[‚©‚çƒtƒbƒN‚Ì‹——£ŒvZ
+            //ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã‹ã‚‰ãƒ•ãƒƒã‚¯ã®è·é›¢è¨ˆç®—
             float length = Vector3.Distance(m_Hook.transform.position, m_Player.transform.position);
 
 
