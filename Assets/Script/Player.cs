@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private Vector3 velocity;          //ˆÚ“®•ûŒü
-    [SerializeField] private float moveSpeed = 5.0f;    //ˆÚ“®‘¬“x
-    [SerializeField] private float applyspeed = 0.2f;   //‰ñ“]‚Ì“K—p‘¬“x
-    [SerializeField] private PlayerFollowCamera refCamera; //ƒJƒƒ‰‚Ì…•½‰ñ“]‚ğQÆ‚·‚é—p
+    [SerializeField] private Vector3 velocity;          //ç§»å‹•æ–¹å‘
+    [SerializeField] private float moveSpeed = 5.0f;    //ç§»å‹•é€Ÿåº¦
+    [SerializeField] private float applyspeed = 0.2f;   //å›è»¢ã®é©ç”¨é€Ÿåº¦
+    [SerializeField] private PlayerFollowCamera refCamera; //ã‚«ãƒ¡ãƒ©ã®æ°´å¹³å›è»¢ã‚’å‚ç…§ã™ã‚‹ç”¨
     [SerializeField] private bool m_AttractFlg = false;
     private Vector3 m_TargetPos;
+    private float dis = 999;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //WASD“ü—Í‚©‚çAXZ•½–Êi…•½‚È’n–Êj‚ğˆÚ“®‚·‚é•ûŒü(velocity)‚ğ“¾‚Ü‚·
+        //WASDå…¥åŠ›ã‹ã‚‰ã€XZå¹³é¢ï¼ˆæ°´å¹³ãªåœ°é¢ï¼‰ã‚’ç§»å‹•ã™ã‚‹æ–¹å‘(velocity)ã‚’å¾—ã¾ã™
         velocity = Vector3.zero;
         if (Input.GetKey(KeyCode.W))
         {
@@ -38,24 +39,24 @@ public class Player : MonoBehaviour
             velocity.x += 1;
         }
 
-        //‘¬“xƒxƒNƒgƒ‹‚Ì’·‚³‚ğ1•b‚ÅmoveSpeed‚¾‚¯i‚Ş‚æ‚¤‚É’²®‚µ‚Ü‚·
+        //é€Ÿåº¦ãƒ™ã‚¯ãƒˆãƒ«ã®é•·ã•ã‚’1ç§’ã§moveSpeedã ã‘é€²ã‚€ã‚ˆã†ã«èª¿æ•´ã—ã¾ã™
         velocity = velocity.normalized * moveSpeed * Time.deltaTime;
 
-        //‚¢‚¸‚ê‚©‚Ì•ûŒü‚ÉˆÚ“®‚µ‚Ä‚éê‡
+        //ã„ãšã‚Œã‹ã®æ–¹å‘ã«ç§»å‹•ã—ã¦ã‚‹å ´åˆ
         if (velocity.magnitude > 0)
         {
-            //ƒvƒŒƒCƒ„[‚Ì‰ñ“](transform.rotation)‚ÌXV
-            //–³‰ñ“]ó‘Ô‚ÌƒvƒŒƒCƒ„[‚Ìz+•ûŒü(Œã“ª•”)‚ğAˆÚ“®‚Ì”½‘Î•ûŒü(-velocity)‚É‰ñ‚·‰ñ“]‚É’iX‹ß‚Ã‚¯‚Ü‚·
-            //ƒJƒƒ‰‚Ì…•½‰ñ“](refCamera.hRotation)‚Å‰ñ‚µ‚½ˆÚ“®‚Ì”½‘Î•ûŒü(-velocity)‚É‰ñ‚·‰ñ“]‚É’iX‹ß‚Ã‚¯‚Ü‚·
+            //ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®å›è»¢(transform.rotation)ã®æ›´æ–°
+            //ç„¡å›è»¢çŠ¶æ…‹ã®ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®z+æ–¹å‘(å¾Œé ­éƒ¨)ã‚’ã€ç§»å‹•ã®åå¯¾æ–¹å‘(-velocity)ã«å›ã™å›è»¢ã«æ®µã€…è¿‘ã¥ã‘ã¾ã™
+            //ã‚«ãƒ¡ãƒ©ã®æ°´å¹³å›è»¢(refCamera.hRotation)ã§å›ã—ãŸç§»å‹•ã®åå¯¾æ–¹å‘(-velocity)ã«å›ã™å›è»¢ã«æ®µã€…è¿‘ã¥ã‘ã¾ã™
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(refCamera.hRotation * refCamera.vRotation * -velocity), applyspeed);
 
 
-            //ƒvƒŒƒCƒ„[‚Ì‰ñ“](transform.rotation)‚ÌXV
-            //–³‰ñ“]ó‘Ô‚ÌƒvƒŒƒCƒ„\‚Ìz+•ûŒü(Œã“ª•”)‚ğAˆÚ“®‚Ì”½‘Î•ûŒü(-velocity)‚É‰ñ‚·‰ñ“]‚Æ‚µ‚Ü‚·
+            //ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®å›è»¢(transform.rotation)ã®æ›´æ–°
+            //ç„¡å›è»¢çŠ¶æ…‹ã®ãƒ—ãƒ¬ã‚¤ãƒ¤â€•ã®z+æ–¹å‘(å¾Œé ­éƒ¨)ã‚’ã€ç§»å‹•ã®åå¯¾æ–¹å‘(-velocity)ã«å›ã™å›è»¢ã¨ã—ã¾ã™
             //transform.rotation = Quaternion.LookRotation(-velocity);
 
-            //ƒvƒŒƒCƒ„[‚ÌˆÊ’uitransform.positionj‚ÌXV
-            //ƒJƒƒ‰‚Ì…•½‰ñ“](refCamera.hRotation)‚Å‰ñ‚µ‚½ˆÚ“®•ûŒü(velocity)‚ğ‘«‚µ‚±‚İ‚Ü‚·
+            //ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®ä½ç½®ï¼ˆtransform.positionï¼‰ã®æ›´æ–°
+            //ã‚«ãƒ¡ãƒ©ã®æ°´å¹³å›è»¢(refCamera.hRotation)ã§å›ã—ãŸç§»å‹•æ–¹å‘(velocity)ã‚’è¶³ã—ã“ã¿ã¾ã™
             transform.position += refCamera.hRotation * refCamera.vRotation * velocity;
         }
     }
@@ -64,18 +65,28 @@ public class Player : MonoBehaviour
     {
         float step = moveSpeed * 10 * Time.deltaTime;
         m_TargetPos = transform.position + _ray.direction;
+        Debug.Log(m_TargetPos);
         transform.position = Vector3.MoveTowards(transform.position, m_TargetPos, step);
+        
 
         float len = Vector3.Distance(transform.position, _pos);
 
         if (len <= 2)
         {
-            m_AttractFlg = false;
+            m_AttractFlg = false; 
         }
         else
         {
             m_AttractFlg = true;
         }
+
+        if (len > dis)
+        {
+            m_AttractFlg = false;
+            dis = 999;
+            return m_AttractFlg;
+        }
+        dis = len;
 
         return m_AttractFlg;
     }
