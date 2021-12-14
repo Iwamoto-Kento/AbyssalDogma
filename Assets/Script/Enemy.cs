@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour,Move
 {
     // Start is called before the first frame update
     [SerializeField]private bool m_ComeEnemyFlg = false;
@@ -21,7 +21,7 @@ public class Enemy : MonoBehaviour
         
     }
 
-    public bool MoveEnemy(Vector3 _pos)
+    bool Move.MoveEnemy(Vector3 _pos)
     {
         float step = moveSpeed * 10 * Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, _pos, step);
