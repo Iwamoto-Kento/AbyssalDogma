@@ -15,9 +15,10 @@ public class HookCollision : MonoBehaviour
 
     private void OnCollisionEnter(UnityEngine.Collision collision)
     {
+
         if (collision.gameObject.tag == "Object")
         {
-            //Debug.Log("�͂�");
+            Debug.Log("はい");
 
             m_Hook.m_AttractFlg = true;
             m_Hook.m_HookShotFlg = false;
@@ -25,6 +26,22 @@ public class HookCollision : MonoBehaviour
 
         if (collision.gameObject.tag == "Enemy")
         {
+            m_Hook.EnemyHook = collision.gameObject.GetComponent<Move>();
+            var enemyHP = collision.gameObject.GetComponent<EnemyHP>();
+            var enemyHidame = collision.gameObject.GetComponent<hidame>();
+            var enemyDeath = collision.gameObject.GetComponent<death>();
+
+            //敵を攻撃する
+            if (enemyHidame != null)
+            {
+                enemyHidame.hidame_01(1);
+            }
+
+            //敵が死ぬ
+            if (enemyHP.hp <= 0)
+            {
+                enemyDeath.death_01();
+            }
             m_Hook.m_ComeEnemyFlg = true;
             m_Hook.m_HookShotFlg = false;
             m_Hook.m_HookReturnFlg = true;
