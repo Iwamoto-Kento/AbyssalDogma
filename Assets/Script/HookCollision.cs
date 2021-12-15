@@ -27,7 +27,7 @@ public class HookCollision : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             m_Hook.EnemyHook = collision.gameObject.GetComponent<Move>();
-            var enemyHP = collision.gameObject.GetComponent<EnemyHP>();
+            var enemyHP = collision.gameObject.GetComponent<EnemyHp>();
             var enemyHidame = collision.gameObject.GetComponent<hidame>();
             var enemyDeath = collision.gameObject.GetComponent<death>();
 

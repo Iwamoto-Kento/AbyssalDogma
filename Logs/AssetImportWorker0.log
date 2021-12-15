@@ -15,11 +15,11 @@ C:/Users/Kento/unityGame/AbyssalDogma
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59339
+57598
 Successfully changed project path to: C:/Users/Kento/unityGame/AbyssalDogma
 C:/Users/Kento/unityGame/AbyssalDogma
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 68.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -36,1633 +36,632 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007019 seconds.
+Registered in 0.002649 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 144.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 57.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.079 seconds
+- Completed reload, in  2.439 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.028259 seconds.
+Registered in 0.006548 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 72.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.112 seconds
+- Completed reload, in  1.090 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2658 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.9 MB.
-System memory in use after: 136.1 MB.
+Unloading 2667 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.8 MB.
+System memory in use after: 141.0 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3114.
-Total: 3.262400 ms (FindLiveObjects: 0.309400 ms CreateObjectMapping: 0.134700 ms MarkObjects: 2.559600 ms  DeleteObjects: 0.257600 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3130.
+Total: 2.434200 ms (FindLiveObjects: 0.245200 ms CreateObjectMapping: 0.091800 ms MarkObjects: 1.900400 ms  DeleteObjects: 0.195900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
 ========================================================================
 Received Import Request.
-  path: Assets/New Shader Graph.shadergraph
-  artifactKey: Guid(aa58ff8395b49e0409309296b0e63188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Shader Graph.shadergraph using Guid(aa58ff8395b49e0409309296b0e63188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84034d2d1e2aabd8ddc02c1240f462ed') in 0.127626 seconds
-  Import took 0.134349 seconds .
+  path: Assets/Player/Diver.mat
+  artifactKey: Guid(20461941f9e8eb94983ba055866e4e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Diver.mat using Guid(20461941f9e8eb94983ba055866e4e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264c060cf89f71fb902a3397161907f6') in 0.106304 seconds
+  Import took 0.110072 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 416.334152 seconds.
-  path: Assets/Tree.prefab
-  artifactKey: Guid(9d6aff8647eb9ac439b9f3878a431105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree.prefab using Guid(9d6aff8647eb9ac439b9f3878a431105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ced7959fe8710962008e02e5fad6b6a') in 0.507389 seconds
-  Import took 0.514444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 874.180209 seconds.
-  path: Assets/Tree_Textures/diffuse.png
-  artifactKey: Guid(8690e18e59c8c4342852e5c5fe8c80ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/diffuse.png using Guid(8690e18e59c8c4342852e5c5fe8c80ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f30e52bf59a13330bbc2ef097ea9c47') in 0.153479 seconds
-  Import took 0.161879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Tree_Textures/normal_specular.png
-  artifactKey: Guid(7ac6731900381db46a2f68863e3121f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/normal_specular.png using Guid(7ac6731900381db46a2f68863e3121f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996f6530a4c8e45bf2dd68cfdd6fd3df') in 0.016239 seconds
-  Import took 0.025851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/Tree_Textures/shadow.png
-  artifactKey: Guid(f8b99d3d030b6474cab422c67c69f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/shadow.png using Guid(f8b99d3d030b6474cab422c67c69f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce1936bf88356589b62cac28c6de52e') in 0.022826 seconds
-  Import took 0.032513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/Tree_Textures/translucency_gloss.png
-  artifactKey: Guid(ce0c60f1cba3a024594ba0fa2c01cde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(ce0c60f1cba3a024594ba0fa2c01cde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666ed87e3b098719d7bbafa7cff7989a') in 0.018077 seconds
-  Import took 0.027621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009079 seconds.
-  path: Assets/Tree_Textures/translucency_gloss.png
-  artifactKey: Guid(ce0c60f1cba3a024594ba0fa2c01cde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(ce0c60f1cba3a024594ba0fa2c01cde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666ed87e3b098719d7bbafa7cff7989a') in 0.016854 seconds
-  Import took 0.025275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.260885 seconds.
-  path: Assets/Player/Diver003.fbx
-  artifactKey: Guid(809244f5ecfa6324581d1f5180169966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Diver003.fbx using Guid(809244f5ecfa6324581d1f5180169966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4240fcb58b3194915aec0af258045cbb') in 0.118364 seconds
-  Import took 0.125453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Player/hook 1.fbx
-  artifactKey: Guid(2319018ac20a011439af1a7f297f0790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/hook 1.fbx using Guid(2319018ac20a011439af1a7f297f0790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbd90c4f04ed588d24f37ae4b82a9a4') in 0.090180 seconds
-  Import took 0.098593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/Player/sphere.fbx
-  artifactKey: Guid(95474c488f4dc2f4eba324e603d9cabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/sphere.fbx using Guid(95474c488f4dc2f4eba324e603d9cabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21b1ca19e1ca6d061911937b02b28c2') in 0.053162 seconds
-  Import took 0.061262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.624079 seconds.
-  path: Assets/GameObject/terrain/Terrain.asset
-  artifactKey: Guid(a96fcfe5b7c41ed41927c8a743abfa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/terrain/Terrain.asset using Guid(a96fcfe5b7c41ed41927c8a743abfa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree coral_1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '8bb200e1aada921d9fb54a0922a631ec') in 0.050886 seconds
-  Import took 0.056717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1708.652622 seconds.
-  path: Assets/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(17f08f6f41dcfa945bd417bf7b4a4865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(17f08f6f41dcfa945bd417bf7b4a4865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05eb3e8898e0ee2b9899f9f361846b36') in 0.100323 seconds
-  Import took 0.110700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000428 seconds.
-  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(dcf59e8a60a64fb4885b7aeba71c9be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(dcf59e8a60a64fb4885b7aeba71c9be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748d26780ed6600b67a9a0d9f520a2b3') in 0.060618 seconds
-  Import took 0.073300 seconds .
-
-========================================================================
-Received Prepare
-Switching render pipeline 00000000000000000000000000000000 -> 17f08f6f41dcfa945bd417bf7b4a4865
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 12.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3212.
-Total: 40.998100 ms (FindLiveObjects: 0.537100 ms CreateObjectMapping: 0.285200 ms MarkObjects: 39.969600 ms  DeleteObjects: 0.204000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Import Request.
-  Time since last request: 479.334022 seconds.
-  path: Assets/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(17f08f6f41dcfa945bd417bf7b4a4865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(17f08f6f41dcfa945bd417bf7b4a4865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca6cb4138838e7ad4b91ca645d3bcfd') in 0.209331 seconds
-  Import took 0.226113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000663 seconds.
-  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(dcf59e8a60a64fb4885b7aeba71c9be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(dcf59e8a60a64fb4885b7aeba71c9be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c29ded43d163fefb36228a5fa4103f5') in 0.018534 seconds
-  Import took 0.036288 seconds .
-
-========================================================================
-Received Prepare
-Switching render pipeline 17f08f6f41dcfa945bd417bf7b4a4865 -> 00000000000000000000000000000000
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 3.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.0 MB.
-System memory in use after: 87.2 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3214.
-Total: 5.352100 ms (FindLiveObjects: 0.237100 ms CreateObjectMapping: 0.117000 ms MarkObjects: 4.834300 ms  DeleteObjects: 0.162400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Import Request.
-  Time since last request: 244.056932 seconds.
-  path: Assets/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(17f08f6f41dcfa945bd417bf7b4a4865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(17f08f6f41dcfa945bd417bf7b4a4865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257822a9ac450296d349adf84605b7c3') in 0.013592 seconds
-  Import took 0.017450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046525 seconds.
-  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(dcf59e8a60a64fb4885b7aeba71c9be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(dcf59e8a60a64fb4885b7aeba71c9be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4261bc121896547431b62502f89048e6') in 0.003314 seconds
-  Import took 0.007618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 135.651494 seconds.
-  path: Assets/New Shader Graph 1.shadergraph
-  artifactKey: Guid(99a84a3820d0427459750bfe1f43130c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Shader Graph 1.shadergraph using Guid(99a84a3820d0427459750bfe1f43130c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f19aa3a8f06ed51597193877cd62cd1') in 0.003672 seconds
-  Import took 0.008264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.858139 seconds.
-  path: Assets/New Shader Graph.shadergraph
-  artifactKey: Guid(aa58ff8395b49e0409309296b0e63188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Shader Graph.shadergraph using Guid(aa58ff8395b49e0409309296b0e63188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591a9d70e42c98b16e65b40d34f1f6e2') in 0.003455 seconds
-  Import took 0.007182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 777.718984 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(00a5c5c3181b28344bb57844ecab07df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(00a5c5c3181b28344bb57844ecab07df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7148e0d4755302212474ad31081bcf8') in 0.032888 seconds
-  Import took 0.038244 seconds .
+  Time since last request: 0.000316 seconds.
+  path: Assets/Player/New Material.mat
+  artifactKey: Guid(5025a4e9ae76e654bb07195eb04d63d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/New Material.mat using Guid(5025a4e9ae76e654bb07195eb04d63d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a14446d265d6721006ad48104fb15d') in 0.008928 seconds
+  Import took 0.012559 seconds .
 
 ========================================================================
 Received Prepare
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 3.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.0 MB.
-System memory in use after: 87.2 MB.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.8 MB.
+System memory in use after: 87.0 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3216.
-Total: 3.112900 ms (FindLiveObjects: 0.260500 ms CreateObjectMapping: 0.104100 ms MarkObjects: 2.625800 ms  DeleteObjects: 0.121600 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3170.
+Total: 3.031900 ms (FindLiveObjects: 0.290100 ms CreateObjectMapping: 0.133600 ms MarkObjects: 2.447700 ms  DeleteObjects: 0.159400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
 ========================================================================
 Received Import Request.
-  Time since last request: 210.481872 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(00a5c5c3181b28344bb57844ecab07df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(00a5c5c3181b28344bb57844ecab07df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df1f5c5826036b66468151fff8bd446') in 0.178627 seconds
-  Import took 0.183289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 120.445845 seconds.
-  path: Assets/New Shader Graph.shadergraph
-  artifactKey: Guid(aa58ff8395b49e0409309296b0e63188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Shader Graph.shadergraph using Guid(aa58ff8395b49e0409309296b0e63188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f509a0b5ca69f8099445811c4c89eb77') in 0.004113 seconds
-  Import took 0.008103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.315057 seconds.
-  path: Assets/GameObject/coralModel/coral_1/10010_Coral_v1_Diffuse.jpg
-  artifactKey: Guid(2c97c027c47b21847b89066daa41674f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/coralModel/coral_1/10010_Coral_v1_Diffuse.jpg using Guid(2c97c027c47b21847b89066daa41674f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a391a63edd7ae9ab1aece3d615c7a55') in 0.046782 seconds
-  Import took 0.050615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Tree_Textures/diffuse.png
-  artifactKey: Guid(8690e18e59c8c4342852e5c5fe8c80ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/diffuse.png using Guid(8690e18e59c8c4342852e5c5fe8c80ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e6f7730fb92cd9ab7809e0867922f7') in 0.006813 seconds
-  Import took 0.010438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/GameObject/rockModele/rock_3/Rock_5_Base_Color.jpg
-  artifactKey: Guid(1706038423e10dd46ab9e5baafe88d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/rockModele/rock_3/Rock_5_Base_Color.jpg using Guid(1706038423e10dd46ab9e5baafe88d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cfed73f1415f02f58a8e47d8b03e5c') in 0.056457 seconds
-  Import took 0.061574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Tree_Textures/normal_specular.png
-  artifactKey: Guid(7ac6731900381db46a2f68863e3121f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/normal_specular.png using Guid(7ac6731900381db46a2f68863e3121f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087d884cd2300aef3141347d40d3ea36') in 0.007915 seconds
-  Import took 0.012575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/GameObject/rockModele/rock_3/Rock_5_Base_Color.jpg
-  artifactKey: Guid(1706038423e10dd46ab9e5baafe88d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/rockModele/rock_3/Rock_5_Base_Color.jpg using Guid(1706038423e10dd46ab9e5baafe88d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cfed73f1415f02f58a8e47d8b03e5c') in 0.024011 seconds
-  Import took 0.029786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/LFC/GFX/MiniMap.renderTexture
-  artifactKey: Guid(e82412553749c37468a09e5e9091e682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LFC/GFX/MiniMap.renderTexture using Guid(e82412553749c37468a09e5e9091e682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de16c2766da1183d6cd1b4546af413de') in 0.019504 seconds
-  Import took 0.023701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/GameObject/rockModele/rock_2/C_Cliff_BaseColor.png
-  artifactKey: Guid(b3c6da041005b1745b6331c2e971d247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/rockModele/rock_2/C_Cliff_BaseColor.png using Guid(b3c6da041005b1745b6331c2e971d247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f14c63891478d49dcdc552fc6f886f4') in 0.024080 seconds
-  Import took 0.029341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/22300111.jpg
-  artifactKey: Guid(245461bf01d439e4592250f37bff3650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/22300111.jpg using Guid(245461bf01d439e4592250f37bff3650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d870bd216c0e7c90ed1c0b73a126e1b') in 0.039181 seconds
-  Import took 0.044235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/LFC/GFX/FREE-KeyImage-SMALL-.png
-  artifactKey: Guid(36e11866651a38d4e849141c7ca165d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LFC/GFX/FREE-KeyImage-SMALL-.png using Guid(36e11866651a38d4e849141c7ca165d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30aee687f766e675ada581a5280ed13b') in 0.022636 seconds
-  Import took 0.026750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.886957 seconds.
-  path: Assets/GameObject/rockModele/rock_5/Rock_6_d.jpg
-  artifactKey: Guid(e01d4bfc688887c418187f1b2e6f6e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/rockModele/rock_5/Rock_6_d.jpg using Guid(e01d4bfc688887c418187f1b2e6f6e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738323f0ddce5cdffcce8c636c56766b') in 0.034866 seconds
-  Import took 0.041344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/GameObject/rockModele/rock_4/Rock_9_Base_Color.jpg
-  artifactKey: Guid(6a3175255f4c796408f9d28cecf4faeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/rockModele/rock_4/Rock_9_Base_Color.jpg using Guid(6a3175255f4c796408f9d28cecf4faeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5fcd5260b675323d395639a25d1fb5') in 0.012833 seconds
-  Import took 0.016972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.307628 seconds.
-  path: Assets/GameObject/terrain/sand.jpg
-  artifactKey: Guid(61a25826ec31c3946bf05ae3075e4be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/terrain/sand.jpg using Guid(61a25826ec31c3946bf05ae3075e4be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bcf443eb98241f28cc7a0d9dff37ca') in 0.015756 seconds
-  Import took 0.020601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Tree_Textures/shadow.png
-  artifactKey: Guid(f8b99d3d030b6474cab422c67c69f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/shadow.png using Guid(f8b99d3d030b6474cab422c67c69f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b335f9219c3d6610f4ce79846a8344') in 0.008052 seconds
-  Import took 0.012641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.071129 seconds.
-  path: Assets/GameObject/terrain/Terrain.asset
-  artifactKey: Guid(a96fcfe5b7c41ed41927c8a743abfa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/terrain/Terrain.asset using Guid(a96fcfe5b7c41ed41927c8a743abfa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree coral_1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '8d61f79943d6e94608f99343ab1bda2d') in 0.033354 seconds
-  Import took 0.039341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Textures/Walls_1.png
-  artifactKey: Guid(9eecced41e87a9449a75b56d4cab5761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Textures/Walls_1.png using Guid(9eecced41e87a9449a75b56d4cab5761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f34c243b0dd552e00d2d874bb58f6a6') in 0.035999 seconds
-  Import took 0.039796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/GameObject/rockModele/rock_1/Yuki206140058_TP_V.jpg
-  artifactKey: Guid(68d9c642400639048974aa6fbaa48ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/rockModele/rock_1/Yuki206140058_TP_V.jpg using Guid(68d9c642400639048974aa6fbaa48ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cec0efc3a9dbf8a86ad9808de86f3d3') in 0.047881 seconds
-  Import took 0.051582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Textures/Walls_1(Bumped).png
-  artifactKey: Guid(bc0b60e8540352e4ab28509d9932eb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Textures/Walls_1(Bumped).png using Guid(bc0b60e8540352e4ab28509d9932eb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b60094581d660a9adeac3abdb71455') in 0.010806 seconds
-  Import took 0.014433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Tree_Textures/translucency_gloss.png
-  artifactKey: Guid(ce0c60f1cba3a024594ba0fa2c01cde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(ce0c60f1cba3a024594ba0fa2c01cde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66b7d340821221da9804dbdd7188d10') in 0.012556 seconds
-  Import took 0.016266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1276.152218 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/6x6x.25_Floor_A.prefab
-  artifactKey: Guid(34b2d1dd2a655044baffd5492ce00b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/6x6x.25_Floor_A.prefab using Guid(34b2d1dd2a655044baffd5492ce00b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8ba6e66ccc17a702530abfa621fc50') in 0.034779 seconds
-  Import took 0.039283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/8x8x.25_Floor_B.prefab
-  artifactKey: Guid(4393b915fa9fdc24a86303bb9e3df7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/8x8x.25_Floor_B.prefab using Guid(4393b915fa9fdc24a86303bb9e3df7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ad59fbabbea95f5a75f56c0f5892c7') in 0.022077 seconds
-  Import took 0.026226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Pillar_1B.prefab
-  artifactKey: Guid(0019ebc6ed3c67045a9d43ee9c4d67e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Pillar_1B.prefab using Guid(0019ebc6ed3c67045a9d43ee9c4d67e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae762a242cc1ac020fb9a4cb0044fdcc') in 0.021142 seconds
-  Import took 0.025016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Pillar_1C.prefab
-  artifactKey: Guid(c28ac0009eb3e8044b7b4a3484c1fc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Pillar_1C.prefab using Guid(c28ac0009eb3e8044b7b4a3484c1fc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e53de1020674b6daff7205b7817692') in 0.025359 seconds
-  Import took 0.029676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/GameObject/coralModel/coral_1/coral_1.fbx
-  artifactKey: Guid(7d06e9e2527c8d848b4c6cd5a0696ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/coralModel/coral_1/coral_1.fbx using Guid(7d06e9e2527c8d848b4c6cd5a0696ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be8c69ab3df187691a8f5d717d175c5') in 0.372450 seconds
-  Import took 0.376088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_1B.prefab
-  artifactKey: Guid(8b3e098e2b460e041b8fd392cb33d1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_1B.prefab using Guid(8b3e098e2b460e041b8fd392cb33d1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e4bd2cd1d91a59cf7f46bb312687e1') in 0.017381 seconds
-  Import took 0.021985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_2A.prefab
-  artifactKey: Guid(57829876e977ae54abdb6bdb9d6c1daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_2A.prefab using Guid(57829876e977ae54abdb6bdb9d6c1daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a7450904f55cdae42f5d87f8efbf24') in 0.025405 seconds
-  Import took 0.030402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_2D.prefab
-  artifactKey: Guid(32b1e4dce606b484ca1abbc540aeb7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_2D.prefab using Guid(32b1e4dce606b484ca1abbc540aeb7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffb5e474420c17f5ee39be2a7c20576') in 0.018167 seconds
-  Import took 0.022791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_1A.prefab
-  artifactKey: Guid(7d22648c610059645bf21e118d5c39df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_1A.prefab using Guid(7d22648c610059645bf21e118d5c39df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91da210db229d56280c987b6937da60') in 0.020233 seconds
-  Import took 0.025139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_1B.prefab
-  artifactKey: Guid(be7e78284823c324f8c967401fb2d544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_1B.prefab using Guid(be7e78284823c324f8c967401fb2d544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb59bb48e96a04e28b8fe3644e278ba2') in 0.022904 seconds
-  Import took 0.027828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1A(Mirrored).prefab
-  artifactKey: Guid(12aaebe014024374f9b47f517c56458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1A(Mirrored).prefab using Guid(12aaebe014024374f9b47f517c56458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3e472b5d25fe6d50b20ea99e9f895c') in 0.022773 seconds
-  Import took 0.027832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_1A.prefab
-  artifactKey: Guid(a37a82400f24f5545893616ed7058e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_1A.prefab using Guid(a37a82400f24f5545893616ed7058e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23167b35d2cb6fd4afc93076289f78a') in 0.029615 seconds
-  Import took 0.033882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/8x8x.25_Floor_A.prefab
-  artifactKey: Guid(b1ea155932478b84d80d28fc8b7b5918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/8x8x.25_Floor_A.prefab using Guid(b1ea155932478b84d80d28fc8b7b5918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8292550882c04f2643145b981ac29412') in 0.016356 seconds
-  Import took 0.021185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_3B.prefab
-  artifactKey: Guid(a841531d6be64ee41b951f50a69ecf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_3B.prefab using Guid(a841531d6be64ee41b951f50a69ecf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2371ee634c47b21f0bd14e6390696c1') in 0.019057 seconds
-  Import took 0.024120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_2C.prefab
-  artifactKey: Guid(1ad567903343cd54e96c9321b94fa452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_2C.prefab using Guid(1ad567903343cd54e96c9321b94fa452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafa750367d420bf4b2179416ac38593') in 0.015727 seconds
-  Import took 0.020109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_2B.prefab
-  artifactKey: Guid(1e8d857b5266cd847b9c61a3f37ad7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_2B.prefab using Guid(1e8d857b5266cd847b9c61a3f37ad7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea698ba86a8b2a6ee7d04c3eb8e4ec4f') in 0.019090 seconds
-  Import took 0.023922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_2B.prefab
-  artifactKey: Guid(dd2f33ebc5e822f4eb3fe949e5318ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_2B.prefab using Guid(dd2f33ebc5e822f4eb3fe949e5318ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42b9ad91cfaa18cc3474efea32e2c7f') in 0.020157 seconds
-  Import took 0.024783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_2E.prefab
-  artifactKey: Guid(f78343256f188184189c6b2528acf7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_2E.prefab using Guid(f78343256f188184189c6b2528acf7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1eed321585544798071a39fa426c240') in 0.022503 seconds
-  Import took 0.027752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1A.prefab
-  artifactKey: Guid(6ff083a3faefdc349915c06bfe3855e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1A.prefab using Guid(6ff083a3faefdc349915c06bfe3855e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7265d9c5ce6f0ba19bd013bbda781482') in 0.021810 seconds
-  Import took 0.025537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_2A.prefab
-  artifactKey: Guid(01e63049057df584b8388adcdadbfc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_2A.prefab using Guid(01e63049057df584b8388adcdadbfc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2418488f5a6826ed94ff84cb08a298b0') in 0.027840 seconds
-  Import took 0.031773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Pillar_1A.prefab
-  artifactKey: Guid(4b02537de9fddad4a9b0b09f7900c4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Pillar_1A.prefab using Guid(4b02537de9fddad4a9b0b09f7900c4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c33073220b0dbc24668d523dd7fc21') in 0.017012 seconds
-  Import took 0.021086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_3A.prefab
-  artifactKey: Guid(41e367ea7d06b3946a0e532215df103d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_3A.prefab using Guid(41e367ea7d06b3946a0e532215df103d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24a40b142c5073b548da47725bb10df') in 0.017858 seconds
-  Import took 0.022130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_1C.prefab
-  artifactKey: Guid(670688c6eb49cb0469ba514a414b0747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_1C.prefab using Guid(670688c6eb49cb0469ba514a414b0747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e28860bb3af9ff889f4a02e8a648e4e') in 0.021740 seconds
-  Import took 0.026089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_1E.prefab
-  artifactKey: Guid(99f5a9a463ae37747a587ed26299f5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_1E.prefab using Guid(99f5a9a463ae37747a587ed26299f5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5317309575f01b2f84aa885da814ef') in 0.019636 seconds
-  Import took 0.024197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_3A 1.prefab
-  artifactKey: Guid(3a4fafdffaf6f3e4e9fb3d9e7552b4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_3A 1.prefab using Guid(3a4fafdffaf6f3e4e9fb3d9e7552b4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1383b14e376f372044f4e824fa718d57') in 0.022465 seconds
-  Import took 0.026851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/6x6x.25_Floor_B.prefab
-  artifactKey: Guid(2221bb8a9a61ffa4e8a0ad56cf586985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/6x6x.25_Floor_B.prefab using Guid(2221bb8a9a61ffa4e8a0ad56cf586985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf1602756706aa37ed80cd35b720c8a') in 0.019533 seconds
-  Import took 0.023121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_1D.prefab
-  artifactKey: Guid(9beb2e3c3cbea5643a5ec538dbfc4647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_1D.prefab using Guid(9beb2e3c3cbea5643a5ec538dbfc4647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0e5fa0b24524349510eab3880d57e4') in 0.021902 seconds
-  Import took 0.025488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.576950 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1B.prefab
-  artifactKey: Guid(4f32dfe230b8427408fd924adcc76316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1B.prefab using Guid(4f32dfe230b8427408fd924adcc76316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4f1d420082398d4c3818367ef7e987') in 0.024959 seconds
-  Import took 0.028953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2C.prefab
-  artifactKey: Guid(4ab94ba3fd350e3498b8a81e3adb270b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2C.prefab using Guid(4ab94ba3fd350e3498b8a81e3adb270b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7b5ea4db607b38da805d56983e5d71') in 0.015566 seconds
-  Import took 0.019855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1D.prefab
-  artifactKey: Guid(b0842a38e42f46e4b86901c5aa4b1951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1D.prefab using Guid(b0842a38e42f46e4b86901c5aa4b1951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3fd37a2c8f29db706ddfd81c34a677') in 0.019470 seconds
-  Import took 0.024771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2A.prefab
-  artifactKey: Guid(739382adfce170a4e84ca12d8cc2279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2A.prefab using Guid(739382adfce170a4e84ca12d8cc2279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a58ec3449443c1bbd56ab4b4386a6b') in 0.020170 seconds
-  Import took 0.024344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2B.prefab
-  artifactKey: Guid(9123f1ef02beefa40a2a39924373e77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2B.prefab using Guid(9123f1ef02beefa40a2a39924373e77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2fbb62ca5cc41f43f4dcdcd7efc258') in 0.015919 seconds
-  Import took 0.021087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2E_2.prefab
-  artifactKey: Guid(8d69f4ce49984e444af6060e7e0d51f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2E_2.prefab using Guid(8d69f4ce49984e444af6060e7e0d51f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2950907d16f22de65281a59a00a821f') in 0.021723 seconds
-  Import took 0.026382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1B(Mirrored).prefab
-  artifactKey: Guid(75f95870283e37d4291570bf367ec58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1B(Mirrored).prefab using Guid(75f95870283e37d4291570bf367ec58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5965565decb12ed385f7798ea0de72be') in 0.015792 seconds
-  Import took 0.019741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2E.prefab
-  artifactKey: Guid(e8d8e7457b559584b92a136ef7f3d42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2E.prefab using Guid(e8d8e7457b559584b92a136ef7f3d42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ef7393df4762c60c23e0125c15472a') in 0.016260 seconds
-  Import took 0.020303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2A(Mirrored).prefab
-  artifactKey: Guid(352dfdffedfd1814390c70b1c6dfa89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2A(Mirrored).prefab using Guid(352dfdffedfd1814390c70b1c6dfa89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c7ec987d462672497b88602457028b') in 0.013775 seconds
-  Import took 0.017499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1C.prefab
-  artifactKey: Guid(73ab3a0f1b285aa49863dfc3f97cce47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1C.prefab using Guid(73ab3a0f1b285aa49863dfc3f97cce47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4144dc22929e74425b53f0923ba1cb9') in 0.019584 seconds
-  Import took 0.023780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2D.prefab
-  artifactKey: Guid(0ac43a84d920da9418f97ef97852c589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2D.prefab using Guid(0ac43a84d920da9418f97ef97852c589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c2f35bcb94963622ab9c351544fef9') in 0.015935 seconds
-  Import took 0.019880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2B(Mirrored).prefab
-  artifactKey: Guid(61dd4b97ee785144ba62a07a6980279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2B(Mirrored).prefab using Guid(61dd4b97ee785144ba62a07a6980279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216d17b05602b75850183ada4565e129') in 0.016589 seconds
-  Import took 0.020667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.147780 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2F.prefab
-  artifactKey: Guid(d2c809dcae272984da962a4ec0f491fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2F.prefab using Guid(d2c809dcae272984da962a4ec0f491fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4306fb94838cd71c04cbc98ecde5c2a') in 0.023918 seconds
-  Import took 0.028243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Small_Objects/Bowl_1A.prefab
-  artifactKey: Guid(3c1da914adceca24e95d6bc397ba9f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Small_Objects/Bowl_1A.prefab using Guid(3c1da914adceca24e95d6bc397ba9f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedd5bd249c9430ac9d7bfc33469c558') in 0.012793 seconds
-  Import took 0.017023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2G.prefab
-  artifactKey: Guid(456e42b0a7db64140a874115898ef954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2G.prefab using Guid(456e42b0a7db64140a874115898ef954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fe560782377887185bd299f6543dd0') in 0.016447 seconds
-  Import took 0.020356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/GameObject/rockModele/rock_2/rock_2.fbx
-  artifactKey: Guid(4d3412beaff715145a68bb3e7eb6b1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/rockModele/rock_2/rock_2.fbx using Guid(4d3412beaff715145a68bb3e7eb6b1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91215e6f8a9adb39b99c8e42188a3af0') in 0.037181 seconds
-  Import took 0.041653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.185012 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/FBX/Group_11.fbx
-  artifactKey: Guid(f343696efbf83b549817f225c91a52a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/FBX/Group_11.fbx using Guid(f343696efbf83b549817f225c91a52a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0a595ce2b6dc1c15fbb85665d7b6e1') in 0.103953 seconds
-  Import took 0.108235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/FBX/Group_8.fbx
-  artifactKey: Guid(a1ce5be76dbaf4c4398d8d6789a61fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/FBX/Group_8.fbx using Guid(a1ce5be76dbaf4c4398d8d6789a61fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea0a1045fc2a13db85dba41a19e111a') in 0.192242 seconds
-  Import took 0.195935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.796739 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Unique/Structures/Entrance_3D (original).prefab
-  artifactKey: Guid(458a5c86543add346b3636784a6b970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Unique/Structures/Entrance_3D (original).prefab using Guid(458a5c86543add346b3636784a6b970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e07b8e9e1a4cc0b6b10c7d30f872fc1') in 0.029895 seconds
-  Import took 0.035063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Enemy/footBallFish.fbx
-  artifactKey: Guid(5bd912b55f9da92478684615572c8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/footBallFish.fbx using Guid(5bd912b55f9da92478684615572c8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09341b8dece1f26068d5289b5e91fcc') in 0.091827 seconds
-  Import took 0.095555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Player/hook 1.fbx
-  artifactKey: Guid(2319018ac20a011439af1a7f297f0790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/hook 1.fbx using Guid(2319018ac20a011439af1a7f297f0790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd874e39fb195998974c69955ee1e8d6e') in 0.335973 seconds
-  Import took 0.339494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.376144 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_1A.prefab
-  artifactKey: Guid(af7b8785698bb30479cdffb3d749add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_1A.prefab using Guid(af7b8785698bb30479cdffb3d749add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f61ffa0076752156c778727c505e81') in 0.021406 seconds
-  Import took 0.025400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_2C.prefab
-  artifactKey: Guid(b092236ab89219c47a28ca3f5d3412f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_2C.prefab using Guid(b092236ab89219c47a28ca3f5d3412f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83df99ce20c8b8c30b2a1622b74eb31') in 0.017912 seconds
-  Import took 0.022451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_2A.prefab
-  artifactKey: Guid(a3614c18f3e6c7142832df541b2a093c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_2A.prefab using Guid(a3614c18f3e6c7142832df541b2a093c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb8f19131b0e554c78065019266a599') in 0.017916 seconds
-  Import took 0.021871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_1C.prefab
-  artifactKey: Guid(5e22c8193a7620c428358b6f25d6c3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_1C.prefab using Guid(5e22c8193a7620c428358b6f25d6c3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f594b9dd02f4d6896ceece63eeaf5c') in 0.015188 seconds
-  Import took 0.019616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_5A.prefab
-  artifactKey: Guid(526f8b42dddfb824e8e1cb25a3ca8964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_5A.prefab using Guid(526f8b42dddfb824e8e1cb25a3ca8964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b4c95cca7c7bdf522a691446e7c8d2') in 0.015228 seconds
-  Import took 0.019104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_4A.prefab
-  artifactKey: Guid(f26364f1d92dc0f42a8a037eaf910533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_4A.prefab using Guid(f26364f1d92dc0f42a8a037eaf910533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c083aedd97e7b601d902a4d6a80767eb') in 0.018891 seconds
-  Import took 0.023245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_6A.prefab
-  artifactKey: Guid(334d02345cc1cb44baff16df3273a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_6A.prefab using Guid(334d02345cc1cb44baff16df3273a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3db944802cb55b4f053de9c2a40a56f') in 0.019203 seconds
-  Import took 0.023364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_1B.prefab
-  artifactKey: Guid(271fe4f4df1c33f4292080b514738780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_1B.prefab using Guid(271fe4f4df1c33f4292080b514738780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d09cca6194cbba5550cf91286aee52') in 0.020370 seconds
-  Import took 0.024328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_2B.prefab
-  artifactKey: Guid(90af3ab726a8e6a448c6c01d38d99bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_2B.prefab using Guid(90af3ab726a8e6a448c6c01d38d99bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a541bf3431c25255c3fa07a45b8e46cb') in 0.019443 seconds
-  Import took 0.023936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_3B.prefab
-  artifactKey: Guid(440fee20f38cb9f4489d747322bf5c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_3B.prefab using Guid(440fee20f38cb9f4489d747322bf5c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31300faedf38ee4102ec48495fb18882') in 0.027152 seconds
-  Import took 0.031386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_3A.prefab
-  artifactKey: Guid(73292deef85e2b845b6028dfda0da7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_3A.prefab using Guid(73292deef85e2b845b6028dfda0da7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b559bc6cfe9e1bac40ef39b2cdbf558b') in 0.015270 seconds
-  Import took 0.019149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_4B.prefab
-  artifactKey: Guid(61495b190d23b434aba0db1f127cec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_4B.prefab using Guid(61495b190d23b434aba0db1f127cec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d339ce5775c4eca5f19a393c9c2c50') in 0.014830 seconds
-  Import took 0.018752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.287866 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_1A.prefab
-  artifactKey: Guid(44c9ed942beffd147b53a3fac27c1d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_1A.prefab using Guid(44c9ed942beffd147b53a3fac27c1d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b2f3139208723438c157260026a057') in 0.017486 seconds
-  Import took 0.021517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_1B.prefab
-  artifactKey: Guid(90ccfa4885fd17c43b347e48b2a9d0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_1B.prefab using Guid(90ccfa4885fd17c43b347e48b2a9d0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfb7a9f5ab3e1b108e5b2f06a75ff11') in 0.014628 seconds
-  Import took 0.018995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_2B.prefab
-  artifactKey: Guid(e45dcd9830093d7478b90173706fea87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_2B.prefab using Guid(e45dcd9830093d7478b90173706fea87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72b958f6e3bb3564e6ec2580dd62065') in 0.018238 seconds
-  Import took 0.022314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_2B.prefab
-  artifactKey: Guid(9247a6e19e4975a4ca2497b585f3b7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_2B.prefab using Guid(9247a6e19e4975a4ca2497b585f3b7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c20b9737a2101b54cbc3bed1cd1b7c') in 0.014803 seconds
-  Import took 0.019003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_1C.prefab
-  artifactKey: Guid(49a5d3d18f516c04983caff99743b9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_1C.prefab using Guid(49a5d3d18f516c04983caff99743b9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd08af8ed3140b2f34f491b769f22bd0') in 0.015869 seconds
-  Import took 0.019917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_2C.prefab
-  artifactKey: Guid(e8056c5f13717b9408a67167af32435b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_2C.prefab using Guid(e8056c5f13717b9408a67167af32435b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cd6b085bbc586b6b2f1d36b668dc92') in 0.013940 seconds
-  Import took 0.018217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_4B.prefab
-  artifactKey: Guid(51fa08924cfd3de499b5aa06a9b50d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_4B.prefab using Guid(51fa08924cfd3de499b5aa06a9b50d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c9e239970bb915520e55f97b4cb73a') in 0.013470 seconds
-  Import took 0.017718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_3B.prefab
-  artifactKey: Guid(8cafe781adcbe594d9b33200268a416f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_3B.prefab using Guid(8cafe781adcbe594d9b33200268a416f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f6c17aa386aea13abde45f753b8399') in 0.014318 seconds
-  Import took 0.018693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_3A.prefab
-  artifactKey: Guid(3097d4aec1cd4b84892570491ddc4dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_3A.prefab using Guid(3097d4aec1cd4b84892570491ddc4dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11442bf446a5112650b935e0dfdb134a') in 0.013651 seconds
-  Import took 0.017409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_4A.prefab
-  artifactKey: Guid(90eff185c3331414e9815bc97acc197a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_4A.prefab using Guid(90eff185c3331414e9815bc97acc197a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcd4c458b5b4241d15cc7affb0c3584') in 0.015836 seconds
-  Import took 0.019912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_1A.prefab
-  artifactKey: Guid(e8c38d39de1b59f46bff046ba6525460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_1A.prefab using Guid(e8c38d39de1b59f46bff046ba6525460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bee6c9f26e29868c1740dcb74b45db4') in 0.019642 seconds
-  Import took 0.023466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_2C.prefab
-  artifactKey: Guid(e3bf5a3895773dd4f8672687bf2a7388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_2C.prefab using Guid(e3bf5a3895773dd4f8672687bf2a7388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7bc7604bebe250283ef15c9ac1cdea') in 0.017012 seconds
-  Import took 0.021359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_3C.prefab
-  artifactKey: Guid(8f3c67e30c7d6244e8f831b8b76716e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_3C.prefab using Guid(8f3c67e30c7d6244e8f831b8b76716e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3508581f8538acf80f47ccc1d3d49cb5') in 0.014145 seconds
-  Import took 0.018179 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_1C.prefab
-  artifactKey: Guid(ab346e79da1e2b046a6b7e989b6a4d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_1C.prefab using Guid(ab346e79da1e2b046a6b7e989b6a4d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4878dbb5ab1d0690dcf0e6c7d0cd64') in 0.013746 seconds
-  Import took 0.017472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_2A.prefab
-  artifactKey: Guid(e55efdb94a2e3a84ba58784ff75f340a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_2A.prefab using Guid(e55efdb94a2e3a84ba58784ff75f340a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0e14e0de477b0e58f76e7c86482293') in 0.016061 seconds
-  Import took 0.019782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_4C.prefab
-  artifactKey: Guid(7920322015b77594a8364ad0d0b81906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_4C.prefab using Guid(7920322015b77594a8364ad0d0b81906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d7356b4b7375f956597c9eecabde5d') in 0.014919 seconds
-  Import took 0.018797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_3C.prefab
-  artifactKey: Guid(b282bd6bc3159bf4b942fd1ec0501b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_3C.prefab using Guid(b282bd6bc3159bf4b942fd1ec0501b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a26a8a51a60cb139e5f234ec410591') in 0.016412 seconds
-  Import took 0.020247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_3B.prefab
-  artifactKey: Guid(3585a8100afb3384d9a09e16ff8f3404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_3B.prefab using Guid(3585a8100afb3384d9a09e16ff8f3404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c31c80c40d6dd1f562689a65a13b94') in 0.013090 seconds
-  Import took 0.018790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_2A.prefab
-  artifactKey: Guid(b34651291333ce341b1a606896679d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_2A.prefab using Guid(b34651291333ce341b1a606896679d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a018196bd9cd4e63858f2db6e3b843f2') in 0.012556 seconds
-  Import took 0.017174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_4B.prefab
-  artifactKey: Guid(da8cb21c352a4d947a1c17a5f28bc5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_4B.prefab using Guid(da8cb21c352a4d947a1c17a5f28bc5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d3616a56e56133ecb5c568b06ad758') in 0.014807 seconds
-  Import took 0.018858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_4A.prefab
-  artifactKey: Guid(f84e5dc8074279b4981ddbe3a717dfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_4A.prefab using Guid(f84e5dc8074279b4981ddbe3a717dfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3750fad80af9e3d8dc2c7232abb189e4') in 0.014650 seconds
-  Import took 0.018359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_1B.prefab
-  artifactKey: Guid(a47cf4582b015574ab2d6916b7052e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_1B.prefab using Guid(a47cf4582b015574ab2d6916b7052e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bcf3670b3aa383208995020a038a17b') in 0.015981 seconds
-  Import took 0.019904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_3A.prefab
-  artifactKey: Guid(7e767d866cf930a499c30b349afc3bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_3A.prefab using Guid(7e767d866cf930a499c30b349afc3bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e648b054a3d80b5521e9e9c0e230515b') in 0.013844 seconds
-  Import took 0.017698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_4C.prefab
-  artifactKey: Guid(f437f64fa071ff14ea84933ef9c246bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_4C.prefab using Guid(f437f64fa071ff14ea84933ef9c246bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e83924add3d06b749226f20ebf2a3b9') in 0.014246 seconds
-  Import took 0.018389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003858 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_4C.prefab
-  artifactKey: Guid(f437f64fa071ff14ea84933ef9c246bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_4C.prefab using Guid(f437f64fa071ff14ea84933ef9c246bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e83924add3d06b749226f20ebf2a3b9') in 0.015655 seconds
-  Import took 0.019728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091204 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Corner_1A.prefab
-  artifactKey: Guid(0ecb79e60e8da8047937117f93f6be37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Corner_1A.prefab using Guid(0ecb79e60e8da8047937117f93f6be37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64f0ee8590f6f10c83ea1258040c1cb') in 0.012831 seconds
-  Import took 0.016787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Corner_2A.prefab
-  artifactKey: Guid(04a8fad542722be4d999ef7977c833d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Corner_2A.prefab using Guid(04a8fad542722be4d999ef7977c833d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392675b1895113dcc9f146723ef3c9e6') in 0.014838 seconds
-  Import took 0.018377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_Post_2A.prefab
-  artifactKey: Guid(f88393185a21f2d418530df20e5d5b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_Post_2A.prefab using Guid(f88393185a21f2d418530df20e5d5b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4866cf14ec06c3f5bcc24c6021313aa') in 0.016353 seconds
-  Import took 0.020821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_2C.prefab
-  artifactKey: Guid(da627216d7f05b444872851db70b6c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_2C.prefab using Guid(da627216d7f05b444872851db70b6c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b54b7a2faa011b661a66b10bac019c') in 0.015306 seconds
-  Import took 0.019340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_Post_2C.prefab
-  artifactKey: Guid(4d9bb6af92f496f4da0b40c735db8846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_Post_2C.prefab using Guid(4d9bb6af92f496f4da0b40c735db8846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cce473eabb7309c803e620691f4235') in 0.014549 seconds
-  Import took 0.018884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_3B.prefab
-  artifactKey: Guid(74e71171d30bc2447a58fac6724cc99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_3B.prefab using Guid(74e71171d30bc2447a58fac6724cc99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f06a0558b9047175850fe5eab5a77b') in 0.014497 seconds
-  Import took 0.019001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_3A.prefab
-  artifactKey: Guid(4731b3ddb8548274b8e0c5d9443dc629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_3A.prefab using Guid(4731b3ddb8548274b8e0c5d9443dc629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936d4de60497773a8a4af90b26dc3ca7') in 0.017348 seconds
-  Import took 0.021201 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_1B.prefab
-  artifactKey: Guid(0f8bfbfdd83853f4694344013e436d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_1B.prefab using Guid(0f8bfbfdd83853f4694344013e436d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5feab3bece1c4195770122b3b6515c1e') in 0.014837 seconds
-  Import took 0.020392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_2A.prefab
-  artifactKey: Guid(2b3f94c08ff88ee48a64f1389a7bbdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_2A.prefab using Guid(2b3f94c08ff88ee48a64f1389a7bbdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef97bf6e909725467612e117317fd21') in 0.012868 seconds
-  Import took 0.016498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_4B.prefab
-  artifactKey: Guid(06773ab212406424f9c68991900bfb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_4B.prefab using Guid(06773ab212406424f9c68991900bfb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293999a26e21dcea474527b1c4751bad') in 0.014608 seconds
-  Import took 0.018440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_1D.prefab
-  artifactKey: Guid(d4a668cfb2cdaa44f8589f9c07e69164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_1D.prefab using Guid(d4a668cfb2cdaa44f8589f9c07e69164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559aa9d0b30fc22c18cc85d9773f8ca8') in 0.015325 seconds
-  Import took 0.019270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_1C.prefab
-  artifactKey: Guid(fd87d5fa99b0145478a0da52d045d96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_1C.prefab using Guid(fd87d5fa99b0145478a0da52d045d96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c51b0f7a0543eaa51248c22da4b998b') in 0.014504 seconds
-  Import took 0.018534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Arch_1B.prefab
-  artifactKey: Guid(128e269db08b07a45b3de8a4cc44d56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Arch_1B.prefab using Guid(128e269db08b07a45b3de8a4cc44d56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b643250993eef28afb9e7b245b593643') in 0.015905 seconds
-  Import took 0.019795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Arch_1A.prefab
-  artifactKey: Guid(5689a8a39a1d97448adea6ec47f87311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Arch_1A.prefab using Guid(5689a8a39a1d97448adea6ec47f87311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0dba5fc990235029aa370b86ace624') in 0.020725 seconds
-  Import took 0.024488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_3C.prefab
-  artifactKey: Guid(9adcf7ecfde49384bb5d9f28acd74db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_3C.prefab using Guid(9adcf7ecfde49384bb5d9f28acd74db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2941b34cd14f6aaf671c172ae07cc421') in 0.015010 seconds
-  Import took 0.018857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_Post_2D.prefab
-  artifactKey: Guid(1e9549bfdfd98f848aa0837bfeb999b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_Post_2D.prefab using Guid(1e9549bfdfd98f848aa0837bfeb999b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec16d00d1de44cc8019ab0961558b751') in 0.015136 seconds
-  Import took 0.018913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_1A.prefab
-  artifactKey: Guid(fcebf27ac8d69a94794204ab9212f330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_1A.prefab using Guid(fcebf27ac8d69a94794204ab9212f330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494fcdc720e69af261c9eff713491858') in 0.014162 seconds
-  Import took 0.017898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Ramp_2B.prefab
-  artifactKey: Guid(5836201d327591f48a259958969e89fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Ramp_2B.prefab using Guid(5836201d327591f48a259958969e89fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b14310eecb1cf070529401a6a366a1e') in 0.016336 seconds
-  Import took 0.020114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_3B.prefab
-  artifactKey: Guid(12844d9f630303a4e9e33322d1fe74bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_3B.prefab using Guid(12844d9f630303a4e9e33322d1fe74bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9275fdb94b4c5129f0c1f4f06b567dba') in 0.016029 seconds
-  Import took 0.020315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_4C.prefab
-  artifactKey: Guid(19fe9103675c46a43a5ebc33de921bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_4C.prefab using Guid(19fe9103675c46a43a5ebc33de921bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97929742cd8ee1212028c230ac2a9e3d') in 0.014339 seconds
-  Import took 0.018339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_2B.prefab
-  artifactKey: Guid(6b16cff9dded12f48a1c20483725f39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_2B.prefab using Guid(6b16cff9dded12f48a1c20483725f39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52ab2b33c0c0065caba3a954794c32b') in 0.013486 seconds
-  Import took 0.018071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Ramp_1B.prefab
-  artifactKey: Guid(07608978fe585c144a4419b3f968ecfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Ramp_1B.prefab using Guid(07608978fe585c144a4419b3f968ecfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400da95915b4e36493994c021a964d36') in 0.017232 seconds
-  Import took 0.021427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_2A.prefab
-  artifactKey: Guid(1f76064a23dbdf74f8201272a5f4268b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_2A.prefab using Guid(1f76064a23dbdf74f8201272a5f4268b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979f9d3ff761934917f2a0ff9f25b749') in 0.014244 seconds
-  Import took 0.018011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Corner_3A.prefab
-  artifactKey: Guid(354bc7a5ceb2efa4d8fb9712c47882bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Corner_3A.prefab using Guid(354bc7a5ceb2efa4d8fb9712c47882bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484de271076a4ca73bfa9c94812cc558') in 0.013386 seconds
-  Import took 0.017675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_Post_2B.prefab
-  artifactKey: Guid(607e5b8a5ed1131418ddd7e874172f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_Post_2B.prefab using Guid(607e5b8a5ed1131418ddd7e874172f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec38009a180ba45a7bbf07641154c6c') in 0.017849 seconds
-  Import took 0.022563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_1A.prefab
-  artifactKey: Guid(ae63ea3d3efef0f42bace9fcb28c79a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_1A.prefab using Guid(ae63ea3d3efef0f42bace9fcb28c79a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11583e00c653e9c7b904a7467c15699') in 0.014188 seconds
-  Import took 0.018041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_Group_1A.prefab
-  artifactKey: Guid(10500f5d10ef64643b91af16cac0b544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_Group_1A.prefab using Guid(10500f5d10ef64643b91af16cac0b544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d04ce6ee47924d937575d18c112f032') in 0.015486 seconds
-  Import took 0.020042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_1B.prefab
-  artifactKey: Guid(79716a57baeb67f458c982c28351d0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_1B.prefab using Guid(79716a57baeb67f458c982c28351d0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7de67f96efa66869d9003626038ac88') in 0.016615 seconds
-  Import took 0.020334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_1B.prefab
-  artifactKey: Guid(94e0c8533884777439b1be88a9a2a0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_1B.prefab using Guid(94e0c8533884777439b1be88a9a2a0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3922a1c4bc6f908e327f513a55ef29') in 0.013329 seconds
-  Import took 0.017174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_3A.prefab
-  artifactKey: Guid(31743983382775342b0550a50dd9ab21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_3A.prefab using Guid(31743983382775342b0550a50dd9ab21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153252e6d8c139390c28eb2ca654ace9') in 0.013754 seconds
-  Import took 0.018610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_2B.prefab
-  artifactKey: Guid(ef00daf89734a59499257a097567def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_2B.prefab using Guid(ef00daf89734a59499257a097567def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9773ae228efda3baf347432a7cdd2a7c') in 0.012849 seconds
-  Import took 0.017766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_Post_1A.prefab
-  artifactKey: Guid(9b9ecde88bd1a414b8bb9fb749343ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_Post_1A.prefab using Guid(9b9ecde88bd1a414b8bb9fb749343ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de761db753bceec40280323f4ed244f3') in 0.012950 seconds
-  Import took 0.017038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_4A.prefab
-  artifactKey: Guid(fbc577404fac6f644b1fea1110578856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_4A.prefab using Guid(fbc577404fac6f644b1fea1110578856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f078ceeb13af058c92ec6b6d05fd37') in 0.015749 seconds
-  Import took 0.019493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_1C.prefab
-  artifactKey: Guid(c33bbd4ddc75bd6429bae1698477189a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_1C.prefab using Guid(c33bbd4ddc75bd6429bae1698477189a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232d001e599e904fa4801869d2d7da9a') in 0.015215 seconds
-  Import took 0.019099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_1A.prefab
-  artifactKey: Guid(65237d91549527d41ab08778d0e7342d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_1A.prefab using Guid(65237d91549527d41ab08778d0e7342d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b567b33717926917e9536b4abda538') in 0.013653 seconds
-  Import took 0.017705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_4A.prefab
-  artifactKey: Guid(0a3d4e82b84227245b07cf79502f8691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_4A.prefab using Guid(0a3d4e82b84227245b07cf79502f8691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81dc0cc1db6712c2fcd63d07ad9287d9') in 0.019378 seconds
-  Import took 0.023560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.569328 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Ramp_3B.prefab
-  artifactKey: Guid(121fdc29dbbde9045939e9f3b65d1ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Ramp_3B.prefab using Guid(121fdc29dbbde9045939e9f3b65d1ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff49c8085b487c318e337a70ab2485b') in 0.022216 seconds
-  Import took 0.026961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_4B.prefab
-  artifactKey: Guid(4c82e530ff0d18d4b99aff4ca99c9075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_4B.prefab using Guid(4c82e530ff0d18d4b99aff4ca99c9075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c2d0b8fc477fa00a409c6bed26a309') in 0.017185 seconds
-  Import took 0.023035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_3B.prefab
-  artifactKey: Guid(44931f54983f023479c28df081629efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_3B.prefab using Guid(44931f54983f023479c28df081629efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794d6f3187dd51bdd258c2f39e0975fd') in 0.016203 seconds
-  Import took 0.020841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_2C.prefab
-  artifactKey: Guid(c154621cc86b2c44db7e3fcb4b84eb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_2C.prefab using Guid(c154621cc86b2c44db7e3fcb4b84eb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bd85988e98461433cb5d3424a2aa74') in 0.025956 seconds
-  Import took 0.030161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_1C.prefab
-  artifactKey: Guid(c6e44b70c149ffa45ad62b01fd7379c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_1C.prefab using Guid(c6e44b70c149ffa45ad62b01fd7379c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6aa530a10e0bad97b9dc0b402351cc') in 0.018379 seconds
-  Import took 0.022147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_2B.prefab
-  artifactKey: Guid(4df607df759f0494cb816e33fdf68680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_2B.prefab using Guid(4df607df759f0494cb816e33fdf68680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4761e32e783ed50f772635d420a1916c') in 0.014688 seconds
-  Import took 0.019010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_1B.prefab
-  artifactKey: Guid(7fb9e1a36b7cfbb4987d9e2be352f85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_1B.prefab using Guid(7fb9e1a36b7cfbb4987d9e2be352f85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a552c1029131625c9bd0bb4419c859d') in 0.013502 seconds
-  Import took 0.017884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_2A.prefab
-  artifactKey: Guid(e329017a95e8e384ca7b1c1cc0aa29b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_2A.prefab using Guid(e329017a95e8e384ca7b1c1cc0aa29b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ad69446cbe1212f768f7899f5eaa9c') in 0.012873 seconds
-  Import took 0.017691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_4C.prefab
-  artifactKey: Guid(4fbedcd2ff12d18408493715c3740d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_4C.prefab using Guid(4fbedcd2ff12d18408493715c3740d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3c2912cf517134de4276b99ae5dadb') in 0.014985 seconds
-  Import took 0.019057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_3A.prefab
-  artifactKey: Guid(17d7774524d652b4f9b18ad3b81a220b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_3A.prefab using Guid(17d7774524d652b4f9b18ad3b81a220b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e5a98101a3d42a027d5e27743aee3b') in 0.020200 seconds
-  Import took 0.024049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_1A.prefab
-  artifactKey: Guid(21e20583e0c307c4b9cef0e2f6b893a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_1A.prefab using Guid(21e20583e0c307c4b9cef0e2f6b893a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d998c98aa37cfbd5c182a12020544a') in 0.017062 seconds
-  Import took 0.020764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_3C.prefab
-  artifactKey: Guid(20ecef2ced7cff3439cd00998d7a831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_3C.prefab using Guid(20ecef2ced7cff3439cd00998d7a831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef50362b70a833ca7aa9812ab55dd09') in 0.014965 seconds
-  Import took 0.019574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_4A.prefab
-  artifactKey: Guid(b16718f5ea643a747a3dd30760d9d5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_4A.prefab using Guid(b16718f5ea643a747a3dd30760d9d5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a14a95ddeb004b37f3e94b099749e40') in 0.014823 seconds
-  Import took 0.018815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_3C.prefab
-  artifactKey: Guid(20ecef2ced7cff3439cd00998d7a831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_3C.prefab using Guid(20ecef2ced7cff3439cd00998d7a831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef50362b70a833ca7aa9812ab55dd09') in 0.013713 seconds
-  Import took 0.017638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_4A.prefab
-  artifactKey: Guid(b16718f5ea643a747a3dd30760d9d5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_4A.prefab using Guid(b16718f5ea643a747a3dd30760d9d5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a14a95ddeb004b37f3e94b099749e40') in 0.013515 seconds
-  Import took 0.017478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.112703 seconds.
-  path: Assets/GameObject/terrain/NewLayer.terrainlayer
-  artifactKey: Guid(7f31a25b5881b2e45ad6f121f1f5d87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/terrain/NewLayer.terrainlayer using Guid(7f31a25b5881b2e45ad6f121f1f5d87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66f1fbcdf3ce1dc453678d26fef8a41') in 0.020755 seconds
-  Import took 0.024871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/FBX/Group_3.fbx
-  artifactKey: Guid(2e8bc81596d3b974ebff9d0e870a5def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/FBX/Group_3.fbx using Guid(2e8bc81596d3b974ebff9d0e870a5def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f160b8adb0030b08b8939b5157a478cd') in 0.035798 seconds
-  Import took 0.039943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_1B.prefab
-  artifactKey: Guid(aa317bd938ae62043bb3c4588cfaabbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_1B.prefab using Guid(aa317bd938ae62043bb3c4588cfaabbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16749f0435359f028a3554db356dcc9') in 0.014792 seconds
-  Import took 0.018947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_2A.prefab
-  artifactKey: Guid(98d67ce22188b8343b8371076aa102c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_2A.prefab using Guid(98d67ce22188b8343b8371076aa102c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5700cb72234b942c4f95f359863cb640') in 0.016331 seconds
-  Import took 0.020479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_1A.prefab
-  artifactKey: Guid(af689ad1c83129e41829e5073b5eba6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_1A.prefab using Guid(af689ad1c83129e41829e5073b5eba6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1535e282164de3dba9f090d4ff5d0d') in 0.013663 seconds
-  Import took 0.017975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Player/player.prefab
-  artifactKey: Guid(d54e5f9b10e94844b817b8b4e23e0f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/player.prefab using Guid(d54e5f9b10e94844b817b8b4e23e0f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86332251eb429c38efc30f4f7798ca95') in 0.011594 seconds
-  Import took 0.015670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_Corner_1A.prefab
-  artifactKey: Guid(5a0954c2bf802f34e9b1fe37b4c70126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_Corner_1A.prefab using Guid(5a0954c2bf802f34e9b1fe37b4c70126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d2512af478bbfdf9704d15f08f0994') in 0.016642 seconds
-  Import took 0.020621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_Corner_1B.prefab
-  artifactKey: Guid(f6f7756642a7ab14995b45677259794e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_Corner_1B.prefab using Guid(f6f7756642a7ab14995b45677259794e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54feb03e0cd5735622673b4960022363') in 0.015181 seconds
-  Import took 0.019837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/GameObject/SacredPlaceObject/SacredPlaceObject_1.prefab
-  artifactKey: Guid(a91df45b58a5618469adf652b70d0d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/SacredPlaceObject_1.prefab using Guid(a91df45b58a5618469adf652b70d0d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28b6669a1019a43e4159c9a5e8601b0') in 0.040287 seconds
-  Import took 0.045295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/GameObject/terrain/NewLayer.terrainlayer
-  artifactKey: Guid(7f31a25b5881b2e45ad6f121f1f5d87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/terrain/NewLayer.terrainlayer using Guid(7f31a25b5881b2e45ad6f121f1f5d87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66f1fbcdf3ce1dc453678d26fef8a41') in 0.011867 seconds
-  Import took 0.015457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Player/reticle.prefab
-  artifactKey: Guid(6510f9d89e4f4fb43b4a13e9de46c66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/reticle.prefab using Guid(6510f9d89e4f4fb43b4a13e9de46c66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfc89f3cead8159a531e953036ad9b8') in 0.009661 seconds
-  Import took 0.013763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/GameObject/SacredPlaceObject/SacredPlaceObject_2.prefab
-  artifactKey: Guid(cd9d07a14b0d67b40862f514cbf9f19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/SacredPlaceObject_2.prefab using Guid(cd9d07a14b0d67b40862f514cbf9f19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfda14f56bc439a907eeb52384f6cb3') in 0.021920 seconds
-  Import took 0.026533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_Corner_1C.prefab
-  artifactKey: Guid(efb1589787bd12d40b7fd5f3021cbb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_Corner_1C.prefab using Guid(efb1589787bd12d40b7fd5f3021cbb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b836f13ee6a9b252be1d1457c52d74') in 0.016074 seconds
-  Import took 0.020087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_1C.prefab
-  artifactKey: Guid(bc5a8677fcbf6fc419aad8759c01c481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject/SacredPlaceObject/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_1C.prefab using Guid(bc5a8677fcbf6fc419aad8759c01c481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d8857baedfdd59cd41ff8777ffc7c8') in 0.016185 seconds
-  Import took 0.020235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.876229 seconds.
-  path: Assets/Sky.mat
-  artifactKey: Guid(62f22a5150fc6934396d7cefbe3df716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sky.mat using Guid(62f22a5150fc6934396d7cefbe3df716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29477ffd82f08f5355a7ee7a2583a70e') in 0.023393 seconds
-  Import took 0.027571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 307.172746 seconds.
-  path: Assets/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(17f08f6f41dcfa945bd417bf7b4a4865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(17f08f6f41dcfa945bd417bf7b4a4865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d064bc37a22faa1d6ff37bc1570a031') in 0.003391 seconds
-  Import took 0.007504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010089 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(00a5c5c3181b28344bb57844ecab07df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(00a5c5c3181b28344bb57844ecab07df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4d891d34ee680a7221bb73c7e26d39') in 0.012640 seconds
-  Import took 0.016970 seconds .
-
+  Time since last request: 153.893569 seconds.
+  path: Assets/Player/GUIReticle.prefab
+  artifactKey: Guid(3c1a3656db44ffe40a09e1afa405a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/GUIReticle.prefab using Guid(3c1a3656db44ffe40a09e1afa405a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ff6cde78724fdf7fffe2822a18ba82') in 0.032540 seconds
+  Import took 0.038779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.423493 seconds.
+  path: Assets/Player/GUIReticle.png
+  artifactKey: Guid(44bff0ef25c5cff40a3f91b5afef7fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/GUIReticle.png using Guid(44bff0ef25c5cff40a3f91b5afef7fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21f5181fd6346e9cadb2d45a2ca98c5') in 0.079688 seconds
+  Import took 0.085128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 341.582224 seconds.
+  path: Assets/Enemy/footBallFish.prefab
+  artifactKey: Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/footBallFish.prefab using Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45aae03c2def0ad8477b27aa187dc3ce') in 0.036323 seconds
+  Import took 0.042787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.948933 seconds.
+  path: Assets/Enemy/footBallFish.prefab
+  artifactKey: Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/footBallFish.prefab using Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d435900dc934a50c7d7364a210a01ab') in 0.012892 seconds
+  Import took 0.017606 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005116 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2601 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.5 MB.
+System memory in use after: 151.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3176.
+Total: 2.480300 ms (FindLiveObjects: 0.252000 ms CreateObjectMapping: 0.095400 ms MarkObjects: 1.973300 ms  DeleteObjects: 0.158700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Import Request.
+  Time since last request: 85.807502 seconds.
+  path: Assets/add.cs
+  artifactKey: Guid(94a120fc4e6de5448b9468f31e0ed961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/add.cs using Guid(94a120fc4e6de5448b9468f31e0ed961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71383dadb966471180a1277a69a28096') in 0.010586 seconds
+  Import took 0.023393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.714641 seconds.
+  path: Assets/scripyt.cs
+  artifactKey: Guid(97ce1d9c57b06364d8fec2892b080748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripyt.cs using Guid(97ce1d9c57b06364d8fec2892b080748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26ba48640e4d1978d63032a03cac26f') in 0.002425 seconds
+  Import took 0.006361 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005857 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.030 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.5 MB.
+System memory in use after: 151.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3178.
+Total: 2.320800 ms (FindLiveObjects: 0.248800 ms CreateObjectMapping: 0.095400 ms MarkObjects: 1.822500 ms  DeleteObjects: 0.153100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.016 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.6 MB.
+System memory in use after: 151.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3181.
+Total: 3.008200 ms (FindLiveObjects: 0.443000 ms CreateObjectMapping: 0.152900 ms MarkObjects: 2.194900 ms  DeleteObjects: 0.215800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004937 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(61638af7b581be948af1794e74b0376a) path("Assets/Script/EnemyState.cs") state(2)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2599 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.6 MB.
+System memory in use after: 151.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3183.
+Total: 2.387800 ms (FindLiveObjects: 0.253000 ms CreateObjectMapping: 0.104300 ms MarkObjects: 1.870200 ms  DeleteObjects: 0.159400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004659 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.6 MB.
+System memory in use after: 151.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3187.
+Total: 2.492100 ms (FindLiveObjects: 0.284100 ms CreateObjectMapping: 0.123100 ms MarkObjects: 1.924700 ms  DeleteObjects: 0.159200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Import Request.
+  Time since last request: 330.415550 seconds.
+  path: Assets/Enemy/footBallFish.prefab
+  artifactKey: Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/footBallFish.prefab using Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12080af064f2cb943aaa6c468fb8d24e') in 0.174227 seconds
+  Import took 0.180731 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006380 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.193 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.7 MB.
+System memory in use after: 151.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3191.
+Total: 2.462600 ms (FindLiveObjects: 0.300000 ms CreateObjectMapping: 0.109000 ms MarkObjects: 1.886600 ms  DeleteObjects: 0.165600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Import Request.
+  Time since last request: 144.306330 seconds.
+  path: Assets/Script/EnemyState.cs
+  artifactKey: Guid(61638af7b581be948af1794e74b0376a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/EnemyState.cs using Guid(61638af7b581be948af1794e74b0376a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8550210bf502b9915e3dc4032077b5') in 0.007069 seconds
+  Import took 0.012315 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005531 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.7 MB.
+System memory in use after: 151.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3194.
+Total: 2.507600 ms (FindLiveObjects: 0.275900 ms CreateObjectMapping: 0.120700 ms MarkObjects: 1.947400 ms  DeleteObjects: 0.162400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Import Request.
+  Time since last request: 105.552022 seconds.
+  path: Assets/Enemy/footBallFish.prefab
+  artifactKey: Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/footBallFish.prefab using Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e8635c15e8aeed02942fe6846f0dab') in 0.109707 seconds
+  Import took 0.115696 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005009 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.7 MB.
+System memory in use after: 151.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3198.
+Total: 2.598100 ms (FindLiveObjects: 0.290500 ms CreateObjectMapping: 0.114100 ms MarkObjects: 2.028700 ms  DeleteObjects: 0.163900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Import Request.
+  Time since last request: 334.485956 seconds.
+  path: Assets/Enemy/footBallFish.prefab
+  artifactKey: Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/footBallFish.prefab using Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d4a48760bcf28ddf6194f6879972fc') in 0.081628 seconds
+  Import took 0.086499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025276 seconds.
+  path: Assets/Enemy/footBallFish.prefab
+  artifactKey: Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/footBallFish.prefab using Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f5fb2d466f1ccaadfff3ece0a9ad12') in 0.012248 seconds
+  Import took 0.017629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008094 seconds.
+  path: Assets/Enemy/footBallFish.prefab
+  artifactKey: Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/footBallFish.prefab using Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f5fb2d466f1ccaadfff3ece0a9ad12') in 0.014939 seconds
+  Import took 0.020431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.562502 seconds.
+  path: Assets/Enemy/footBallFish.prefab
+  artifactKey: Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/footBallFish.prefab using Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d27457b010b9aec890cd0c69bf8cd6') in 0.015047 seconds
+  Import took 0.019199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011602 seconds.
+  path: Assets/Enemy/footBallFish.prefab
+  artifactKey: Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/footBallFish.prefab using Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d27457b010b9aec890cd0c69bf8cd6') in 0.017524 seconds
+  Import took 0.022944 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005459 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.8 MB.
+System memory in use after: 152.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3202.
+Total: 2.386600 ms (FindLiveObjects: 0.241100 ms CreateObjectMapping: 0.117700 ms MarkObjects: 1.860700 ms  DeleteObjects: 0.166200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Import Request.
+  Time since last request: 315.762357 seconds.
+  path: Assets/Player/GUIReticle.png
+  artifactKey: Guid(44bff0ef25c5cff40a3f91b5afef7fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/GUIReticle.png using Guid(44bff0ef25c5cff40a3f91b5afef7fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613565bff21ea9fe972c3063a3e935cd') in 0.071763 seconds
+  Import took 0.076211 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005730 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.8 MB.
+System memory in use after: 152.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3207.
+Total: 2.418700 ms (FindLiveObjects: 0.233300 ms CreateObjectMapping: 0.100200 ms MarkObjects: 1.927300 ms  DeleteObjects: 0.157100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Import Request.
+  Time since last request: 172.664701 seconds.
+  path: Assets/Script/Hook.cs
+  artifactKey: Guid(926369ac681778b42b7cc15e3d48d74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Hook.cs using Guid(926369ac681778b42b7cc15e3d48d74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7991164840897837934a76ac6961f1d') in 0.005300 seconds
+  Import took 0.009620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Script/Hook.cs
+  artifactKey: Guid(926369ac681778b42b7cc15e3d48d74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Hook.cs using Guid(926369ac681778b42b7cc15e3d48d74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7991164840897837934a76ac6961f1d') in 0.002033 seconds
+  Import took 0.006902 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004806 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.8 MB.
+System memory in use after: 152.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3210.
+Total: 3.254600 ms (FindLiveObjects: 0.299300 ms CreateObjectMapping: 0.283600 ms MarkObjects: 2.469400 ms  DeleteObjects: 0.201100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Import Request.
+  Time since last request: 88.458517 seconds.
+  path: Assets/Script/Hook.cs
+  artifactKey: Guid(926369ac681778b42b7cc15e3d48d74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Hook.cs using Guid(926369ac681778b42b7cc15e3d48d74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29458105a258a9620895aa40d978aaa') in 0.006776 seconds
+  Import took 0.010873 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004927 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.914 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.8 MB.
+System memory in use after: 152.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3213.
+Total: 2.437500 ms (FindLiveObjects: 0.250100 ms CreateObjectMapping: 0.101100 ms MarkObjects: 1.931900 ms  DeleteObjects: 0.153600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004800 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.8 MB.
+System memory in use after: 152.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3216.
+Total: 2.642800 ms (FindLiveObjects: 0.319900 ms CreateObjectMapping: 0.110400 ms MarkObjects: 2.058600 ms  DeleteObjects: 0.153000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005063 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.8 MB.
+System memory in use after: 152.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3219.
+Total: 2.289700 ms (FindLiveObjects: 0.223300 ms CreateObjectMapping: 0.105300 ms MarkObjects: 1.801700 ms  DeleteObjects: 0.158100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005716 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.8 MB.
+System memory in use after: 152.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3222.
+Total: 3.361100 ms (FindLiveObjects: 0.393900 ms CreateObjectMapping: 0.177800 ms MarkObjects: 2.545600 ms  DeleteObjects: 0.242300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Import Request.
+  Time since last request: 440.371168 seconds.
+  path: Assets/Enemy/footBallFish.prefab
+  artifactKey: Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/footBallFish.prefab using Guid(06019e98c9040614cbce3048e0db4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db613670b97ab7af845ee7e71ad5ef51') in 0.185787 seconds
+  Import took 0.191782 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005660 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.8 MB.
+System memory in use after: 152.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3226.
+Total: 2.285700 ms (FindLiveObjects: 0.230700 ms CreateObjectMapping: 0.104600 ms MarkObjects: 1.794000 ms  DeleteObjects: 0.155200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004857 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.910 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.8 MB.
+System memory in use after: 152.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3229.
+Total: 2.517700 ms (FindLiveObjects: 0.257200 ms CreateObjectMapping: 0.097800 ms MarkObjects: 2.004700 ms  DeleteObjects: 0.157000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

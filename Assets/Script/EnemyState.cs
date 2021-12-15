@@ -13,8 +13,14 @@ public class EnemyState : MonoBehaviour
     //TRACKŠÖŒW
     [SerializeField] private bool m_flg;
     private float vecX;
+    [SerializeField] private float vecXRandomMIN = -20.0f;
+    [SerializeField] private float vecXRandomMAX = 20.0f;
     private float vecY;
+    [SerializeField] private float vecYRandomMIN = 0;
+    [SerializeField] private float vecYRandomMAX = 35.0f;
     private float vecZ;
+    [SerializeField] private float vecZRandomMIN = -20.0f;
+    [SerializeField] private float vecZRandomMAX = 20.0f;
     [SerializeField] private float m_targetDistance;
     private Vector3 m_targetVec;
 
@@ -22,7 +28,7 @@ public class EnemyState : MonoBehaviour
     private float m_attackTime;
 
     //DistanceŠÖ”ŠÖŒW
-    [SerializeField] private float m_distance;
+    [SerializeField]private float m_distance;
 
     // Start is called before the first frame update
     void Start()
@@ -60,9 +66,9 @@ public class EnemyState : MonoBehaviour
     {
         if (m_flg == false)
         {
-            vecX = Random.Range(-4.5f, 5.0f);
-            vecY = Random.Range(0, 15.0f);
-            vecZ = Random.Range(-4.5f, 5.0f);
+            vecX = Random.Range(vecXRandomMIN, vecXRandomMAX);
+            vecY = Random.Range(vecYRandomMIN, vecYRandomMAX);
+            vecZ = Random.Range(vecZRandomMIN, vecZRandomMAX);
 
             Vector3 _distance1 = transform.position;
             Vector3 _distance2 = new Vector3(vecX, vecY, vecZ);
@@ -84,7 +90,7 @@ public class EnemyState : MonoBehaviour
 
         if (m_targetDistance >= 0.01f)
         {
-            transform.position = Vector3.MoveTowards(transform.position, m_targetVec, 0.01f);
+            transform.position = Vector3.MoveTowards(transform.position, m_targetVec, 0.005f);
         }
 
         if (m_targetDistance <= 0.01f)
@@ -123,7 +129,7 @@ public class EnemyState : MonoBehaviour
 
     void Attack()
     {
-        //GameObject.Find("Player").GetComponent<PlayerHP>().Damage();
+        GameObject.Find("player").GetComponent<PlayerHP>().Damage();
         m_attackTime = 0;
 
         m_state = CHASE;
@@ -136,7 +142,7 @@ public class EnemyState : MonoBehaviour
         Vector3 _distance2 = GameObject.Find("player").transform.position;
 
         m_distance = Vector3.Distance(_distance1, _distance2);
-
+        
         return m_distance;
     }
 }

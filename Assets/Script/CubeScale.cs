@@ -9,7 +9,7 @@ public class CubeScale : MonoBehaviour
     float m_pos;
     [SerializeField] private bool m_clickBotton = false;
     [Range(0, 10)] public float m_speed = 0;
-    [Range(1000, 10000)] public float m_max = 1000;
+    [Range(10, 1000)] public float m_max = 100;
 
     void Start()
     {

@@ -37,11 +37,12 @@ public class Hook : MonoBehaviour
         {
             if (Input.GetMouseButton(1))
             {
-                int layer = LayerMask.NameToLayer("Player");
+                int layer = LayerMask.NameToLayer("Player");              
                 int layer_mask = 1 << layer;
                 ray = m_Camera.ScreenPointToRay(Input.mousePosition);
-                if (Physics.Raycast(m_Camera.transform.position, ray.direction, out hit, layer_mask))
+                if (Physics.Raycast(m_Camera.transform.position, ray.direction, out hit))
                 {
+                    Debug.Log(hit.point);
                     float len;
                     len = Vector3.Distance(hit.point, m_Player.transform.position);
 

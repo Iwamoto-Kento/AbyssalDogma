@@ -23,11 +23,11 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0.1
+  m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 62f22a5150fc6934396d7cefbe3df716, type: 2}
-  m_HaloStrength: 0.5
+  m_HaloStrength: 1
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
@@ -35,10 +35,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 0.1
+  m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.001566915, g: 0.009665797, b: 0.06592352, a: 0.1}
+  m_IndirectSpecularColor: {r: 0.01566915, g: 0.08221724, b: 0.26062942, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 9940724}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 16128134}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 19092673}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -425,7 +425,7 @@ GameObject:
   - component: {fileID: 19541061}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -521,7 +521,7 @@ GameObject:
   - component: {fileID: 25373337}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -616,7 +616,7 @@ GameObject:
   - component: {fileID: 27672537}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -712,7 +712,7 @@ GameObject:
   - component: {fileID: 35322356}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -813,7 +813,7 @@ GameObject:
   - component: {fileID: 49400298}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -908,7 +908,7 @@ GameObject:
   - component: {fileID: 60295759}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1004,7 +1004,7 @@ GameObject:
   - component: {fileID: 62329780}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1100,7 +1100,7 @@ GameObject:
   - component: {fileID: 76738445}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1248,7 +1248,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 72
+    m_Bits: 588
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -1289,7 +1289,7 @@ GameObject:
   - component: {fileID: 83296488}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1385,7 +1385,7 @@ GameObject:
   - component: {fileID: 84726313}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1481,7 +1481,7 @@ GameObject:
   - component: {fileID: 100712807}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1562,6 +1562,112 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100712805}
   m_Mesh: {fileID: 8813355783635818370, guid: 4d3412beaff715145a68bb3e7eb6b1ff, type: 3}
+--- !u!1001 &104110947
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1790488703}
+    m_Modifications:
+    - target: {fileID: 8379187694041550932, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 44bff0ef25c5cff40a3f91b5afef7fb2, type: 3}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379187694041550934, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+      propertyPath: m_Name
+      value: reticle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+--- !u!224 &104110948 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8379187694041550933, guid: 85db268337a174847b4c50ff21d55b58, type: 3}
+  m_PrefabInstance: {fileID: 104110947}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &104849179
 GameObject:
   m_ObjectHideFlags: 0
@@ -1576,7 +1682,7 @@ GameObject:
   - component: {fileID: 104849181}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1671,7 +1777,7 @@ GameObject:
   - component: {fileID: 105658766}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1767,7 +1873,7 @@ GameObject:
   - component: {fileID: 107100801}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1863,7 +1969,7 @@ GameObject:
   - component: {fileID: 109476299}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1958,7 +2064,7 @@ GameObject:
   - component: {fileID: 114735379}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2054,7 +2160,7 @@ GameObject:
   - component: {fileID: 123703018}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2150,7 +2256,7 @@ GameObject:
   - component: {fileID: 123842647}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2246,7 +2352,7 @@ GameObject:
   - component: {fileID: 125934936}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2342,7 +2448,7 @@ GameObject:
   - component: {fileID: 138587969}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2438,7 +2544,7 @@ GameObject:
   - component: {fileID: 153820901}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2533,7 +2639,7 @@ GameObject:
   - component: {fileID: 157370407}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2629,7 +2735,7 @@ GameObject:
   - component: {fileID: 159403351}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2725,7 +2831,7 @@ GameObject:
   - component: {fileID: 160608611}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2820,7 +2926,7 @@ GameObject:
   - component: {fileID: 166829193}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2915,7 +3021,7 @@ GameObject:
   - component: {fileID: 168486265}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3011,7 +3117,7 @@ GameObject:
   - component: {fileID: 169634225}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3107,7 +3213,7 @@ GameObject:
   - component: {fileID: 176760838}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3203,7 +3309,7 @@ GameObject:
   - component: {fileID: 178774588}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3299,7 +3405,7 @@ GameObject:
   - component: {fileID: 179195057}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3394,7 +3500,7 @@ GameObject:
   - component: {fileID: 194363409}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3490,7 +3596,7 @@ GameObject:
   - component: {fileID: 195046659}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3586,7 +3692,7 @@ GameObject:
   - component: {fileID: 204821595}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3682,7 +3788,7 @@ GameObject:
   - component: {fileID: 205329799}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3778,7 +3884,7 @@ GameObject:
   - component: {fileID: 207992842}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3874,7 +3980,7 @@ GameObject:
   - component: {fileID: 215929096}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3970,7 +4076,7 @@ GameObject:
   - component: {fileID: 225828167}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4066,7 +4172,7 @@ GameObject:
   - component: {fileID: 226124586}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4162,7 +4268,7 @@ GameObject:
   - component: {fileID: 230257259}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4258,7 +4364,7 @@ GameObject:
   - component: {fileID: 233021701}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4381,7 +4487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 265953595176975027, guid: d54e5f9b10e94844b817b8b4e23e0f95, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 265953595176975027, guid: d54e5f9b10e94844b817b8b4e23e0f95, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4441,7 +4547,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 265953595176975027, guid: d54e5f9b10e94844b817b8b4e23e0f95, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 6.73
+      value: 7.53
       objectReference: {fileID: 0}
     - target: {fileID: 265953595176975027, guid: d54e5f9b10e94844b817b8b4e23e0f95, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4468,6 +4574,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 265953595176975029, guid: d54e5f9b10e94844b817b8b4e23e0f95, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 265953595176975029, guid: d54e5f9b10e94844b817b8b4e23e0f95, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
@@ -4477,7 +4587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 265953596216350080, guid: d54e5f9b10e94844b817b8b4e23e0f95, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 265953596216350094, guid: d54e5f9b10e94844b817b8b4e23e0f95, type: 3}
       propertyPath: m_Enabled
@@ -4499,7 +4609,7 @@ GameObject:
   - component: {fileID: 233475405}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4594,7 +4704,7 @@ GameObject:
   - component: {fileID: 237501941}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4690,7 +4800,7 @@ GameObject:
   - component: {fileID: 238156732}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4785,7 +4895,7 @@ GameObject:
   - component: {fileID: 245418507}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4881,7 +4991,7 @@ GameObject:
   - component: {fileID: 248381403}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4977,7 +5087,7 @@ GameObject:
   - component: {fileID: 249266293}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5073,7 +5183,7 @@ GameObject:
   - component: {fileID: 254747583}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5169,7 +5279,7 @@ GameObject:
   - component: {fileID: 254917843}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5264,7 +5374,7 @@ GameObject:
   - component: {fileID: 256208266}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5360,7 +5470,7 @@ GameObject:
   - component: {fileID: 266302060}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5456,7 +5566,7 @@ GameObject:
   - component: {fileID: 267608216}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5552,7 +5662,7 @@ GameObject:
   - component: {fileID: 270643777}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5648,7 +5758,7 @@ GameObject:
   - component: {fileID: 271879494}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5743,7 +5853,7 @@ GameObject:
   - component: {fileID: 273158281}
   m_Layer: 10
   m_Name: rock_1(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5839,7 +5949,7 @@ GameObject:
   - component: {fileID: 276611454}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5935,7 +6045,7 @@ GameObject:
   - component: {fileID: 279584525}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6031,7 +6141,7 @@ GameObject:
   - component: {fileID: 285064393}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6127,7 +6237,7 @@ GameObject:
   - component: {fileID: 297290325}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6223,7 +6333,7 @@ GameObject:
   - component: {fileID: 300804527}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6370,7 +6480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5535429117149356103, guid: 8bcab3170f295a54b9a1c3f37704de67, type: 3}
       propertyPath: m_TagString
-      value: Respawn
+      value: Object
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bcab3170f295a54b9a1c3f37704de67, type: 3}
@@ -6388,7 +6498,7 @@ GameObject:
   - component: {fileID: 306851539}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6484,7 +6594,7 @@ GameObject:
   - component: {fileID: 308615411}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6579,7 +6689,7 @@ GameObject:
   - component: {fileID: 309714907}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6675,7 +6785,7 @@ GameObject:
   - component: {fileID: 311595286}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6771,7 +6881,7 @@ GameObject:
   - component: {fileID: 324725372}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6866,7 +6976,7 @@ GameObject:
   - component: {fileID: 331031384}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6962,7 +7072,7 @@ GameObject:
   - component: {fileID: 340313395}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7058,7 +7168,7 @@ GameObject:
   - component: {fileID: 340896688}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7153,7 +7263,7 @@ GameObject:
   - component: {fileID: 352495865}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7249,7 +7359,7 @@ GameObject:
   - component: {fileID: 372291522}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7355,7 +7465,7 @@ GameObject:
   - component: {fileID: 376558932}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7450,7 +7560,7 @@ GameObject:
   - component: {fileID: 380175782}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7546,7 +7656,7 @@ GameObject:
   - component: {fileID: 385701076}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7658,7 +7768,7 @@ GameObject:
   - component: {fileID: 399704818}
   m_Layer: 10
   m_Name: rock_1(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7754,7 +7864,7 @@ GameObject:
   - component: {fileID: 402944389}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7850,7 +7960,7 @@ GameObject:
   - component: {fileID: 403850963}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7946,7 +8056,7 @@ GameObject:
   - component: {fileID: 404178423}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8041,7 +8151,7 @@ GameObject:
   - component: {fileID: 407021847}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8137,7 +8247,7 @@ GameObject:
   - component: {fileID: 413739012}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8233,7 +8343,7 @@ GameObject:
   - component: {fileID: 415605780}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8329,7 +8439,7 @@ GameObject:
   - component: {fileID: 416302232}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8425,7 +8535,7 @@ GameObject:
   - component: {fileID: 422259378}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8521,7 +8631,7 @@ GameObject:
   - component: {fileID: 422584214}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8617,7 +8727,7 @@ GameObject:
   - component: {fileID: 424070405}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8712,7 +8822,7 @@ GameObject:
   - component: {fileID: 440088635}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8808,7 +8918,7 @@ GameObject:
   - component: {fileID: 441577413}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8904,7 +9014,7 @@ GameObject:
   - component: {fileID: 444093549}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9011,7 +9121,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095784524341450192, guid: 528d7ca60741cef4983ce3f6839c777b, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8095784524341450192, guid: 528d7ca60741cef4983ce3f6839c777b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9081,7 +9191,7 @@ GameObject:
   - component: {fileID: 449196718}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9177,7 +9287,7 @@ GameObject:
   - component: {fileID: 456631845}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9273,7 +9383,7 @@ GameObject:
   - component: {fileID: 470647280}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9369,7 +9479,7 @@ GameObject:
   - component: {fileID: 471529523}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9465,7 +9575,7 @@ GameObject:
   - component: {fileID: 478096960}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9561,7 +9671,7 @@ GameObject:
   - component: {fileID: 479928701}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9643,40 +9753,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479928699}
   m_Mesh: {fileID: -7962992883245384749, guid: 424bf93ebe22543489d20d30a8d0634a, type: 3}
---- !u!1 &482874497 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -1018664272722485354, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-  m_PrefabInstance: {fileID: 601897199}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &482874502
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 482874497}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!135 &482874503
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 482874497}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.01
-  m_Center: {x: -0.0000000023283064, y: -0.0000000018626448, z: 0}
 --- !u!1 &485673017
 GameObject:
   m_ObjectHideFlags: 0
@@ -9691,7 +9767,7 @@ GameObject:
   - component: {fileID: 485673019}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9787,7 +9863,7 @@ GameObject:
   - component: {fileID: 486828313}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9883,7 +9959,7 @@ GameObject:
   - component: {fileID: 487921264}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9979,7 +10055,7 @@ GameObject:
   - component: {fileID: 495083135}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10075,7 +10151,7 @@ GameObject:
   - component: {fileID: 500491792}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10171,7 +10247,7 @@ GameObject:
   - component: {fileID: 508561158}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10267,7 +10343,7 @@ GameObject:
   - component: {fileID: 515454151}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10363,7 +10439,7 @@ GameObject:
   - component: {fileID: 518140338}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10459,7 +10535,7 @@ GameObject:
   - component: {fileID: 523418070}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10555,7 +10631,7 @@ GameObject:
   - component: {fileID: 526369229}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10651,7 +10727,7 @@ GameObject:
   - component: {fileID: 528685669}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10747,7 +10823,7 @@ GameObject:
   - component: {fileID: 554748308}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10843,7 +10919,7 @@ GameObject:
   - component: {fileID: 560028965}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10938,7 +11014,7 @@ GameObject:
   - component: {fileID: 570915755}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11034,7 +11110,7 @@ GameObject:
   - component: {fileID: 580366986}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11130,7 +11206,7 @@ GameObject:
   - component: {fileID: 587094574}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11225,7 +11301,7 @@ GameObject:
   - component: {fileID: 588852856}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11321,7 +11397,7 @@ GameObject:
   - component: {fileID: 590999667}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11403,119 +11479,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 590999665}
   m_Mesh: {fileID: -3322778387361983621, guid: 83eb852480c3b9349a13d122e28af813, type: 3}
---- !u!1001 &601897199
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8700617353114198275, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.78
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 63.96
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -1018664272722485354, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: -1018664272722485354, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -1018664272722485354, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_TagString
-      value: Sonar
-      objectReference: {fileID: 0}
-    - target: {fileID: 65702495048144492, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_Name
-      value: sphere
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6317578925029434746, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5025a4e9ae76e654bb07195eb04d63d2, type: 2}
-    - target: {fileID: 8632055958874330854, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 8632055958874330854, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 8632055958874330854, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 8632055958874330854, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.13
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 95474c488f4dc2f4eba324e603d9cabc, type: 3}
 --- !u!1 &602245993
 GameObject:
   m_ObjectHideFlags: 0
@@ -11530,7 +11493,7 @@ GameObject:
   - component: {fileID: 602245995}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11625,7 +11588,7 @@ GameObject:
   - component: {fileID: 608285894}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11721,7 +11684,7 @@ GameObject:
   - component: {fileID: 609513597}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11817,7 +11780,7 @@ GameObject:
   - component: {fileID: 612468288}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11913,7 +11876,7 @@ GameObject:
   - component: {fileID: 618413119}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12009,7 +11972,7 @@ GameObject:
   - component: {fileID: 629955344}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12105,7 +12068,7 @@ GameObject:
   - component: {fileID: 638494203}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12200,7 +12163,7 @@ GameObject:
   - component: {fileID: 645233412}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12296,7 +12259,7 @@ GameObject:
   - component: {fileID: 649660463}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12392,7 +12355,7 @@ GameObject:
   - component: {fileID: 650134087}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12488,7 +12451,7 @@ GameObject:
   - component: {fileID: 654541398}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12584,7 +12547,7 @@ GameObject:
   - component: {fileID: 655475073}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12680,7 +12643,7 @@ GameObject:
   - component: {fileID: 656980220}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12776,7 +12739,7 @@ GameObject:
   - component: {fileID: 663311074}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12871,7 +12834,7 @@ GameObject:
   - component: {fileID: 664305328}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12967,7 +12930,7 @@ GameObject:
   - component: {fileID: 666496581}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13063,7 +13026,7 @@ GameObject:
   - component: {fileID: 685020075}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13159,7 +13122,7 @@ GameObject:
   - component: {fileID: 691669778}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13255,7 +13218,7 @@ GameObject:
   - component: {fileID: 695837072}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13351,7 +13314,7 @@ GameObject:
   - component: {fileID: 701502829}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13447,7 +13410,7 @@ GameObject:
   - component: {fileID: 702793391}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13542,7 +13505,7 @@ GameObject:
   - component: {fileID: 702822000}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13638,7 +13601,7 @@ GameObject:
   - component: {fileID: 708472226}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13734,7 +13697,7 @@ GameObject:
   - component: {fileID: 711288656}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13830,7 +13793,7 @@ GameObject:
   - component: {fileID: 715999337}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13926,7 +13889,7 @@ GameObject:
   - component: {fileID: 719020055}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14022,7 +13985,7 @@ GameObject:
   - component: {fileID: 720868633}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14118,7 +14081,7 @@ GameObject:
   - component: {fileID: 726336754}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14213,7 +14176,7 @@ GameObject:
   - component: {fileID: 730568319}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14308,7 +14271,7 @@ GameObject:
   - component: {fileID: 738842507}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14404,7 +14367,7 @@ GameObject:
   - component: {fileID: 738893308}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14500,7 +14463,7 @@ GameObject:
   - component: {fileID: 741986310}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14596,7 +14559,7 @@ GameObject:
   - component: {fileID: 745561731}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14691,7 +14654,7 @@ GameObject:
   - component: {fileID: 755203251}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14787,7 +14750,7 @@ GameObject:
   - component: {fileID: 759972833}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14883,7 +14846,7 @@ GameObject:
   - component: {fileID: 763000671}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14978,7 +14941,7 @@ GameObject:
   - component: {fileID: 764136094}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15074,7 +15037,7 @@ GameObject:
   - component: {fileID: 769263724}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15170,7 +15133,7 @@ GameObject:
   - component: {fileID: 773377089}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15266,7 +15229,7 @@ GameObject:
   - component: {fileID: 777849356}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15362,7 +15325,7 @@ GameObject:
   - component: {fileID: 779631928}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15458,7 +15421,7 @@ GameObject:
   - component: {fileID: 799363378}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15554,7 +15517,7 @@ GameObject:
   - component: {fileID: 799460930}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15649,7 +15612,7 @@ GameObject:
   - component: {fileID: 811570268}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15745,7 +15708,7 @@ GameObject:
   - component: {fileID: 813094179}
   m_Layer: 10
   m_Name: rock_1(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15841,7 +15804,7 @@ GameObject:
   - component: {fileID: 822501702}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15937,7 +15900,7 @@ GameObject:
   - component: {fileID: 832759794}
   m_Layer: 10
   m_Name: rock_1(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16033,7 +15996,7 @@ GameObject:
   - component: {fileID: 843000082}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16129,7 +16092,7 @@ GameObject:
   - component: {fileID: 847890352}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16225,7 +16188,7 @@ GameObject:
   - component: {fileID: 852602440}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16320,7 +16283,7 @@ GameObject:
   - component: {fileID: 854986467}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16416,7 +16379,7 @@ GameObject:
   - component: {fileID: 856809828}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16512,7 +16475,7 @@ GameObject:
   - component: {fileID: 859475450}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16608,7 +16571,7 @@ GameObject:
   - component: {fileID: 865165349}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16690,79 +16653,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865165347}
   m_Mesh: {fileID: -3322778387361983621, guid: 83eb852480c3b9349a13d122e28af813, type: 3}
---- !u!1001 &865481292
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 36.8
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 37
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -5800763949171148363, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 635547659545568360, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_Name
-      value: footBallFish
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 5050422055867433376, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
 --- !u!1 &866274685
 GameObject:
   m_ObjectHideFlags: 0
@@ -16777,7 +16667,7 @@ GameObject:
   - component: {fileID: 866274687}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16873,7 +16763,7 @@ GameObject:
   - component: {fileID: 874906595}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16969,7 +16859,7 @@ GameObject:
   - component: {fileID: 876231569}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17076,19 +16966,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 32.61975
+      value: 17.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.004097
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 56.097996
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
       propertyPath: m_LocalRotation.x
@@ -17096,7 +16986,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
       propertyPath: m_LocalRotation.z
@@ -17108,19 +16998,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7857279653806467735, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7774940396010985064, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 20461941f9e8eb94983ba055866e4e2d, type: 2}
+    - target: {fileID: -4774405123632221922, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 20461941f9e8eb94983ba055866e4e2d, type: 2}
+    - target: {fileID: -3534799392624325363, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 20461941f9e8eb94983ba055866e4e2d, type: 2}
+    - target: {fileID: -1190296393363643096, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 20461941f9e8eb94983ba055866e4e2d, type: 2}
+    - target: {fileID: -1178144823571013237, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -958574560687272670, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 20461941f9e8eb94983ba055866e4e2d, type: 2}
+    - target: {fileID: 841595140831446711, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
       propertyPath: m_Name
-      value: Diver003
+      value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2241780711236780905, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405802833514741538, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711132465161097500, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 20461941f9e8eb94983ba055866e4e2d, type: 2}
+    - target: {fileID: 9105028275358135099, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
@@ -17138,7 +17084,7 @@ GameObject:
   - component: {fileID: 891341185}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17443,7 +17389,7 @@ Transform:
   - {fileID: 1144019972}
   - {fileID: 773377088}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &898340596
 GameObject:
@@ -17459,7 +17405,7 @@ GameObject:
   - component: {fileID: 898340598}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17555,7 +17501,7 @@ GameObject:
   - component: {fileID: 907999288}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17651,7 +17597,7 @@ GameObject:
   - component: {fileID: 909067074}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17746,7 +17692,7 @@ GameObject:
   - component: {fileID: 921996919}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17844,7 +17790,8 @@ GameObject:
   - component: {fileID: 922060782}
   - component: {fileID: 922060786}
   - component: {fileID: 922060783}
-  m_Layer: 6
+  - component: {fileID: 922060787}
+  m_Layer: 2
   m_Name: Main_Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -17909,12 +17856,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922060778}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.030000687, y: -0.26999998, z: -2.4899979}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: -2.1200252, y: 14.118882, z: 31.800056}
+  m_LocalScale: {x: 3.5333395, y: 3.5333395, z: 3.5333395}
   m_Children: []
-  m_Father: {fileID: 374726182}
-  m_RootOrder: 4
+  m_Father: {fileID: 2140083307}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &922060782
 MonoBehaviour:
@@ -17949,7 +17896,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 0
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
@@ -17988,7 +17935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f225752ac2a394e969bc61cc0df4e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 374726182}
+  player: {fileID: 2140083307}
   distance: 10
   vRotation: {x: 0, y: 0, z: 0, w: 0}
   hRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -18008,6 +17955,18 @@ MonoBehaviour:
   Post_Outline: {fileID: 4800000, guid: bc1f8b9a512a8f140a9fa0bd4e9eaa78, type: 3}
   DrawSimple: {fileID: 4800000, guid: 7887f9809588124418640fed2afcd209, type: 3}
   outlineColor: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &922060787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922060778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &926083335
 GameObject:
   m_ObjectHideFlags: 0
@@ -18022,7 +17981,7 @@ GameObject:
   - component: {fileID: 926083337}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18117,7 +18076,7 @@ GameObject:
   - component: {fileID: 945106357}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18237,7 +18196,7 @@ Transform:
   - {fileID: 374655587}
   - {fileID: 41709034}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &956110081
 GameObject:
@@ -18253,7 +18212,7 @@ GameObject:
   - component: {fileID: 956110083}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18349,7 +18308,7 @@ GameObject:
   - component: {fileID: 963657234}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18535,7 +18494,7 @@ Transform:
   - {fileID: 1157069425}
   - {fileID: 1977720298}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &965973257
 GameObject:
@@ -18551,7 +18510,7 @@ GameObject:
   - component: {fileID: 965973259}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18647,7 +18606,7 @@ GameObject:
   - component: {fileID: 972340814}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18743,7 +18702,7 @@ GameObject:
   - component: {fileID: 975231799}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18839,7 +18798,7 @@ GameObject:
   - component: {fileID: 980438818}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18935,7 +18894,7 @@ GameObject:
   - component: {fileID: 981193409}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19031,7 +18990,7 @@ GameObject:
   - component: {fileID: 981658456}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19127,7 +19086,7 @@ GameObject:
   - component: {fileID: 987585304}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19222,7 +19181,7 @@ GameObject:
   - component: {fileID: 987733589}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19318,7 +19277,7 @@ GameObject:
   - component: {fileID: 992926681}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19414,7 +19373,7 @@ GameObject:
   - component: {fileID: 994103521}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19510,7 +19469,7 @@ GameObject:
   - component: {fileID: 998989908}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19606,7 +19565,7 @@ GameObject:
   - component: {fileID: 1011227937}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19702,7 +19661,7 @@ GameObject:
   - component: {fileID: 1015486036}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19798,7 +19757,7 @@ GameObject:
   - component: {fileID: 1019878378}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19894,7 +19853,7 @@ GameObject:
   - component: {fileID: 1022915349}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19990,7 +19949,7 @@ GameObject:
   - component: {fileID: 1023068783}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20086,7 +20045,7 @@ GameObject:
   - component: {fileID: 1027943830}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20168,6 +20127,65 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1027943828}
   m_Mesh: {fileID: -3322778387361983621, guid: 83eb852480c3b9349a13d122e28af813, type: 3}
+--- !u!1 &1028302255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1028302258}
+  - component: {fileID: 1028302257}
+  - component: {fileID: 1028302256}
+  m_Layer: 0
+  m_Name: EnemyManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1028302256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028302255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88a8c13be001b944f98e1ea0ee3a1253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1028302257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028302255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4d0bea602b69b74f9e9c0af391fe33b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  count: 0
+  time: 0
+  EnemyPrefab: {fileID: 6494926564685416186, guid: 06019e98c9040614cbce3048e0db4700, type: 3}
+--- !u!4 &1028302258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028302255}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 406.7, y: 12.1, z: 10.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1036976315
 GameObject:
   m_ObjectHideFlags: 0
@@ -20182,7 +20200,7 @@ GameObject:
   - component: {fileID: 1036976317}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20278,7 +20296,7 @@ GameObject:
   - component: {fileID: 1047418428}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20374,7 +20392,7 @@ GameObject:
   - component: {fileID: 1048574905}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20470,7 +20488,7 @@ GameObject:
   - component: {fileID: 1059049510}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20566,7 +20584,7 @@ GameObject:
   - component: {fileID: 1069569383}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20662,7 +20680,7 @@ GameObject:
   - component: {fileID: 1073385881}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20758,7 +20776,7 @@ GameObject:
   - component: {fileID: 1076736395}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20854,7 +20872,7 @@ GameObject:
   - component: {fileID: 1086104244}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20950,7 +20968,7 @@ GameObject:
   - component: {fileID: 1088425450}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21046,7 +21064,7 @@ GameObject:
   - component: {fileID: 1089457857}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21142,7 +21160,7 @@ GameObject:
   - component: {fileID: 1090978070}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21237,7 +21255,7 @@ GameObject:
   - component: {fileID: 1104548605}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21333,7 +21351,7 @@ GameObject:
   - component: {fileID: 1116124356}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21429,7 +21447,7 @@ GameObject:
   - component: {fileID: 1127219074}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21525,7 +21543,7 @@ GameObject:
   - component: {fileID: 1132581222}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21621,7 +21639,7 @@ GameObject:
   - component: {fileID: 1137941394}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21717,7 +21735,7 @@ GameObject:
   - component: {fileID: 1138335991}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21813,7 +21831,7 @@ GameObject:
   - component: {fileID: 1144019973}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21909,7 +21927,7 @@ GameObject:
   - component: {fileID: 1150537823}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22005,7 +22023,7 @@ GameObject:
   - component: {fileID: 1151894344}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22100,7 +22118,7 @@ GameObject:
   - component: {fileID: 1153506792}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22196,7 +22214,7 @@ GameObject:
   - component: {fileID: 1157069426}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22291,7 +22309,7 @@ GameObject:
   - component: {fileID: 1162029253}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22387,7 +22405,7 @@ GameObject:
   - component: {fileID: 1164237045}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22483,7 +22501,7 @@ GameObject:
   - component: {fileID: 1180528387}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22579,7 +22597,7 @@ GameObject:
   - component: {fileID: 1184251325}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22675,7 +22693,7 @@ GameObject:
   - component: {fileID: 1191196338}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22771,7 +22789,7 @@ GameObject:
   - component: {fileID: 1191560284}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22867,7 +22885,7 @@ GameObject:
   - component: {fileID: 1197075745}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22963,7 +22981,7 @@ GameObject:
   - component: {fileID: 1213441010}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23102,7 +23120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5535429117149356103, guid: 8bcab3170f295a54b9a1c3f37704de67, type: 3}
       propertyPath: m_TagString
-      value: Respawn
+      value: Object
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bcab3170f295a54b9a1c3f37704de67, type: 3}
@@ -23120,7 +23138,7 @@ GameObject:
   - component: {fileID: 1217433835}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23216,7 +23234,7 @@ GameObject:
   - component: {fileID: 1226194979}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23312,7 +23330,7 @@ GameObject:
   - component: {fileID: 1232931010}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23408,7 +23426,7 @@ GameObject:
   - component: {fileID: 1239100487}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23504,7 +23522,7 @@ GameObject:
   - component: {fileID: 1239330416}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23600,7 +23618,7 @@ GameObject:
   - component: {fileID: 1246936554}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23696,7 +23714,7 @@ GameObject:
   - component: {fileID: 1247586881}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23792,7 +23810,7 @@ GameObject:
   - component: {fileID: 1251947122}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23888,7 +23906,7 @@ GameObject:
   - component: {fileID: 1252414268}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23984,7 +24002,7 @@ GameObject:
   - component: {fileID: 1256169749}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24080,7 +24098,7 @@ GameObject:
   - component: {fileID: 1260725546}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24175,7 +24193,7 @@ GameObject:
   - component: {fileID: 1263332660}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24270,7 +24288,7 @@ GameObject:
   - component: {fileID: 1266781355}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24366,7 +24384,7 @@ GameObject:
   - component: {fileID: 1273003309}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24462,7 +24480,7 @@ GameObject:
   - component: {fileID: 1275711870}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24558,7 +24576,7 @@ GameObject:
   - component: {fileID: 1287286627}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24653,7 +24671,7 @@ GameObject:
   - component: {fileID: 1291219945}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24749,7 +24767,7 @@ GameObject:
   - component: {fileID: 1291437523}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24845,7 +24863,7 @@ GameObject:
   - component: {fileID: 1301063291}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24941,7 +24959,7 @@ GameObject:
   - component: {fileID: 1303573859}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25037,7 +25055,7 @@ GameObject:
   - component: {fileID: 1310707739}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25133,7 +25151,7 @@ GameObject:
   - component: {fileID: 1317034755}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25229,7 +25247,7 @@ GameObject:
   - component: {fileID: 1327337536}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25324,7 +25342,7 @@ GameObject:
   - component: {fileID: 1336048663}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25420,7 +25438,7 @@ GameObject:
   - component: {fileID: 1340513931}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25515,7 +25533,7 @@ GameObject:
   - component: {fileID: 1349323053}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25611,7 +25629,7 @@ GameObject:
   - component: {fileID: 1355542897}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25707,7 +25725,7 @@ GameObject:
   - component: {fileID: 1368268811}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25802,7 +25820,7 @@ GameObject:
   - component: {fileID: 1377908610}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25897,7 +25915,7 @@ GameObject:
   - component: {fileID: 1390276036}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25993,7 +26011,7 @@ GameObject:
   - component: {fileID: 1397432367}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26089,7 +26107,7 @@ GameObject:
   - component: {fileID: 1405817281}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26184,7 +26202,7 @@ GameObject:
   - component: {fileID: 1410513753}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26280,7 +26298,7 @@ GameObject:
   - component: {fileID: 1410983189}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26376,7 +26394,7 @@ GameObject:
   - component: {fileID: 1412599409}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26472,7 +26490,7 @@ GameObject:
   - component: {fileID: 1416421710}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26568,7 +26586,7 @@ GameObject:
   - component: {fileID: 1422053084}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26664,7 +26682,7 @@ GameObject:
   - component: {fileID: 1423872033}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26760,7 +26778,7 @@ GameObject:
   - component: {fileID: 1432623623}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26855,7 +26873,7 @@ GameObject:
   - component: {fileID: 1433743385}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26951,7 +26969,7 @@ GameObject:
   - component: {fileID: 1434658972}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27047,7 +27065,7 @@ GameObject:
   - component: {fileID: 1436279178}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27143,7 +27161,7 @@ GameObject:
   - component: {fileID: 1439223437}
   m_Layer: 10
   m_Name: rock_1(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27239,7 +27257,7 @@ GameObject:
   - component: {fileID: 1446350263}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27335,7 +27353,7 @@ GameObject:
   - component: {fileID: 1446905581}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27431,7 +27449,7 @@ GameObject:
   - component: {fileID: 1450256083}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27513,54 +27531,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1450256081}
   m_Mesh: {fileID: -3322778387361983621, guid: 83eb852480c3b9349a13d122e28af813, type: 3}
---- !u!1 &1450297825
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1450297827}
-  - component: {fileID: 1450297826}
-  m_Layer: 0
-  m_Name: SonarControll
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1450297826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450297825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72df9f3c4ed28974da620029572bc43c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 374726182}
-  Sphere: {fileID: 482874497}
-  m_clickBotton: 0
-  m_speed: 10
-  m_max: 1851
---- !u!4 &1450297827
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450297825}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 65.6166, y: -10.795305, z: 76.00785}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1453365352
 GameObject:
   m_ObjectHideFlags: 0
@@ -27575,7 +27545,7 @@ GameObject:
   - component: {fileID: 1453365354}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27671,7 +27641,7 @@ GameObject:
   - component: {fileID: 1454344949}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27767,7 +27737,7 @@ GameObject:
   - component: {fileID: 1455393781}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27862,7 +27832,7 @@ GameObject:
   - component: {fileID: 1456028115}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27958,7 +27928,7 @@ GameObject:
   - component: {fileID: 1459608871}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28054,7 +28024,7 @@ GameObject:
   - component: {fileID: 1461754651}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28150,7 +28120,7 @@ GameObject:
   - component: {fileID: 1461911267}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28246,7 +28216,7 @@ GameObject:
   - component: {fileID: 1463304721}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28341,7 +28311,7 @@ GameObject:
   - component: {fileID: 1467340374}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28437,7 +28407,7 @@ GameObject:
   - component: {fileID: 1467385436}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28533,7 +28503,7 @@ GameObject:
   - component: {fileID: 1470087279}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28629,7 +28599,7 @@ GameObject:
   - component: {fileID: 1478027770}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28725,7 +28695,7 @@ GameObject:
   - component: {fileID: 1479649308}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28821,7 +28791,7 @@ GameObject:
   - component: {fileID: 1488379809}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28916,7 +28886,7 @@ GameObject:
   - component: {fileID: 1492736347}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29055,7 +29025,7 @@ GameObject:
   - component: {fileID: 1501193756}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29151,7 +29121,7 @@ GameObject:
   - component: {fileID: 1503120944}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29247,7 +29217,7 @@ GameObject:
   - component: {fileID: 1505326554}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29343,7 +29313,7 @@ GameObject:
   - component: {fileID: 1505437637}
   m_Layer: 10
   m_Name: rock_1(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29439,7 +29409,7 @@ GameObject:
   - component: {fileID: 1506743695}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29535,7 +29505,7 @@ GameObject:
   - component: {fileID: 1508488311}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29630,7 +29600,7 @@ GameObject:
   - component: {fileID: 1514796737}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29726,7 +29696,7 @@ GameObject:
   - component: {fileID: 1518703009}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29822,7 +29792,7 @@ GameObject:
   - component: {fileID: 1523064490}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29918,7 +29888,7 @@ GameObject:
   - component: {fileID: 1550061934}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30014,7 +29984,7 @@ GameObject:
   - component: {fileID: 1555682494}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30110,7 +30080,7 @@ GameObject:
   - component: {fileID: 1558430673}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30205,7 +30175,7 @@ GameObject:
   - component: {fileID: 1559443970}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30360,7 +30330,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1567309508
 GameObject:
@@ -30376,7 +30346,7 @@ GameObject:
   - component: {fileID: 1567309510}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30472,7 +30442,7 @@ GameObject:
   - component: {fileID: 1581471205}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30568,7 +30538,7 @@ GameObject:
   - component: {fileID: 1588958469}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30664,7 +30634,7 @@ GameObject:
   - component: {fileID: 1591679928}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30746,6 +30716,72 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591679926}
   m_Mesh: {fileID: -7962992883245384749, guid: 424bf93ebe22543489d20d30a8d0634a, type: 3}
+--- !u!1 &1592265302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1592265305}
+  - component: {fileID: 1592265304}
+  - component: {fileID: 1592265303}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1592265303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592265302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1592265304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592265302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1592265305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592265302}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1592750851
 GameObject:
   m_ObjectHideFlags: 0
@@ -30760,7 +30796,7 @@ GameObject:
   - component: {fileID: 1592750853}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30856,7 +30892,7 @@ GameObject:
   - component: {fileID: 1594689850}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30952,7 +30988,7 @@ GameObject:
   - component: {fileID: 1600744544}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31047,7 +31083,7 @@ GameObject:
   - component: {fileID: 1602114656}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31143,7 +31179,7 @@ GameObject:
   - component: {fileID: 1603893303}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31239,7 +31275,7 @@ GameObject:
   - component: {fileID: 1606120605}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31335,7 +31371,7 @@ GameObject:
   - component: {fileID: 1612842812}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31431,7 +31467,7 @@ GameObject:
   - component: {fileID: 1616663824}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31527,7 +31563,7 @@ GameObject:
   - component: {fileID: 1618373667}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31623,7 +31659,7 @@ GameObject:
   - component: {fileID: 1619946225}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31719,7 +31755,7 @@ GameObject:
   - component: {fileID: 1622188997}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31814,7 +31850,7 @@ GameObject:
   - component: {fileID: 1625014082}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31910,7 +31946,7 @@ GameObject:
   - component: {fileID: 1628175353}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32006,7 +32042,7 @@ GameObject:
   - component: {fileID: 1631548899}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32102,7 +32138,7 @@ GameObject:
   - component: {fileID: 1636390993}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32197,7 +32233,7 @@ GameObject:
   - component: {fileID: 1638026217}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32293,7 +32329,7 @@ GameObject:
   - component: {fileID: 1642321350}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32389,7 +32425,7 @@ GameObject:
   - component: {fileID: 1648001369}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32471,6 +32507,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648001367}
   m_Mesh: {fileID: -7962992883245384749, guid: 424bf93ebe22543489d20d30a8d0634a, type: 3}
+--- !u!1 &1651732985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1651732987}
+  - component: {fileID: 1651732986}
+  m_Layer: 0
+  m_Name: SonerControll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1651732986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651732985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72df9f3c4ed28974da620029572bc43c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2140083307}
+  Sphere: {fileID: 1993946421}
+  m_clickBotton: 0
+  m_speed: 0.1
+  m_max: 100
+--- !u!4 &1651732987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651732985}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 214.47119, y: -15.714912, z: 38.291206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1660813660
 GameObject:
   m_ObjectHideFlags: 0
@@ -32485,7 +32569,7 @@ GameObject:
   - component: {fileID: 1660813662}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32581,7 +32665,7 @@ GameObject:
   - component: {fileID: 1670838661}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32691,7 +32775,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 374726182}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &1675161225
 Light:
@@ -32769,7 +32853,7 @@ GameObject:
   - component: {fileID: 1685075445}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32865,7 +32949,7 @@ GameObject:
   - component: {fileID: 1685742756}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32961,7 +33045,7 @@ GameObject:
   - component: {fileID: 1696785091}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33057,7 +33141,7 @@ GameObject:
   - component: {fileID: 1700339385}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33153,7 +33237,7 @@ GameObject:
   - component: {fileID: 1700637352}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33249,7 +33333,7 @@ GameObject:
   - component: {fileID: 1701803458}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33345,7 +33429,7 @@ GameObject:
   - component: {fileID: 1702585297}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33441,7 +33525,7 @@ GameObject:
   - component: {fileID: 1710558346}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33537,7 +33621,7 @@ GameObject:
   - component: {fileID: 1712328314}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33633,7 +33717,7 @@ GameObject:
   - component: {fileID: 1712967235}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33729,7 +33813,7 @@ GameObject:
   - component: {fileID: 1713487501}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33824,7 +33908,7 @@ GameObject:
   - component: {fileID: 1715051777}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33920,7 +34004,7 @@ GameObject:
   - component: {fileID: 1721520881}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34016,7 +34100,7 @@ GameObject:
   - component: {fileID: 1722892464}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34112,7 +34196,7 @@ GameObject:
   - component: {fileID: 1725917746}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34207,7 +34291,7 @@ GameObject:
   - component: {fileID: 1730051049}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34302,7 +34386,7 @@ GameObject:
   - component: {fileID: 1732374721}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34398,7 +34482,7 @@ GameObject:
   - component: {fileID: 1737747555}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34494,7 +34578,7 @@ GameObject:
   - component: {fileID: 1739521840}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34590,7 +34674,7 @@ GameObject:
   - component: {fileID: 1739694582}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34685,7 +34769,7 @@ GameObject:
   - component: {fileID: 1743054909}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34780,7 +34864,7 @@ GameObject:
   - component: {fileID: 1747536163}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34876,7 +34960,7 @@ GameObject:
   - component: {fileID: 1747793850}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34972,7 +35056,7 @@ GameObject:
   - component: {fileID: 1748580013}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35067,7 +35151,7 @@ GameObject:
   - component: {fileID: 1756111612}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35163,7 +35247,7 @@ GameObject:
   - component: {fileID: 1762536225}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35259,7 +35343,7 @@ GameObject:
   - component: {fileID: 1769428466}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35354,7 +35438,7 @@ GameObject:
   - component: {fileID: 1769922953}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35450,7 +35534,7 @@ GameObject:
   - component: {fileID: 1773813977}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35546,7 +35630,7 @@ GameObject:
   - component: {fileID: 1782843111}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35642,7 +35726,7 @@ GameObject:
   - component: {fileID: 1788209425}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35723,6 +35807,106 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788209423}
   m_Mesh: {fileID: 8813355783635818370, guid: 4d3412beaff715145a68bb3e7eb6b1ff, type: 3}
+--- !u!1 &1790488699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790488703}
+  - component: {fileID: 1790488702}
+  - component: {fileID: 1790488701}
+  - component: {fileID: 1790488700}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790488700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790488699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1790488701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790488699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1790488702
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790488699}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1790488703
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790488699}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 104110948}
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1790587003
 GameObject:
   m_ObjectHideFlags: 0
@@ -35737,7 +35921,7 @@ GameObject:
   - component: {fileID: 1790587005}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35833,7 +36017,7 @@ GameObject:
   - component: {fileID: 1791167626}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35929,7 +36113,7 @@ GameObject:
   - component: {fileID: 1792175825}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36025,7 +36209,7 @@ GameObject:
   - component: {fileID: 1796558499}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36121,7 +36305,7 @@ GameObject:
   - component: {fileID: 1796651741}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36216,7 +36400,7 @@ GameObject:
   - component: {fileID: 1798693955}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36311,7 +36495,7 @@ GameObject:
   - component: {fileID: 1800045567}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36407,7 +36591,7 @@ GameObject:
   - component: {fileID: 1806048806}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36503,7 +36687,7 @@ GameObject:
   - component: {fileID: 1819708211}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36599,7 +36783,7 @@ GameObject:
   - component: {fileID: 1820525625}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36695,7 +36879,7 @@ GameObject:
   - component: {fileID: 1827305838}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36791,7 +36975,7 @@ GameObject:
   - component: {fileID: 1829616075}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36887,7 +37071,7 @@ GameObject:
   - component: {fileID: 1847459610}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36969,53 +37153,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1847459608}
   m_Mesh: {fileID: -7962992883245384749, guid: 424bf93ebe22543489d20d30a8d0634a, type: 3}
---- !u!1 &1850783435 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-  m_PrefabInstance: {fileID: 865481292}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1850783436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1850783435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61638af7b581be948af1794e74b0376a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_state: 0
-  m_flg: 0
-  m_targetDistance: 0
-  m_distance: 0
---- !u!114 &1850783437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1850783435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 750c2949ed27c0b4ab0a858d39b03b74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hp: 0
---- !u!114 &1850783439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1850783435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c88a21fa9b6aeb4eb023a26ac35f6a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ComeEnemyFlg: 0
 --- !u!1 &1853897987
 GameObject:
   m_ObjectHideFlags: 0
@@ -37030,7 +37167,7 @@ GameObject:
   - component: {fileID: 1853897989}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37126,7 +37263,7 @@ GameObject:
   - component: {fileID: 1857045280}
   m_Layer: 10
   m_Name: rock_1(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37222,7 +37359,7 @@ GameObject:
   - component: {fileID: 1872090160}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37317,7 +37454,7 @@ GameObject:
   - component: {fileID: 1882250380}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37413,7 +37550,7 @@ GameObject:
   - component: {fileID: 1885837973}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37509,7 +37646,7 @@ GameObject:
   - component: {fileID: 1897561529}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37605,7 +37742,7 @@ GameObject:
   - component: {fileID: 1913458703}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37701,7 +37838,7 @@ GameObject:
   - component: {fileID: 1915213598}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37797,7 +37934,7 @@ GameObject:
   - component: {fileID: 1916644997}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37893,7 +38030,7 @@ GameObject:
   - component: {fileID: 1920551589}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37989,7 +38126,7 @@ GameObject:
   - component: {fileID: 1921613792}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38085,7 +38222,7 @@ GameObject:
   - component: {fileID: 1926214025}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38180,7 +38317,7 @@ GameObject:
   - component: {fileID: 1926849553}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38276,7 +38413,7 @@ GameObject:
   - component: {fileID: 1930446339}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38372,7 +38509,7 @@ GameObject:
   - component: {fileID: 1954447185}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38468,7 +38605,7 @@ GameObject:
   - component: {fileID: 1958361890}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38563,7 +38700,7 @@ GameObject:
   - component: {fileID: 1963331933}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38659,7 +38796,7 @@ GameObject:
   - component: {fileID: 1965236348}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38755,7 +38892,7 @@ GameObject:
   - component: {fileID: 1973013915}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38851,7 +38988,7 @@ GameObject:
   - component: {fileID: 1973289872}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38946,7 +39083,7 @@ GameObject:
   - component: {fileID: 1977720299}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39041,7 +39178,7 @@ GameObject:
   - component: {fileID: 1983416604}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39137,7 +39274,7 @@ GameObject:
   - component: {fileID: 1985400794}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39233,7 +39370,7 @@ GameObject:
   - component: {fileID: 1988110495}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39329,7 +39466,7 @@ GameObject:
   - component: {fileID: 1990585699}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39425,7 +39562,7 @@ GameObject:
   - component: {fileID: 1992897627}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39507,6 +39644,118 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992897625}
   m_Mesh: {fileID: -3322778387361983621, guid: 83eb852480c3b9349a13d122e28af813, type: 3}
+--- !u!1 &1993946421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1993946426}
+  - component: {fileID: 1993946425}
+  - component: {fileID: 1993946424}
+  - component: {fileID: 1993946423}
+  - component: {fileID: 1993946422}
+  m_Layer: 7
+  m_Name: Soner
+  m_TagString: Sonar
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &1993946422
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993946421}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!135 &1993946423
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993946421}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1993946424
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993946421}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5025a4e9ae76e654bb07195eb04d63d2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1993946425
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993946421}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1993946426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993946421}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2000362303
 GameObject:
   m_ObjectHideFlags: 0
@@ -39521,7 +39770,7 @@ GameObject:
   - component: {fileID: 2000362305}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39617,7 +39866,7 @@ GameObject:
   - component: {fileID: 2003513817}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39713,7 +39962,7 @@ GameObject:
   - component: {fileID: 2013661758}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39809,7 +40058,7 @@ GameObject:
   - component: {fileID: 2014578253}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39905,7 +40154,7 @@ GameObject:
   - component: {fileID: 2018514020}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40001,7 +40250,7 @@ GameObject:
   - component: {fileID: 2020889052}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40097,7 +40346,7 @@ GameObject:
   - component: {fileID: 2026757993}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40193,7 +40442,7 @@ GameObject:
   - component: {fileID: 2030524500}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40289,7 +40538,7 @@ GameObject:
   - component: {fileID: 2030604415}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40385,7 +40634,7 @@ GameObject:
   - component: {fileID: 2037984861}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40480,7 +40729,7 @@ GameObject:
   - component: {fileID: 2039080629}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40576,7 +40825,7 @@ GameObject:
   - component: {fileID: 2049316829}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40672,7 +40921,7 @@ GameObject:
   - component: {fileID: 2058720846}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40768,7 +41017,7 @@ GameObject:
   - component: {fileID: 2062010456}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40863,7 +41112,7 @@ GameObject:
   - component: {fileID: 2067529146}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41120,7 +41369,7 @@ Transform:
   - {fileID: 1701803457}
   - {fileID: 972340813}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2076081989
 GameObject:
@@ -41136,7 +41385,7 @@ GameObject:
   - component: {fileID: 2076081991}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41232,7 +41481,7 @@ GameObject:
   - component: {fileID: 2080512398}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41332,7 +41581,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &2082368836
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41404,11 +41653,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082368835}
   m_LocalRotation: {x: -0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 484.44226, y: 6.7651806, z: 22.82786}
+  m_LocalPosition: {x: 486.55, y: 6.7651806, z: 26.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 90}
 --- !u!1 &2083928159
 GameObject:
@@ -41424,7 +41673,7 @@ GameObject:
   - component: {fileID: 2083928161}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41519,7 +41768,7 @@ GameObject:
   - component: {fileID: 2090243097}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41615,7 +41864,7 @@ GameObject:
   - component: {fileID: 2096432893}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41711,7 +41960,7 @@ GameObject:
   - component: {fileID: 2098442823}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41807,7 +42056,7 @@ GameObject:
   - component: {fileID: 2106388929}
   m_Layer: 10
   m_Name: rock_1(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41889,38 +42138,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2106388927}
   m_Mesh: {fileID: -1177643214403681398, guid: 47ba6b8c3c3b26142ba5f219637aec45, type: 3}
---- !u!1 &2106415018 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 635547659545568360, guid: 5bd912b55f9da92478684615572c8d9a, type: 3}
-  m_PrefabInstance: {fileID: 865481292}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2106415022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2106415018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c4c9566efb7e334eb1d4700ed51fbe8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_flg: 0
-  m_seconds: 0
---- !u!65 &2106415023
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2106415018}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.018725721, y: 0.05319907, z: 0.025617268}
-  m_Center: {x: -0.000007780268, y: 0.007741251, z: 0.0020267856}
 --- !u!1 &2108065414
 GameObject:
   m_ObjectHideFlags: 0
@@ -41935,7 +42152,7 @@ GameObject:
   - component: {fileID: 2108065416}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42031,7 +42248,7 @@ GameObject:
   - component: {fileID: 2108323657}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42127,7 +42344,7 @@ GameObject:
   - component: {fileID: 2113727049}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42223,7 +42440,7 @@ GameObject:
   - component: {fileID: 2129351001}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42319,7 +42536,7 @@ GameObject:
   - component: {fileID: 2129852834}
   m_Layer: 10
   m_Name: rock_2(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42405,6 +42622,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
   m_PrefabInstance: {fileID: 885790286}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &2140083307 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 809244f5ecfa6324581d1f5180169966, type: 3}
+  m_PrefabInstance: {fileID: 885790286}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2140083308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42424,9 +42646,9 @@ MonoBehaviour:
   m_ComeEnemyFlg: 0
   m_Hook: {fileID: 387024707}
   m_Camera: {fileID: 922060780}
-  m_Distance: 20
+  m_Distance: 50
   m_HookVec: {x: 0, y: 0, z: 0}
-  speed: 5
+  speed: 30
 --- !u!114 &2140083309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42455,11 +42677,11 @@ Rigidbody:
   m_Mass: 10
   m_Drag: 1
   m_AngularDrag: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &2140083311
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42487,7 +42709,7 @@ GameObject:
   - component: {fileID: 2141058674}
   m_Layer: 10
   m_Name: rock_4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42583,7 +42805,7 @@ GameObject:
   - component: {fileID: 2141179889}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42679,7 +42901,7 @@ GameObject:
   - component: {fileID: 2142917832}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42775,7 +42997,7 @@ GameObject:
   - component: {fileID: 2144359694}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42871,7 +43093,7 @@ GameObject:
   - component: {fileID: 2146688469}
   m_Layer: 10
   m_Name: Rock_3 4(Clone)
-  m_TagString: Respawn
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

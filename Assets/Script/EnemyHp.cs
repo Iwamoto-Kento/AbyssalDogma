@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHP : MonoBehaviour, hidame, death
+public class EnemyHp : MonoBehaviour, hidame, death
 {
-    //MonoBehaviorã®ã‚ã¨ã«ã€Œã€ã€ã‚’ä»˜ã‘ã¦
-    //hidame(è‡ªåˆ†ã§ä½œã£ãŸã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã®åå‰ãƒ•ã‚¡ã‚¤ãƒ«å
-    //ã“ã‚Œã‚’ã‚„ã‚‹ã¨ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã®ä¸­ã®ã‚„ã¤ãŒä½¿ãˆã‚‹
-    public int hp = 10;                   //æ•µã®ä½“åŠ›
+    //MonoBehavior‚Ì‚ ‚Æ‚ÉuAv‚ğ•t‚¯‚Ä
+    //hidame(©•ª‚Åì‚Á‚½ƒCƒ“ƒ^[ƒtƒF[ƒX‚Ì–¼‘Oƒtƒ@ƒCƒ‹–¼
+    //‚±‚ê‚ğ‚â‚é‚ÆƒCƒ“ƒ^[ƒtƒF[ƒX‚Ì’†‚Ì‚â‚Â‚ªg‚¦‚é
+    public int hp = 10;                   //“G‚Ì‘Ì—Í
 
-    void hidame.hidame_01(int damage)    //hidameã¨ã„ã†ãƒ•ã‚¡ã‚¤ãƒ«ã®ä¸­ã®
-    {                                  //hidame_01ã¨ã„ã†æ©Ÿèƒ½ã‚’ä½¿ã†ãã£ã¦æ„å‘³ã§ã™
+    void hidame.hidame_01(int damage)    //hidame‚Æ‚¢‚¤ƒtƒ@ƒCƒ‹‚Ì’†‚Ì
+    {                                  //hidame_01‚Æ‚¢‚¤‹@”\‚ğg‚¤‚¼‚Á‚ÄˆÓ–¡‚Å‚·
         hp -= damage;
     }
 
