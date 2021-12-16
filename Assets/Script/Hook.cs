@@ -9,6 +9,7 @@ public class Hook : MonoBehaviour
     public bool m_HookShotFlg = false;
     public bool m_AttractFlg = false;
     public bool m_ComeEnemyFlg = false;
+    [SerializeField] GameObject m_Arm;
     private Player m_Player;
     private Enemy m_Enemy;
     [SerializeField] private GameObject m_Hook;
@@ -37,26 +38,29 @@ public class Hook : MonoBehaviour
         {
             if (Input.GetMouseButton(1))
             {
-                int layer = LayerMask.NameToLayer("Player");              
+                int layer = LayerMask.NameToLayer("Player");
                 int layer_mask = 1 << layer;
                 ray = m_Camera.ScreenPointToRay(Input.mousePosition);
                 if (Physics.Raycast(m_Camera.transform.position, ray.direction, out hit))
                 {
                     Debug.Log(hit.point);
                     float len;
-                    len = Vector3.Distance(hit.point, m_Player.transform.position);
+                    //len = Vector3.Distance(hit.point, m_Player.transform.position);
+                    len = Vector3.Distance(hit.point, m_Arm.transform.position);
 
                     Vector3 front = ray.direction.normalized * 5;
                     m_Hook.SetActive(true);
-                    m_Hook.transform.position = m_Player.transform.position + front;
+                    // m_Hook.transform.position = m_Player.transform.position + front;
+                    m_Hook.transform.position = m_Arm.transform.position + front;
                     m_HookFlg = true;
                     m_HookShotFlg = true;
-                    
+
                 }
             }
         }
 
-        m_Hook.transform.LookAt(m_Player.transform.position);
+        //m_Hook.transform.LookAt(m_Player.transform.position);
+        m_Hook.transform.LookAt(m_Arm.transform.position);
 
         //フックを飛ばす処理
         if (m_HookShotFlg == true)
@@ -67,13 +71,14 @@ public class Hook : MonoBehaviour
 
 
             //プレイヤーからフックの距離計算
-            float length = Vector3.Distance(m_Hook.transform.position, m_Player.transform.position);
+            //float length = Vector3.Distance(m_Hook.transform.position, m_Player.transform.position);
+            float length = Vector3.Distance(m_Hook.transform.position, m_Arm.transform.position);
 
 
-            
+
             if (length >= m_Distance)
             {
-                
+
                 m_HookShotFlg = false;
                 m_HookReturnFlg = true;
                 m_HookVec.Normalize();
@@ -98,9 +103,10 @@ public class Hook : MonoBehaviour
         //敵に当たったら敵が自分のところに来る
         if (m_ComeEnemyFlg == true)
         {
-            
 
-            m_HookFlg = EnemyHook.MoveEnemy(m_Player.transform.position);
+
+            // m_HookFlg = EnemyHook.MoveEnemy(m_Player.transform.position);
+            m_HookFlg = EnemyHook.MoveEnemy(m_Arm.transform.position);
 
             if (m_HookFlg == false)
             {
@@ -113,13 +119,15 @@ public class Hook : MonoBehaviour
         if (m_HookReturnFlg == true)
         {
             float step = speed * Time.deltaTime;
-            var pos = m_Player.transform.position - m_Hook.transform.position;
+            //var pos = m_Player.transform.position - m_Hook.transform.position;
+            var pos = m_Arm.transform.position - m_Hook.transform.position;
             pos.Normalize();
             m_TargetPos = m_Hook.transform.position + pos;
             m_Hook.transform.position = Vector3.MoveTowards(m_Hook.transform.position, m_TargetPos, step);
 
             //プレイヤーからフックの距離計算
-            float length = Vector3.Distance(m_Hook.transform.position, m_Player.transform.position);
+            //float length = Vector3.Distance(m_Hook.transform.position, m_Player.transform.position);
+            float length = Vector3.Distance(m_Hook.transform.position, m_Arm.transform.position);
 
 
 

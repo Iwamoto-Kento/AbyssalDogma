@@ -49,6 +49,6 @@ public class PlayerFollowCamera : MonoBehaviour
 
         //カメラの位置（transform.position）の更新
         //player位置から距離distanceだけ手前に引いた位置を設定します
-        transform.position = player.position + new Vector3(0,3,0) - transform.rotation * Vector3.forward * distance;
+        transform.position = player.position + new Vector3(0,4,0) - transform.rotation * Vector3.forward * distance;
     }
 }

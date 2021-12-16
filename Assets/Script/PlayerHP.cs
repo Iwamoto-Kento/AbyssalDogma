@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PlayerHP : MonoBehaviour
 {
-    [SerializeField] private int hp;
+    [SerializeField] private int hp = 10;
 
     // Start is called before the first frame update
     void Start()
     {
-        hp = 10;
+
     }
 
     // Update is called once per frame

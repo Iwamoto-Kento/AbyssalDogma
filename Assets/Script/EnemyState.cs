@@ -24,6 +24,8 @@ public class EnemyState : MonoBehaviour
     [SerializeField] private float m_targetDistance;
     private Vector3 m_targetVec;
 
+    //[SerializeField] GameObject EnemyObject;
+
     //ATTACKŠÖŒW
     private float m_attackTime;
 
@@ -66,6 +68,9 @@ public class EnemyState : MonoBehaviour
     {
         if (m_flg == false)
         {
+            //vecX = Random.Range(EnemyObject.transform.position.x + vecXRandomMIN, EnemyObject.transform.position.x + vecXRandomMAX);
+            //vecY = Random.Range(EnemyObject.transform.position.y + vecYRandomMIN, EnemyObject.transform.position.y + vecYRandomMAX);
+            //vecZ = Random.Range(EnemyObject.transform.position.z + vecZRandomMIN, EnemyObject.transform.position.z + vecZRandomMAX);
             vecX = Random.Range(vecXRandomMIN, vecXRandomMAX);
             vecY = Random.Range(vecYRandomMIN, vecYRandomMAX);
             vecZ = Random.Range(vecZRandomMIN, vecZRandomMAX);
