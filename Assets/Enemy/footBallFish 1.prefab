@@ -445,7 +445,7 @@ MonoBehaviour:
   vecZRandomMIN: -20
   vecZRandomMAX: 20
   m_targetDistance: 0
-  EnemyObject: {fileID: 0}
+  EnemyObject: {fileID: 5282157263623477351, guid: ed963fd26b3160d44a2d1b64e382deb0, type: 3}
   m_distance: 0
 --- !u!1 &2204268480767356979
 GameObject:

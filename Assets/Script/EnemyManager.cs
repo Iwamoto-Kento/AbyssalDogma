@@ -20,8 +20,7 @@ public class EnemyManager : MonoBehaviour
         time += Time.deltaTime;
         if (time > span && count < 4)
         {
-            GameObject enemy = (GameObject)Instantiate(EnemyPrefab, new Vector3(Random.Range(10, 30), 5, Random.Range(10, 30)), Quaternion.identity);
-
+            GameObject enemy = (GameObject)Instantiate(EnemyPrefab, new Vector3(Random.Range(gameObject.transform.position.x + 10, gameObject.transform.position.x + 30), 5, Random.Range(gameObject.transform.position.z + 10, gameObject.transform.position.z + 30)), Quaternion.identity);
             count++;
             time = 0;
         }

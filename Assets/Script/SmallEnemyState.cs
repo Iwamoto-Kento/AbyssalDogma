@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyState : MonoBehaviour
+public class SmallEnemyState : MonoBehaviour
 {
     //StateŠÖŒW
     [SerializeField] private int m_state;
     private int TRACK;
     private int CHASE;
+    private int READYATTACK;
     private int ATTACK;
-
+    
     //TRACKŠÖŒW
     [SerializeField] private bool m_flg;
     private float vecX;
@@ -24,20 +25,21 @@ public class EnemyState : MonoBehaviour
     [SerializeField] private float m_targetDistance;
     private Vector3 m_targetVec;
 
-    [SerializeField] GameObject EnemyObject;
-
     //ATTACKŠÖŒW
     private float m_attackTime;
 
     //DistanceŠÖ”ŠÖŒW
-    [SerializeField]private float m_distance;
+    [SerializeField] private float m_distance;
+
+    [SerializeField] GameObject EnemyObject;
 
     // Start is called before the first frame update
     void Start()
     {
         TRACK = 0;
         CHASE = 1;
-        ATTACK = 2;
+        READYATTACK = 2;
+        ATTACK = 3;
 
         m_state = TRACK;
 
@@ -57,6 +59,10 @@ public class EnemyState : MonoBehaviour
         {
             Chase();
         }
+        if (m_state == READYATTACK)
+        {
+            ReadyAttack();
+        }
         if (m_state == ATTACK)
         {
             Attack();
@@ -71,6 +77,7 @@ public class EnemyState : MonoBehaviour
             vecX = Random.Range(EnemyObject.transform.position.x + vecXRandomMIN, EnemyObject.transform.position.x + vecXRandomMAX);
             vecY = Random.Range(EnemyObject.transform.position.y + vecYRandomMIN, EnemyObject.transform.position.y + vecYRandomMAX);
             vecZ = Random.Range(EnemyObject.transform.position.z + vecZRandomMIN, EnemyObject.transform.position.z + vecZRandomMAX);
+
             //vecX = Random.Range(vecXRandomMIN, vecXRandomMAX);
             //vecY = Random.Range(vecYRandomMIN, vecYRandomMAX);
             //vecZ = Random.Range(vecZRandomMIN, vecZRandomMAX);
@@ -116,14 +123,9 @@ public class EnemyState : MonoBehaviour
 
         transform.position = Vector3.MoveTowards(transform.position, target, 0.01f);
 
-        m_attackTime += Time.deltaTime;
-
-        if (m_attackTime >= 1)
+        if (GetDistance() < 5.0f)
         {
-            if (GetDistance() < 1.0f)
-            {
-                m_state = ATTACK;
-            }
+            m_state = READYATTACK;
         }
 
         if (GetDistance() > 10.0f)
@@ -132,12 +134,37 @@ public class EnemyState : MonoBehaviour
         }
     }
 
+    void ReadyAttack()
+    {
+        Vector3 target = GameObject.Find("player").transform.position;
+        gameObject.transform.LookAt(target);
+
+        if (m_attackTime >= 3)
+        {
+            m_state = ATTACK;
+        }
+        m_attackTime += Time.deltaTime;
+
+        if (GetDistance() > 5.0f)
+        {
+            m_state = CHASE;
+        }
+    }
+
     void Attack()
     {
-        GameObject.Find("player").GetComponent<PlayerHP>().Damage();
-        m_attackTime = 0;
+        Vector3 target = GameObject.Find("player").transform.position;
+        gameObject.transform.LookAt(target);
 
-        m_state = CHASE;
+        transform.position = Vector3.MoveTowards(transform.position, target, 0.07f);
+
+        if (GetDistance() < 1.0f)
+        {
+            GameObject.Find("player").GetComponent<PlayerHP>().Damage();
+
+            m_attackTime = 0;
+            m_state = CHASE;
+        }
     }
 
     //ƒ^[ƒQƒbƒg‚©‚çƒvƒŒƒCƒ„[‚Ü‚Å‚Ì‹——£‚ğ‘ª‚éŠÖ”
@@ -147,7 +174,7 @@ public class EnemyState : MonoBehaviour
         Vector3 _distance2 = GameObject.Find("player").transform.position;
 
         m_distance = Vector3.Distance(_distance1, _distance2);
-        
+
         return m_distance;
     }
 }
