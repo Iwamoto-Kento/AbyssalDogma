@@ -11,17 +11,23 @@ public class Player : MonoBehaviour
     [SerializeField] private bool m_AttractFlg = false;
     private Vector3 m_TargetPos;
     private float dis = 999;
+
+    private Animator anime;
+    private float speed;
     // Start is called before the first frame update
     void Start()
     {
-
+        anime = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+       
+
         //WASD入力から、XZ平面（水平な地面）を移動する方向(velocity)を得ます
         velocity = Vector3.zero;
+        speed = 0.0f;
         if (Input.GetKey(KeyCode.W))
         {
             velocity.z += 1;
@@ -45,6 +51,8 @@ public class Player : MonoBehaviour
         //いずれかの方向に移動してる場合
         if (velocity.magnitude > 0)
         {
+            
+
             //プレイヤーの回転(transform.rotation)の更新
             //無回転状態のプレイヤーのz+方向(後頭部)を、移動の反対方向(-velocity)に回す回転に段々近づけます
             //カメラの水平回転(refCamera.hRotation)で回した移動の反対方向(-velocity)に回す回転に段々近づけます
@@ -58,7 +66,10 @@ public class Player : MonoBehaviour
             //プレイヤーの位置（transform.position）の更新
             //カメラの水平回転(refCamera.hRotation)で回した移動方向(velocity)を足しこみます
             transform.position += refCamera.hRotation * refCamera.vRotation * velocity;
+            speed = 1.0f;
         }
+
+        anime.SetFloat("Speed", speed);
     }
 
     public bool Attract(Vector3 _pos, Ray _ray)
