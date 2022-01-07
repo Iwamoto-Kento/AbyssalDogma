@@ -1,0 +1,223 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1415; Version 2009; 64bit' Language: 'ja' Physical Memory: 16188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Kento/unityGame/AbyssalDogma
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50106
+Successfully changed project path to: C:/Users/Kento/unityGame/AbyssalDogma
+C:/Users/Kento/unityGame/AbyssalDogma
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 138.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kento/unityGame/AbyssalDogma/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6275
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006295 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 73.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.694 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014232 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 90.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.292 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Switching render pipeline 00000000000000000000000000000000 -> 17f08f6f41dcfa945bd417bf7b4a4865
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2715 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.2 MB.
+System memory in use after: 145.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3178.
+Total: 8.956500 ms (FindLiveObjects: 0.721900 ms CreateObjectMapping: 0.427500 ms MarkObjects: 7.095900 ms  DeleteObjects: 0.708100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Import Request.
+  path: Assets/GameObject/terrain/NewLayer 1.terrainlayer
+  artifactKey: Guid(4105f041aedf10c46b400e90c94e1bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObject/terrain/NewLayer 1.terrainlayer using Guid(4105f041aedf10c46b400e90c94e1bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a4cca27c45461c7b572f710b6e172f') in 0.416086 seconds
+  Import took 0.432013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.766427 seconds.
+  path: Assets/GameObject/terrain/Terrain Material.mat
+  artifactKey: Guid(6afa7614e6f2a5b4884af575012a6ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObject/terrain/Terrain Material.mat using Guid(6afa7614e6f2a5b4884af575012a6ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d0221ff8e3a3f928e73cca1b26c843') in 0.373106 seconds
+  Import took 0.382967 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009412 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.053 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2601 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.2 MB.
+System memory in use after: 143.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3262.
+Total: 3.438600 ms (FindLiveObjects: 0.338500 ms CreateObjectMapping: 0.144400 ms MarkObjects: 2.764500 ms  DeleteObjects: 0.189800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Import Request.
+  Time since last request: 382.696034 seconds.
+  path: Assets/GameObject/terrain/Terrain Material.mat
+  artifactKey: Guid(6afa7614e6f2a5b4884af575012a6ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObject/terrain/Terrain Material.mat using Guid(6afa7614e6f2a5b4884af575012a6ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c727de665659bee59997da9643c82ca8') in 0.297569 seconds
+  Import took 0.313331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/GameObject/terrain/Terrain.asset
+  artifactKey: Guid(a96fcfe5b7c41ed41927c8a743abfa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObject/terrain/Terrain.asset using Guid(a96fcfe5b7c41ed41927c8a743abfa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree coral_1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'c18ad70c1df7d2d2ab988f71d114145a') in 0.057005 seconds
+  Import took 0.064433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.901058 seconds.
+  path: Assets/Player/Diver.mat
+  artifactKey: Guid(20461941f9e8eb94983ba055866e4e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Diver.mat using Guid(20461941f9e8eb94983ba055866e4e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2988f4b34dd9499758fa5ec1f6e1432a') in 0.018847 seconds
+  Import took 0.024871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Player/Soner.prefab
+  artifactKey: Guid(dc55a2b8151947a41bba7b5fabf436fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Soner.prefab using Guid(dc55a2b8151947a41bba7b5fabf436fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ab5c25c9cf0d7147eefcd28c1be84a') in 0.028617 seconds
+  Import took 0.034964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Player/GUIReticle.prefab
+  artifactKey: Guid(3c1a3656db44ffe40a09e1afa405a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/GUIReticle.prefab using Guid(3c1a3656db44ffe40a09e1afa405a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776a292614b5eb9d8a5e9bf3ad5b0675') in 0.006632 seconds
+  Import took 0.012612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Player/New Material.mat
+  artifactKey: Guid(5025a4e9ae76e654bb07195eb04d63d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/New Material.mat using Guid(5025a4e9ae76e654bb07195eb04d63d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bdcd584d06fc15c01e5f1572e2f6f3') in 0.011828 seconds
+  Import took 0.017922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Player/player 1.prefab
+  artifactKey: Guid(c2a48479ddb68af4c972cbba8d296769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/player 1.prefab using Guid(c2a48479ddb68af4c972cbba8d296769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87130e6d18eadaf7d07859c12056ff97') in 0.058427 seconds
+  Import took 0.065889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Player/Diver013.fbx
+  artifactKey: Guid(c7cc75e4a7c035f41b3686dd2ff9aa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Diver013.fbx using Guid(c7cc75e4a7c035f41b3686dd2ff9aa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6b3b9e8ac75a268bf43ec363a42147') in 0.175391 seconds
+  Import took 0.181744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Player/Diver014.fbx
+  artifactKey: Guid(ad45fbc9c5d93ca47ab9ae70150ff3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Diver014.fbx using Guid(ad45fbc9c5d93ca47ab9ae70150ff3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cce13b3dbc70773a9e8ac111d9296d') in 0.096038 seconds
+  Import took 0.102559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Player/GUIReticle.png
+  artifactKey: Guid(44bff0ef25c5cff40a3f91b5afef7fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/GUIReticle.png using Guid(44bff0ef25c5cff40a3f91b5afef7fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e72edaaa3077c1b95e495291ac7177') in 0.051450 seconds
+  Import took 0.057452 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007455 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.212 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2607 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.1 MB.
+System memory in use after: 159.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3314.
+Total: 5.221400 ms (FindLiveObjects: 0.510900 ms CreateObjectMapping: 0.259900 ms MarkObjects: 4.115300 ms  DeleteObjects: 0.333300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
