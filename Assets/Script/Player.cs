@@ -76,11 +76,13 @@ public class Player : MonoBehaviour
     {
         float step = moveSpeed * 10 * Time.deltaTime;
         m_TargetPos = transform.position + _ray.direction;
-        Debug.Log(m_TargetPos);
         transform.position = Vector3.MoveTowards(transform.position, m_TargetPos, step);
         
 
         float len = Vector3.Distance(transform.position, _pos);
+        Debug.Log(len);
+        Debug.Log(transform.position);
+        Debug.Log(_pos);
 
         if (len <= 2)
         {
