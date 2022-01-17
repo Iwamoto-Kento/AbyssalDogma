@@ -433,6 +433,7 @@ MonoBehaviour:
   m_targetDistance: 0
   m_distance: 0
   EnemyObject: {fileID: 1184605672445086608, guid: 98ea0ca26e82bdc4c942cbd914976cce, type: 3}
+  sound: {fileID: 8300000, guid: 2e4e6f5f0597b394aa4184a4673868ca, type: 3}
 --- !u!114 &594285153260420465
 MonoBehaviour:
   m_ObjectHideFlags: 0

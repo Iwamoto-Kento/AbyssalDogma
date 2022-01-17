@@ -10,11 +10,13 @@ public class Player : MonoBehaviour
     [SerializeField] private PlayerFollowCamera refCamera; //カメラの水平回転を参照する用
     [SerializeField] private bool m_AttractFlg = false;
     [SerializeField] private ParticleSystem particle;   //泡のパーティクル
+    [SerializeField] private ParticleSystem hookParticle;   //泡のパーティクル
     private Vector3 m_TargetPos;
     private float dis = 999;
-    private bool particleFlg = false;
 
     private Hook hook;
+    [SerializeField] private bool particleFlg = false;
+    [SerializeField] private bool hookParticleFlg = false;
     private Animator anime;
     private float speed;
     // Start is called before the first frame update
@@ -56,13 +58,25 @@ public class Player : MonoBehaviour
         //いずれかの方向に移動してる場合
         if (velocity.magnitude > 0 || hook.m_AttractFlg == true)
         {
-            if (particleFlg == false || m_AttractFlg == false)
+            if (particleFlg == false)
             {
                 particle.Play();
                 particleFlg = true;
-
             }
 
+
+            if (hookParticleFlg == false)
+            {
+                hookParticle.Play();
+                hookParticleFlg = true;
+            }
+
+
+            //if (hook.m_AttractFlg == false)
+            //{
+            //    particle.Play();
+            //    particleFlg = true;
+            //}
             //プレイヤーの回転(transform.rotation)の更新
             //無回転状態のプレイヤーのz+方向(後頭部)を、移動の反対方向(-velocity)に回す回転に段々近づけます
             //カメラの水平回転(refCamera.hRotation)で回した移動の反対方向(-velocity)に回す回転に段々近づけます
@@ -85,6 +99,11 @@ public class Player : MonoBehaviour
             {
                 particle.Stop();
                 particleFlg = false;
+            }
+            if (hookParticleFlg == true)
+            {
+                hookParticle.Stop();
+                hookParticleFlg = false;
             }
             //particle.Pause();
             //} 
