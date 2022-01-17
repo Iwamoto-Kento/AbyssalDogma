@@ -25,6 +25,10 @@ public class Hook : MonoBehaviour
     private RaycastHit hit;
     [SerializeField] private float speed = 5.0f;
     public Move EnemyHook;
+    
+    //サウンド関係
+    [SerializeField] public AudioClip sound;
+    AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +38,8 @@ public class Hook : MonoBehaviour
         
         this.m_Player = FindObjectOfType<Player>();
         this.m_Enemy = FindObjectOfType<Enemy>();
+        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -67,7 +73,9 @@ public class Hook : MonoBehaviour
                     m_Hook.transform.position = m_Arm.transform.position + front;
                     m_HookFlg = true;
                     m_HookShotFlg = true;
-
+                    
+                    //サウンド
+                    audioSource.PlayOneShot(sound);
                 }
             }
 
