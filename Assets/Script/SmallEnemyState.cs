@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class SmallEnemyState : MonoBehaviour
 {
-    //StateŠÖŒW
+    //Stateé–¢ä¿‚
     [SerializeField] private int m_state;
     private int TRACK;
     private int CHASE;
     private int READYATTACK;
     private int ATTACK;
     
-    //TRACKŠÖŒW
+    //TRACKé–¢ä¿‚
     [SerializeField] private bool m_flg;
     private float vecX;
     [SerializeField] private float vecXRandomMIN = -20.0f;
@@ -25,14 +25,17 @@ public class SmallEnemyState : MonoBehaviour
     [SerializeField] private float m_targetDistance;
     private Vector3 m_targetVec;
 
-    //ATTACKŠÖŒW
+    //ATTACKé–¢ä¿‚
     private float m_attackTime;
 
-    //DistanceŠÖ”ŠÖŒW
+    //Distanceé–¢æ•°é–¢ä¿‚
     [SerializeField] private float m_distance;
 
     [SerializeField] GameObject EnemyObject;
 
+    //ã‚µã‚¦ãƒ³ãƒ‰é–¢ä¿‚
+    [SerializeField] public AudioClip sound;
+    AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +49,8 @@ public class SmallEnemyState : MonoBehaviour
         m_flg = false;
 
         m_attackTime = 0;
+        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -89,13 +94,13 @@ public class SmallEnemyState : MonoBehaviour
             m_flg = true;
         }
 
-        // •âŠ®ƒXƒs[ƒh‚ğŒˆ‚ß‚é
+        // è£œå®Œã‚¹ãƒ”ãƒ¼ãƒ‰ã‚’æ±ºã‚ã‚‹
         float speed = 0.01f;
-        // ƒ^[ƒQƒbƒg•ûŒü‚ÌƒxƒNƒgƒ‹‚ğæ“¾
+        // ã‚¿ãƒ¼ã‚²ãƒƒãƒˆæ–¹å‘ã®ãƒ™ã‚¯ãƒˆãƒ«ã‚’å–å¾—
         Vector3 relativePos = m_targetVec - transform.position;
-        // •ûŒü‚ğA‰ñ“]î•ñ‚É•ÏŠ·
+        // æ–¹å‘ã‚’ã€å›è»¢æƒ…å ±ã«å¤‰æ›
         Quaternion rotation = Quaternion.LookRotation(relativePos);
-        // Œ»İ‚Ì‰ñ“]î•ñ‚ÆAƒ^[ƒQƒbƒg•ûŒü‚Ì‰ñ“]î•ñ‚ğ•âŠ®‚·‚é
+        // ç¾åœ¨ã®å›è»¢æƒ…å ±ã¨ã€ã‚¿ãƒ¼ã‚²ãƒƒãƒˆæ–¹å‘ã®å›è»¢æƒ…å ±ã‚’è£œå®Œã™ã‚‹
         transform.rotation = Quaternion.Slerp(this.transform.rotation, rotation, speed);
 
         m_targetDistance = Vector3.Distance(transform.position, m_targetVec);
@@ -164,10 +169,13 @@ public class SmallEnemyState : MonoBehaviour
 
             m_attackTime = 0;
             m_state = CHASE;
+            
+            //ã‚µã‚¦ãƒ³ãƒ‰
+            audioSource.PlayOneShot(sound);
         }
     }
 
-    //ƒ^[ƒQƒbƒg‚©‚çƒvƒŒƒCƒ„[‚Ü‚Å‚Ì‹——£‚ğ‘ª‚éŠÖ”
+    //ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã‹ã‚‰ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã¾ã§ã®è·é›¢ã‚’æ¸¬ã‚‹é–¢æ•°
     float GetDistance()
     {
         Vector3 _distance1 = gameObject.transform.position;
