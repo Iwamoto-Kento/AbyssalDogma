@@ -9,15 +9,20 @@ public class Player : MonoBehaviour
     [SerializeField] private float applyspeed = 0.2f;   //回転の適用速度
     [SerializeField] private PlayerFollowCamera refCamera; //カメラの水平回転を参照する用
     [SerializeField] private bool m_AttractFlg = false;
+    [SerializeField] private ParticleSystem particle;   //泡のパーティクル
     private Vector3 m_TargetPos;
     private float dis = 999;
+    private bool particleFlg = false;
 
+    private Hook hook;
     private Animator anime;
     private float speed;
     // Start is called before the first frame update
     void Start()
     {
         anime = GetComponent<Animator>();
+        particle.Stop();
+        this.hook = FindObjectOfType<Hook>();
     }
 
     // Update is called once per frame
@@ -49,9 +54,14 @@ public class Player : MonoBehaviour
         velocity = velocity.normalized * moveSpeed * Time.deltaTime;
 
         //いずれかの方向に移動してる場合
-        if (velocity.magnitude > 0)
+        if (velocity.magnitude > 0 || hook.m_AttractFlg == true)
         {
-            
+            if (particleFlg == false || m_AttractFlg == false)
+            {
+                particle.Play();
+                particleFlg = true;
+
+            }
 
             //プレイヤーの回転(transform.rotation)の更新
             //無回転状態のプレイヤーのz+方向(後頭部)を、移動の反対方向(-velocity)に回す回転に段々近づけます
@@ -68,6 +78,17 @@ public class Player : MonoBehaviour
             transform.position += refCamera.hRotation * refCamera.vRotation * velocity;
             speed = 1.0f;
         }
+        else{
+            //if (particle.isStopped) //パーティクルが終了したか判別
+            //{
+            if (particleFlg == true)
+            {
+                particle.Stop();
+                particleFlg = false;
+            }
+            //particle.Pause();
+            //} 
+        }
 
         anime.SetFloat("Speed", speed);
     }
@@ -83,6 +104,7 @@ public class Player : MonoBehaviour
         Debug.Log(len);
         Debug.Log(transform.position);
         Debug.Log(_pos);
+        Debug.Log(m_AttractFlg);
 
         if (len <= 2)
         {
