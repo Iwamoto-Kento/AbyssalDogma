@@ -31,6 +31,11 @@ public class Hook : MonoBehaviour
 
     [SerializeField] private GameObject AttackEffect;
     // Start is called before the first frame update
+
+    //サウンド関係
+    [SerializeField] public AudioClip sound;
+    AudioSource audioSource;
+
     void Start()
     {
         m_Hook.SetActive(false);
@@ -43,6 +48,8 @@ public class Hook : MonoBehaviour
         this.m_Enemy = FindObjectOfType<Enemy>();
 
         anime = GetComponent<Animator>();
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -71,6 +78,10 @@ public class Hook : MonoBehaviour
                     m_HookFlg = true;
                     m_HookShotFlg = true;
 
+                    m_Player.transform.LookAt(m_Camera.transform.position);
+
+                    //サウンド
+                    audioSource.PlayOneShot(sound);
                 }
             }
 
@@ -78,6 +89,8 @@ public class Hook : MonoBehaviour
             {
                 anime.SetTrigger("ATK");
                 m_HookFlg = true;
+                m_Player.transform.LookAt(m_Camera.transform.position);
+
             }
 
         }
