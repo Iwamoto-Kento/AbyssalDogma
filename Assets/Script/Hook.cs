@@ -20,26 +20,29 @@ public class Hook : MonoBehaviour
     [SerializeField] private Camera m_Camera;
     [SerializeField] private int m_Distance = 20;
     [SerializeField] private Vector3 m_HookVec;
+    [SerializeField] private GameObject AttackCollision;
     private Vector3 m_TargetPos;
     private Ray ray;
     private RaycastHit hit;
     [SerializeField] private float speed = 5.0f;
     public Move EnemyHook;
-    
-    //サウンド関係
-    [SerializeField] public AudioClip sound;
-    AudioSource audioSource;
+
+    private Animator anime;
+
+    [SerializeField] private GameObject AttackEffect;
     // Start is called before the first frame update
     void Start()
     {
         m_Hook.SetActive(false);
         m_Rope.SetActive(false);
+        AttackCollision.SetActive(false);
+        AttackEffect.SetActive(false);
         m_ModelHook.SetActive(true);
         
         this.m_Player = FindObjectOfType<Player>();
         this.m_Enemy = FindObjectOfType<Enemy>();
-        
-        audioSource = GetComponent<AudioSource>();
+
+        anime = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -51,21 +54,15 @@ public class Hook : MonoBehaviour
         {
             if (Input.GetMouseButton(1))
             {
-                int layer = LayerMask.NameToLayer("Player");
-                int layer_mask = 1 << layer;
                 ray = m_Camera.ScreenPointToRay(Input.mousePosition);
                 if (Physics.Raycast(m_Camera.transform.position, ray.direction, out hit))
                 {
                     Debug.Log(hit.point);
-                    float len;
-                    //len = Vector3.Distance(hit.point, m_Player.transform.position);
-                    len = Vector3.Distance(hit.point, m_Arm.transform.position);
 
                     Vector3 front = ray.direction.normalized * 5;
                     m_Hook.SetActive(true);
                     m_Rope.SetActive(true);
                     m_ModelHook.SetActive(false);
-                    // m_Hook.transform.position = m_Player.transform.position + front;
                     m_Rope.transform.position = m_Arm.transform.position;
                     m_RopeBorn[0].transform.position = m_Arm.transform.position;
                     m_RopeBorn[1].transform.position = m_HookBorn.transform.position;
@@ -73,19 +70,23 @@ public class Hook : MonoBehaviour
                     m_Hook.transform.position = m_Arm.transform.position + front;
                     m_HookFlg = true;
                     m_HookShotFlg = true;
-                    
-                    //サウンド
-                    audioSource.PlayOneShot(sound);
+
                 }
+            }
+
+            if (Input.GetMouseButton(0))
+            {
+                anime.SetTrigger("ATK");
+                m_HookFlg = true;
             }
 
         }
         else
         {
             m_Hook.transform.LookAt(m_Arm.transform.position);
-           // m_Rope.transform.LookAt(m_Arm.transform.position);
+           
         }
-        
+
 
         //フックを飛ばす処理
         if (m_HookShotFlg == true)
@@ -93,28 +94,19 @@ public class Hook : MonoBehaviour
             float step = speed * Time.deltaTime;
             m_TargetPos = m_Hook.transform.position + ray.direction;
             m_Hook.transform.position = Vector3.MoveTowards(m_Hook.transform.position, m_TargetPos, step);
-            //m_TargetPos = m_Rope.transform.position + ray.direction;
-            //m_Rope.transform.position = Vector3.MoveTowards(m_Rope.transform.position, m_TargetPos, step);
-
-            
 
             //プレイヤーからフックの距離計算
-            //float length = Vector3.Distance(m_Hook.transform.position, m_Player.transform.position);
             float length = Vector3.Distance(m_Hook.transform.position, m_Arm.transform.position);
             m_RopeBorn[0].transform.position = m_Arm.transform.position;
             m_RopeBorn[1].transform.position = m_HookBorn.transform.position;
 
-
             if (length >= m_Distance)
             {
-
                 m_HookShotFlg = false;
                 m_HookReturnFlg = true;
                 m_HookVec.Normalize();
                 m_Distance = 2;
             }
-
-
         }
 
         //当たった先にプレイヤーが近づく
@@ -181,6 +173,21 @@ public class Hook : MonoBehaviour
                 m_Distance = 50;
             }
         }
+    }
+
+    void AttackStart()
+    {
+        AttackCollision.SetActive(true);
+        AttackEffect.SetActive(true);
+    }
+
+    void AttackEnd()
+    {
+        AttackCollision.SetActive(false);
+        AttackEffect.SetActive(false);
+        m_HookFlg = false;
+        anime.SetBool("Attack", m_HookFlg);
+
     }
 
 }
