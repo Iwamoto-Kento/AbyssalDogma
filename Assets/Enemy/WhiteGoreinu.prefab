@@ -583,6 +583,18 @@ Transform:
   m_Father: {fileID: 1792505725913934329}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4569775878176360444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7755773531740204883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97e2a77e15afa649aa29253694a67a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1763865233616277389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -687,6 +699,10 @@ PrefabInstance:
       value: Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 9125926911663504196, guid: e7730ece049e06d40ba4f0cd9ef46f5c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125926911663504196, guid: e7730ece049e06d40ba4f0cd9ef46f5c, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0
       objectReference: {fileID: 0}
@@ -700,6 +716,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7730ece049e06d40ba4f0cd9ef46f5c, type: 3}
+--- !u!1 &7755773531740204883 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8347572519952998622, guid: e7730ece049e06d40ba4f0cd9ef46f5c, type: 3}
+  m_PrefabInstance: {fileID: 1763865233616277389}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &236796167657129245 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1960128831712692880, guid: e7730ece049e06d40ba4f0cd9ef46f5c, type: 3}

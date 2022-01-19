@@ -42733,5 +42733,13 @@ PrefabInstance:
       propertyPath: m_HookBorn
       value: 
       objectReference: {fileID: 731217009}
+    - target: {fileID: 8000497911615014071, guid: 38f4c2c1012adcd4dac3268427f8b7e4, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656557671382396590, guid: 38f4c2c1012adcd4dac3268427f8b7e4, type: 3}
+      propertyPath: prewarm
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38f4c2c1012adcd4dac3268427f8b7e4, type: 3}
