@@ -9,14 +9,12 @@ public class Player : MonoBehaviour
     [SerializeField] private float applyspeed = 0.2f;   //回転の適用速度
     [SerializeField] private PlayerFollowCamera refCamera; //カメラの水平回転を参照する用
     [SerializeField] private bool m_AttractFlg = false;
-    //[SerializeField] private ParticleSystem particle;   //泡のパーティクル
-    //[SerializeField] private ParticleSystem hookParticle;   //泡のパーティクル
+    [SerializeField] private ParticleSystem particle;   //泡のパーティクル
     private Vector3 m_TargetPos;
     private float dis = 999;
 
     private Hook hook;
     [SerializeField] private bool particleFlg = false;
-    [SerializeField] private bool hookParticleFlg = false;
 
     private Animator anime;
     private float speed;
@@ -27,7 +25,7 @@ public class Player : MonoBehaviour
     {
         anime = GetComponent<Animator>();
         this.m_Hook = FindObjectOfType<Hook>();
-
+        particle.Stop(); //パーティクル停止
     }
 
     // Update is called once per frame
@@ -62,18 +60,11 @@ public class Player : MonoBehaviour
             //いずれかの方向に移動してる場合
             if (velocity.magnitude > 0)
             {
-                //if (particleFlg == false)
-                //{
-                //    particle.Play();
-                //    particleFlg = true;
-                //}
-
-
-                //if (hookParticleFlg == false)
-                //{
-                //    hookParticle.Play();
-                //    hookParticleFlg = true;
-                //}
+                if (particleFlg == false)
+                {
+                    particle.Play();
+                    particleFlg = true;
+                }
 
                 //プレイヤーの回転(transform.rotation)の更新
                 //無回転状態のプレイヤーのz+方向(後頭部)を、移動の反対方向(-velocity)に回す回転に段々近づけます
@@ -92,21 +83,31 @@ public class Player : MonoBehaviour
             }
             else
             {
-                //if (particleFlg == true)
-                //{
-                //    particle.Stop();
-                //    particleFlg = false;
-                //}
-                //if (hookParticleFlg == true)
-                //{
-                //    hookParticle.Stop();
-                //    hookParticleFlg = false;
-                //}
-
+                if (m_AttractFlg == false)
+                {
+                    if (particleFlg == true)
+                    {
+                        particle.Stop();
+                        particleFlg = false;
+                    }
+                }
             }
 
         }
-            anime.SetFloat("Speed", speed);
+        else
+        {
+            if(m_AttractFlg == true)
+            {
+                if (particleFlg == false)
+                {
+                    particle.Play();
+                    particleFlg = true;
+                }
+
+            }
+        }
+
+        anime.SetFloat("Speed", speed);
         
     }
 
@@ -138,5 +139,19 @@ public class Player : MonoBehaviour
         dis = len;
 
         return m_AttractFlg;
+    }
+
+    public void Particle()
+    {
+        if(particleFlg == true)
+        {
+            particle.Play();
+
+        }
+        else
+        {
+            particle.Stop();
+        }
+
     }
 }
