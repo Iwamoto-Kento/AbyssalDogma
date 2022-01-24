@@ -74,7 +74,7 @@ public class Player : MonoBehaviour
                 //プレイヤーの回転(transform.rotation)の更新
                 //無回転状態のプレイヤーのz+方向(後頭部)を、移動の反対方向(-velocity)に回す回転に段々近づけます
                 //カメラの水平回転(refCamera.hRotation)で回した移動の反対方向(-velocity)に回す回転に段々近づけます
-                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(refCamera.hRotation * refCamera.vRotation * -velocity), applyspeed);
+                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(refCamera.hRotation * -velocity), applyspeed);
 
 
                 //プレイヤーの回転(transform.rotation)の更新
@@ -83,7 +83,7 @@ public class Player : MonoBehaviour
 
                 //プレイヤーの位置（transform.position）の更新
                 //カメラの水平回転(refCamera.hRotation)で回した移動方向(velocity)を足しこみます
-                transform.position += refCamera.hRotation * refCamera.vRotation * velocity;
+                transform.position += refCamera.hRotation * velocity;
                 speed = 1.0f;
             }
             else

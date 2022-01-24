@@ -43441,8 +43441,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6663294550465159880, guid: 38f4c2c1012adcd4dac3268427f8b7e4, type: 3}
-      propertyPath: m_UseGravity
+      propertyPath: m_Drag
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663294550465159880, guid: 38f4c2c1012adcd4dac3268427f8b7e4, type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663294550465159880, guid: 38f4c2c1012adcd4dac3268427f8b7e4, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663294550465159880, guid: 38f4c2c1012adcd4dac3268427f8b7e4, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663294550465159884, guid: 38f4c2c1012adcd4dac3268427f8b7e4, type: 3}
+      propertyPath: Multiplier
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6663294550465159885, guid: 38f4c2c1012adcd4dac3268427f8b7e4, type: 3}
       propertyPath: effect

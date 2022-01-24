@@ -108,7 +108,7 @@ public class EnemyState : MonoBehaviour
             m_flg = false;
         }
 
-        if (GetDistance() < 10.0f)
+        if (GetDistance() < 15.0f)
         {
             m_state = CHASE;
         }
@@ -125,13 +125,13 @@ public class EnemyState : MonoBehaviour
 
         if (m_attackTime >= 1)
         {
-            if (GetDistance() < 1.0f)
+            if (GetDistance() < 8.0f)
             {
                 m_state = ATTACK;
             }
         }
 
-        if (GetDistance() > 10.0f)
+        if (GetDistance() > 15.0f)
         {
             m_state = TRACK;
         }

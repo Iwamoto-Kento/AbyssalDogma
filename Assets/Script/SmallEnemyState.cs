@@ -163,7 +163,7 @@ public class SmallEnemyState : MonoBehaviour
 
         transform.position = Vector3.MoveTowards(transform.position, target, 0.07f);
 
-        if (GetDistance() < 1.0f)
+        if (GetDistance() < 2.0f)
         {
             GameObject.Find("player").GetComponent<PlayerHP>().Damage();
 

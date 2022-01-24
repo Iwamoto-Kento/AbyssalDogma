@@ -33,6 +33,10 @@ public class Hook : MonoBehaviour
     [SerializeField] private GameObject m_AttackEffect;
     [SerializeField] private Vector3[] m_AttackEffectPos;
     [SerializeField] private EffekseerEffectAsset effect;
+    //サウンド関係
+    [SerializeField] public AudioClip sound;
+    AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +50,7 @@ public class Hook : MonoBehaviour
 
         anime = GetComponent<Animator>();
 
+        audioSource = GetComponent<AudioSource>();
 
     }
 
@@ -62,6 +67,8 @@ public class Hook : MonoBehaviour
                 if (Physics.Raycast(m_Camera.transform.position, ray.direction, out hit))
                 {
                     Debug.Log(hit.point);
+                    //サウンド
+                    audioSource.PlayOneShot(sound);
 
                     Vector3 front = ray.direction.normalized * 5;
                     m_Hook.SetActive(true);
