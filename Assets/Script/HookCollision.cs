@@ -24,28 +24,30 @@ public class HookCollision : MonoBehaviour
             m_Hook.m_HookShotFlg = false;
         }
 
-        if (collision.gameObject.tag == "Enemy")
+        if(m_Hook.m_HookShotFlg != false)
         {
-            m_Hook.EnemyHook = collision.gameObject.GetComponent<Move>();
-            var enemyHP = collision.gameObject.GetComponent<EnemyHp>();
-            var enemyHidame = collision.gameObject.GetComponent<hidame>();
-            var enemyDeath = collision.gameObject.GetComponent<death>();
-
-            //敵を攻撃する
-            if (enemyHidame != null)
+            if (collision.gameObject.tag == "Enemy")
             {
-                enemyHidame.hidame_01(1);
-            }
+                m_Hook.EnemyHook = collision.gameObject.GetComponent<Move>();
+                var enemyHP = collision.gameObject.GetComponent<EnemyHp>();
+                var enemyHidame = collision.gameObject.GetComponent<hidame>();
+                var enemyDeath = collision.gameObject.GetComponent<death>();
 
-            //敵が死ぬ
-            if (enemyHP.hp <= 0)
-            {
-                enemyDeath.death_01();
+                //敵を攻撃する
+                if (enemyHidame != null)
+                {
+                    enemyHidame.hidame_01(1);
+                }
+
+                //敵が死ぬ
+                if (enemyHP.hp <= 0)
+                {
+                    enemyDeath.death_01();
+                }
+                m_Hook.m_ComeEnemyFlg = true;
+                m_Hook.m_HookShotFlg = false;
+                m_Hook.m_HookReturnFlg = true;
             }
-            m_Hook.m_ComeEnemyFlg = true;
-            m_Hook.m_HookShotFlg = false;
-            m_Hook.m_HookReturnFlg = true;
         }
-
     }
 }
