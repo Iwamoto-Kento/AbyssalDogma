@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Effekseer;
 
 public class Hook : MonoBehaviour
 {
@@ -29,19 +30,15 @@ public class Hook : MonoBehaviour
 
     private Animator anime;
 
-    [SerializeField] private GameObject AttackEffect;
+    [SerializeField] private GameObject m_AttackEffect;
+    [SerializeField] private Vector3[] m_AttackEffectPos;
+    [SerializeField] private EffekseerEffectAsset effect;
     // Start is called before the first frame update
-
-    //サウンド関係
-    [SerializeField] public AudioClip sound;
-    AudioSource audioSource;
-
     void Start()
     {
         m_Hook.SetActive(false);
         m_Rope.SetActive(false);
         AttackCollision.SetActive(false);
-        //AttackEffect.SetActive(false);
         m_ModelHook.SetActive(true);
         
         this.m_Player = FindObjectOfType<Player>();
@@ -49,7 +46,7 @@ public class Hook : MonoBehaviour
 
         anime = GetComponent<Animator>();
 
-        audioSource = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -80,8 +77,6 @@ public class Hook : MonoBehaviour
 
                     m_Player.transform.LookAt(m_Camera.transform.position);
 
-                    //サウンド
-                    audioSource.PlayOneShot(sound);
                 }
             }
 
@@ -89,8 +84,6 @@ public class Hook : MonoBehaviour
             {
                 anime.SetTrigger("ATK");
                 m_HookFlg = true;
-                m_Player.transform.LookAt(m_Camera.transform.position);
-
             }
 
         }
@@ -191,13 +184,18 @@ public class Hook : MonoBehaviour
     void AttackStart()
     {
         AttackCollision.SetActive(true);
-        //AttackEffect.SetActive(true);
+        // transformの位置でエフェクトを再生する
+        for (int i = 0; i < 3; i++)
+        {
+            EffekseerHandle handle = EffekseerSystem.PlayEffect(effect, m_AttackEffect.transform.position + m_AttackEffectPos[i]);
+            // transformの回転を設定する。
+            handle.SetRotation(m_AttackEffect.transform.rotation);
+        }
     }
 
     void AttackEnd()
     {
         AttackCollision.SetActive(false);
-        //AttackEffect.SetActive(false);
         m_HookFlg = false;
         anime.SetBool("Attack", m_HookFlg);
 
