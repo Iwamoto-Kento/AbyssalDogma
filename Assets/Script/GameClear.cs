@@ -27,7 +27,8 @@ public class GameClear : MonoBehaviour
 
             if (Input.GetMouseButtonDown(0))
             {
-                SceneManager.LoadScene("TiteleScene");
+                SceneManager.LoadScene("TitleScene");
+                Cursor.visible = true;
             }
         }
     }

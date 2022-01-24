@@ -41,7 +41,7 @@ public class Hook : MonoBehaviour
         m_Hook.SetActive(false);
         m_Rope.SetActive(false);
         AttackCollision.SetActive(false);
-        AttackEffect.SetActive(false);
+        //AttackEffect.SetActive(false);
         m_ModelHook.SetActive(true);
         
         this.m_Player = FindObjectOfType<Player>();
@@ -191,13 +191,13 @@ public class Hook : MonoBehaviour
     void AttackStart()
     {
         AttackCollision.SetActive(true);
-        AttackEffect.SetActive(true);
+        //AttackEffect.SetActive(true);
     }
 
     void AttackEnd()
     {
         AttackCollision.SetActive(false);
-        AttackEffect.SetActive(false);
+        //AttackEffect.SetActive(false);
         m_HookFlg = false;
         anime.SetBool("Attack", m_HookFlg);
 

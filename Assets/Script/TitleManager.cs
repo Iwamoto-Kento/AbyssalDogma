@@ -23,6 +23,7 @@ public class TitleManager : MonoBehaviour
     void ChangeScene()
     {
         SceneManager.LoadScene("GameScene");
+        Cursor.visible = false;
     }
 
 }

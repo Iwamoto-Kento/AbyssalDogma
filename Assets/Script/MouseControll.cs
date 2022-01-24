@@ -27,6 +27,5 @@ public class MouseControll : MonoBehaviour
             lastMousePosition = Input.mousePosition;
         }
 
-        Cursor.visible = false;
     }
 }
