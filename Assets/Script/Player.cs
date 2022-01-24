@@ -18,6 +18,10 @@ public class Player : MonoBehaviour
 
     private Animator anime;
     private float speed;
+    
+        public float Multiplier = 1f;
+
+    private Rigidbody Rigidbody;
 
     Hook m_Hook;
     // Start is called before the first frame update
@@ -26,6 +30,7 @@ public class Player : MonoBehaviour
         anime = GetComponent<Animator>();
         this.m_Hook = FindObjectOfType<Hook>();
         particle.Stop(); //パーティクル停止
+                Rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -109,6 +114,11 @@ public class Player : MonoBehaviour
 
         anime.SetFloat("Speed", speed);
         
+    }
+    
+        private void FixedUpdate()
+    {
+        Rigidbody.AddForce((Multiplier - 1f) * Physics.gravity, ForceMode.Acceleration);
     }
 
     public bool Attract(Vector3 _pos, Ray _ray)
