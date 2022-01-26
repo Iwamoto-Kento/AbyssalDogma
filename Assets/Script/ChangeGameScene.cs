@@ -22,6 +22,7 @@ public class ChangeGameScene : MonoBehaviour
 
     void ChangeScene()
     {
+        Cursor.visible = false;
         SceneManager.LoadScene("GameScene");
     }
 }
