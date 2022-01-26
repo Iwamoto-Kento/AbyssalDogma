@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 1147250806638465569}
   - component: {fileID: 387873276339651180}
   - component: {fileID: 5465464277909777108}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,7 +337,7 @@ GameObject:
   - component: {fileID: 5408230321133683935}
   - component: {fileID: 5533539607695988714}
   - component: {fileID: 8939420106136746038}
-  - component: {fileID: 1099234618614819181}
+  - component: {fileID: 8699582976183437801}
   m_Layer: 0
   m_Name: footBallFish 1
   m_TagString: Enemy
@@ -548,7 +548,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!54 &1099234618614819181
+--- !u!54 &8699582976183437801
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -892,7 +892,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4719997799000257328}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0000039736, z: 1.5e-14}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.4983, y: 1.4983, z: 1.4983}
   m_Children: []
   m_Father: {fileID: 7361144579595125828}
@@ -910,8 +910,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
-  m_Range: 100
+  m_Intensity: 2
+  m_Range: 15
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
