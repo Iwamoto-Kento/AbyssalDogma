@@ -33,6 +33,10 @@ public class Hook : MonoBehaviour
     [SerializeField] private GameObject m_AttackEffect;
     [SerializeField] private Vector3[] m_AttackEffectPos;
     [SerializeField] private EffekseerEffectAsset effect;
+    [SerializeField] private EffekseerEffectAsset hitEffect;
+    public bool m_hitFlg = false;
+    public Vector3 m_hitPos;
+
     //サウンド関係
     [SerializeField] public AudioClip sound;
     AudioSource audioSource;
@@ -128,7 +132,7 @@ public class Hook : MonoBehaviour
             m_HookFlg = m_Player.Attract(hit.point, ray);
             m_RopeBorn[0].transform.position = m_Arm.transform.position;
             m_RopeBorn[1].transform.position = m_HookBorn.transform.position;
-
+            m_hitPos = hit.point;
             if (m_HookFlg == false)
             {
                 m_Hook.SetActive(false);
@@ -185,6 +189,12 @@ public class Hook : MonoBehaviour
                 m_HookFlg = false;
                 m_Distance = 50;
             }
+        }
+
+        if(m_hitFlg == true)
+        {
+            m_hitFlg = false;
+            EffekseerHandle handle = EffekseerSystem.PlayEffect(hitEffect,m_hitPos);
         }
     }
 

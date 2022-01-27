@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
+    Hook m_hook;
     // Start is called before the first frame update
     void Start()
     {
-        
+        this.m_hook = FindObjectOfType<Hook>();
     }
 
     // Update is called once per frame
@@ -29,6 +30,8 @@ public class Attack : MonoBehaviour
             if (enemyHidame != null)
             {
                 enemyHidame.hidame_01(1);
+                m_hook.m_hitFlg = true;
+                m_hook.m_hitPos = other.transform.position;
             }
 
             //“G‚ªŽ€‚Ê

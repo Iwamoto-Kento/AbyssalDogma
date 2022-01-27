@@ -22,6 +22,7 @@ public class HookCollision : MonoBehaviour
 
             m_Hook.m_AttractFlg = true;
             m_Hook.m_HookShotFlg = false;
+            m_Hook.m_hitFlg = true;
         }
 
         if(m_Hook.m_HookShotFlg != false)
@@ -37,6 +38,8 @@ public class HookCollision : MonoBehaviour
                 if (enemyHidame != null)
                 {
                     enemyHidame.hidame_01(1);
+                    m_Hook.m_hitFlg = true;
+                    m_Hook.m_hitPos = collision.transform.position;
                 }
 
                 //敵が死ぬ
