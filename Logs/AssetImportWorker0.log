@@ -15,11 +15,11 @@ C:/Users/Kento/unityGame/AbyssalDogma
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61030
+55286
 Successfully changed project path to: C:/Users/Kento/unityGame/AbyssalDogma
 C:/Users/Kento/unityGame/AbyssalDogma
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 54.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -36,281 +36,136 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002669 seconds.
+Registered in 0.002917 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 53.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.315 seconds
+- Completed reload, in  2.468 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006144 seconds.
+Registered in 0.006278 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 49.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 51.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.098 seconds
+- Completed reload, in  1.199 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.8 MB.
-System memory in use after: 146.9 MB.
+System memory in use before: 146.9 MB.
+System memory in use after: 147.0 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3176.
-Total: 3.075900 ms (FindLiveObjects: 0.290600 ms CreateObjectMapping: 0.122300 ms MarkObjects: 2.439300 ms  DeleteObjects: 0.222300 ms)
+Total: 3.354900 ms (FindLiveObjects: 0.262700 ms CreateObjectMapping: 0.158000 ms MarkObjects: 2.648200 ms  DeleteObjects: 0.284500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
 ========================================================================
 Received Import Request.
-  path: Assets/Player/hp.prefab
-  artifactKey: Guid(8e9445c47f8c1434f8734385e7c9e2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/hp.prefab using Guid(8e9445c47f8c1434f8734385e7c9e2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8e74bf155b6999d2164d58170fa5c9') in 0.075601 seconds
-  Import took 0.079433 seconds .
+  path: Assets/Fog/fog.mat
+  artifactKey: Guid(f637e2a1fa2ae5649aebabf772f215a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fog/fog.mat using Guid(f637e2a1fa2ae5649aebabf772f215a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e5c8696ee59f09fa324e6d04851959') in 0.102321 seconds
+  Import took 0.107461 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Player/player 1.prefab
-  artifactKey: Guid(38f4c2c1012adcd4dac3268427f8b7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/player 1.prefab using Guid(38f4c2c1012adcd4dac3268427f8b7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993879687a0aacaa25fb6de3ea5282db') in 0.112810 seconds
-  Import took 0.117113 seconds .
+  Time since last request: 0.000242 seconds.
+  path: Assets/Fog/fog.fbx
+  artifactKey: Guid(50d756ba515e53147a3ad9dda37b2bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fog/fog.fbx using Guid(50d756ba515e53147a3ad9dda37b2bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8063559bfab164c3f286575101a73eab') in 0.079082 seconds
+  Import took 0.082816 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 102.666940 seconds.
-  path: Assets/Script/PlayerHP.cs
-  artifactKey: Guid(d8a5c1d205398784aa77bb817f0d9e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PlayerHP.cs using Guid(d8a5c1d205398784aa77bb817f0d9e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fab472dea67928bced4f15a58c5c12') in 0.007818 seconds
-  Import took 0.012696 seconds .
+  Time since last request: 0.000153 seconds.
+  path: Assets/Fog/fog (1).prefab
+  artifactKey: Guid(ca1dae2c39aa8f74c80cb8c8184d7cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fog/fog (1).prefab using Guid(ca1dae2c39aa8f74c80cb8c8184d7cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626c850a7547a8e228a6b82717c88b87') in 0.016125 seconds
+  Import took 0.019987 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 63.705008 seconds.
-  path: Assets/Script/PlayerHP.cs
-  artifactKey: Guid(d8a5c1d205398784aa77bb817f0d9e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PlayerHP.cs using Guid(d8a5c1d205398784aa77bb817f0d9e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3853edc22bb03f0111893f7b4c478b0') in 0.002598 seconds
-  Import took 0.007319 seconds .
+  Time since last request: 0.000190 seconds.
+  path: Assets/Fog/fog (5).prefab
+  artifactKey: Guid(23ea23b5c2d69fd4b941425757f6d032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fog/fog (5).prefab using Guid(23ea23b5c2d69fd4b941425757f6d032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5f451217df9bbf013bfbf0beb1cb2d') in 0.009567 seconds
+  Import took 0.013149 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 46.662791 seconds.
-  path: Assets/Script/PlayerHP.cs
-  artifactKey: Guid(d8a5c1d205398784aa77bb817f0d9e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PlayerHP.cs using Guid(d8a5c1d205398784aa77bb817f0d9e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4b42fe8e5613a12afb72e5d3aef5df') in 0.002666 seconds
-  Import took 0.007533 seconds .
+  Time since last request: 0.000196 seconds.
+  path: Assets/Fog/fog3.mat
+  artifactKey: Guid(cb4cd15b665d6de44a1019dc6f745bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fog/fog3.mat using Guid(cb4cd15b665d6de44a1019dc6f745bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcf9a940167a7498da40c1ffdf6458c') in 0.011574 seconds
+  Import took 0.015903 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.552423 seconds.
-  path: Assets/Script/PlayerHP.cs
-  artifactKey: Guid(d8a5c1d205398784aa77bb817f0d9e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PlayerHP.cs using Guid(d8a5c1d205398784aa77bb817f0d9e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c273e61a6b8e41822b7bb5fa12f21408') in 0.002503 seconds
-  Import took 0.007308 seconds .
+  Time since last request: 0.000255 seconds.
+  path: Assets/Fog/fog6.mat
+  artifactKey: Guid(1c4a0676ac583044ebcc9ca2f358f56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fog/fog6.mat using Guid(1c4a0676ac583044ebcc9ca2f358f56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75a13a124a5b88e0c444719dc43b7c1') in 0.008946 seconds
+  Import took 0.013388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Fog/fog (2).prefab
+  artifactKey: Guid(d00f581ab0979a444b7b7c64c6d5d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fog/fog (2).prefab using Guid(d00f581ab0979a444b7b7c64c6d5d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce328f914fe9c03fae7072001df05f56') in 0.010899 seconds
+  Import took 0.015259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 386.091423 seconds.
+  path: Assets/Enemy/WhiteGoreinu.prefab
+  artifactKey: Guid(562e6231a0347e2498bfe7f1e6a46372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/WhiteGoreinu.prefab using Guid(562e6231a0347e2498bfe7f1e6a46372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca26cd343887cfc1c44333cbd4f0edfd') in 0.044197 seconds
+  Import took 0.049530 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006698 seconds.
+Registered in 0.006060 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.993 seconds
+- Completed reload, in  0.984 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 157.1 MB.
-System memory in use after: 157.3 MB.
+System memory in use before: 157.4 MB.
+System memory in use after: 157.6 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3191.
-Total: 2.989800 ms (FindLiveObjects: 0.286500 ms CreateObjectMapping: 0.117700 ms MarkObjects: 2.386900 ms  DeleteObjects: 0.197700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005930 seconds.
-Begin MonoManager ReloadAssembly
-ScriptableSingleton already exists. Did you query the singleton in a constructor?
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.ScriptableSingleton`1<Effekseer.Editor.EffekseerEditor>:.ctor ()
-Effekseer.Editor.EffekseerEditor:.ctor ()
-
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.037 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 157.3 MB.
-System memory in use after: 157.4 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3194.
-Total: 2.650800 ms (FindLiveObjects: 0.359200 ms CreateObjectMapping: 0.153100 ms MarkObjects: 1.943300 ms  DeleteObjects: 0.193900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006175 seconds.
-Begin MonoManager ReloadAssembly
-ScriptableSingleton already exists. Did you query the singleton in a constructor?
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.ScriptableSingleton`1<Effekseer.Editor.EffekseerEditor>:.ctor ()
-Effekseer.Editor.EffekseerEditor:.ctor ()
-
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 157.3 MB.
-System memory in use after: 157.5 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3197.
-Total: 2.622900 ms (FindLiveObjects: 0.245600 ms CreateObjectMapping: 0.102100 ms MarkObjects: 2.090500 ms  DeleteObjects: 0.183800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008548 seconds.
-Begin MonoManager ReloadAssembly
-ScriptableSingleton already exists. Did you query the singleton in a constructor?
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.ScriptableSingleton`1<Effekseer.Editor.EffekseerEditor>:.ctor ()
-Effekseer.Editor.EffekseerEditor:.ctor ()
-
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.368 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 157.3 MB.
-System memory in use after: 157.5 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3200.
-Total: 4.598500 ms (FindLiveObjects: 0.425700 ms CreateObjectMapping: 0.219100 ms MarkObjects: 3.685200 ms  DeleteObjects: 0.266900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005908 seconds.
-Begin MonoManager ReloadAssembly
-ScriptableSingleton already exists. Did you query the singleton in a constructor?
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.ScriptableSingleton`1<Effekseer.Editor.EffekseerEditor>:.ctor ()
-Effekseer.Editor.EffekseerEditor:.ctor ()
-
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.042 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 157.3 MB.
-System memory in use after: 157.5 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3203.
-Total: 3.458000 ms (FindLiveObjects: 0.329300 ms CreateObjectMapping: 0.154600 ms MarkObjects: 2.762900 ms  DeleteObjects: 0.209500 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3224.
+Total: 2.873700 ms (FindLiveObjects: 0.361900 ms CreateObjectMapping: 0.119800 ms MarkObjects: 2.200400 ms  DeleteObjects: 0.190500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
 ========================================================================
 Received Import Request.
-  Time since last request: 486.089344 seconds.
-  path: Assets/Script/PlayerHP.cs
-  artifactKey: Guid(d8a5c1d205398784aa77bb817f0d9e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PlayerHP.cs using Guid(d8a5c1d205398784aa77bb817f0d9e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b16614ab74f3a1c02806905d62f5f1') in 0.008860 seconds
-  Import took 0.025256 seconds .
+  Time since last request: 196.744671 seconds.
+  path: Assets/Enemy/foot.mat
+  artifactKey: Guid(0c658d75c9ebb8f449fdb45f15d0d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/foot.mat using Guid(0c658d75c9ebb8f449fdb45f15d0d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c900110d17612db07420978e5efe04ed') in 0.110177 seconds
+  Import took 0.115102 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006445 seconds.
-Begin MonoManager ReloadAssembly
-ScriptableSingleton already exists. Did you query the singleton in a constructor?
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.ScriptableSingleton`1<Effekseer.Editor.EffekseerEditor>:.ctor ()
-Effekseer.Editor.EffekseerEditor:.ctor ()
-
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.049 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 157.3 MB.
-System memory in use after: 157.5 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3206.
-Total: 3.255900 ms (FindLiveObjects: 0.321500 ms CreateObjectMapping: 0.153100 ms MarkObjects: 2.548800 ms  DeleteObjects: 0.231100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -151,17 +151,4 @@ public class Player : MonoBehaviour
         return m_AttractFlg;
     }
 
-    public void Particle()
-    {
-        if(particleFlg == true)
-        {
-            particle.Play();
-
-        }
-        else
-        {
-            particle.Stop();
-        }
-
-    }
 }
