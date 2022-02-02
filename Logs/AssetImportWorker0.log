@@ -15,11 +15,11 @@ C:/Users/Kento/unityGame/AbyssalDogma
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55286
+58459
 Successfully changed project path to: C:/Users/Kento/unityGame/AbyssalDogma
 C:/Users/Kento/unityGame/AbyssalDogma
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 57.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -36,41 +36,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002917 seconds.
+Registered in 0.002660 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 53.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 59.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.468 seconds
+- Completed reload, in  2.390 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006278 seconds.
+Registered in 0.006149 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 59.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.199 seconds
+- Completed reload, in  1.226 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.9 MB.
-System memory in use after: 147.0 MB.
+System memory in use before: 146.6 MB.
+System memory in use after: 146.7 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3176.
-Total: 3.354900 ms (FindLiveObjects: 0.262700 ms CreateObjectMapping: 0.158000 ms MarkObjects: 2.648200 ms  DeleteObjects: 0.284500 ms)
+Total: 2.591400 ms (FindLiveObjects: 0.258400 ms CreateObjectMapping: 0.100800 ms MarkObjects: 2.021700 ms  DeleteObjects: 0.209600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
@@ -78,94 +78,71 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Fog/fog.mat
   artifactKey: Guid(f637e2a1fa2ae5649aebabf772f215a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fog/fog.mat using Guid(f637e2a1fa2ae5649aebabf772f215a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e5c8696ee59f09fa324e6d04851959') in 0.102321 seconds
-  Import took 0.107461 seconds .
+Start importing Assets/Fog/fog.mat using Guid(f637e2a1fa2ae5649aebabf772f215a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a9c80b478d53167191ececcd6ee583') in 0.106180 seconds
+  Import took 0.110054 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Fog/fog.fbx
-  artifactKey: Guid(50d756ba515e53147a3ad9dda37b2bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fog/fog.fbx using Guid(50d756ba515e53147a3ad9dda37b2bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8063559bfab164c3f286575101a73eab') in 0.079082 seconds
-  Import took 0.082816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Fog/fog (1).prefab
-  artifactKey: Guid(ca1dae2c39aa8f74c80cb8c8184d7cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fog/fog (1).prefab using Guid(ca1dae2c39aa8f74c80cb8c8184d7cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626c850a7547a8e228a6b82717c88b87') in 0.016125 seconds
-  Import took 0.019987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Fog/fog (5).prefab
-  artifactKey: Guid(23ea23b5c2d69fd4b941425757f6d032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fog/fog (5).prefab using Guid(23ea23b5c2d69fd4b941425757f6d032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5f451217df9bbf013bfbf0beb1cb2d') in 0.009567 seconds
-  Import took 0.013149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
+  Time since last request: 0.000322 seconds.
   path: Assets/Fog/fog3.mat
   artifactKey: Guid(cb4cd15b665d6de44a1019dc6f745bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fog/fog3.mat using Guid(cb4cd15b665d6de44a1019dc6f745bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcf9a940167a7498da40c1ffdf6458c') in 0.011574 seconds
-  Import took 0.015903 seconds .
+Start importing Assets/Fog/fog3.mat using Guid(cb4cd15b665d6de44a1019dc6f745bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2472d9ceeb9b651fce838d08c8bf12e') in 0.011374 seconds
+  Import took 0.015219 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000255 seconds.
+  Time since last request: 0.000284 seconds.
   path: Assets/Fog/fog6.mat
   artifactKey: Guid(1c4a0676ac583044ebcc9ca2f358f56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fog/fog6.mat using Guid(1c4a0676ac583044ebcc9ca2f358f56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75a13a124a5b88e0c444719dc43b7c1') in 0.008946 seconds
-  Import took 0.013388 seconds .
+Start importing Assets/Fog/fog6.mat using Guid(1c4a0676ac583044ebcc9ca2f358f56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab3cfad6de42b9b22d9322e7f156395') in 0.010353 seconds
+  Import took 0.014199 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Fog/fog (2).prefab
-  artifactKey: Guid(d00f581ab0979a444b7b7c64c6d5d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fog/fog (2).prefab using Guid(d00f581ab0979a444b7b7c64c6d5d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce328f914fe9c03fae7072001df05f56') in 0.010899 seconds
-  Import took 0.015259 seconds .
+  Time since last request: 27.112271 seconds.
+  path: Assets/Enemy/footBallFish 1.prefab
+  artifactKey: Guid(a2b46464ff0d4a240b7f305ebeb20ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/footBallFish 1.prefab using Guid(a2b46464ff0d4a240b7f305ebeb20ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fb9b4ee2c814b7d4a78dcc3bff2c52') in 0.062745 seconds
+  Import took 0.068072 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 386.091423 seconds.
-  path: Assets/Enemy/WhiteGoreinu.prefab
-  artifactKey: Guid(562e6231a0347e2498bfe7f1e6a46372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/WhiteGoreinu.prefab using Guid(562e6231a0347e2498bfe7f1e6a46372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca26cd343887cfc1c44333cbd4f0edfd') in 0.044197 seconds
-  Import took 0.049530 seconds .
+  Time since last request: 92.158193 seconds.
+  path: Assets/Enemy/footBallFish 1.prefab
+  artifactKey: Guid(a2b46464ff0d4a240b7f305ebeb20ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/footBallFish 1.prefab using Guid(a2b46464ff0d4a240b7f305ebeb20ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e76a9d336eafcd4511bde3159b05473') in 0.019065 seconds
+  Import took 0.027439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.259372 seconds.
+  path: Assets/Enemy/footBallFish 1.prefab
+  artifactKey: Guid(a2b46464ff0d4a240b7f305ebeb20ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/footBallFish 1.prefab using Guid(a2b46464ff0d4a240b7f305ebeb20ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916ef572842613b4e131432a697a5f25') in 0.016292 seconds
+  Import took 0.021917 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006060 seconds.
+Registered in 0.008063 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.984 seconds
+- Completed reload, in  1.187 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 157.4 MB.
-System memory in use after: 157.6 MB.
+Unloading 2645 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.1 MB.
+System memory in use after: 157.3 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3224.
-Total: 2.873700 ms (FindLiveObjects: 0.361900 ms CreateObjectMapping: 0.119800 ms MarkObjects: 2.200400 ms  DeleteObjects: 0.190500 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3221.
+Total: 3.288700 ms (FindLiveObjects: 0.430100 ms CreateObjectMapping: 0.235500 ms MarkObjects: 2.425900 ms  DeleteObjects: 0.196300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
-========================================================================
-Received Import Request.
-  Time since last request: 196.744671 seconds.
-  path: Assets/Enemy/foot.mat
-  artifactKey: Guid(0c658d75c9ebb8f449fdb45f15d0d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/foot.mat using Guid(0c658d75c9ebb8f449fdb45f15d0d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c900110d17612db07420978e5efe04ed') in 0.110177 seconds
-  Import took 0.115102 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
