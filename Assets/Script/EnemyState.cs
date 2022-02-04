@@ -143,9 +143,12 @@ public class EnemyState : MonoBehaviour
         m_attackTime = 0;
 
         m_state = CHASE;
-        
+
         //サウンド
-        audioSource.PlayOneShot(sound);
+        if (GameObject.Find("player").GetComponent<PlayerHP>().hp >= 0)
+        {
+            audioSource.PlayOneShot(sound);
+        }
     }
 
     //ターゲットからプレイヤーまでの距離を測る関数

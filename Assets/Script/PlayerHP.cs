@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerHP : MonoBehaviour
 {
-    [SerializeField] private int hp = 10;
+    [SerializeField] public int hp = 10;
     public Slider slider;
 
     // Start is called before the first frame update
@@ -19,10 +19,10 @@ public class PlayerHP : MonoBehaviour
     {
         if (hp <= 0)
         {
-            gameObject.SetActive(false);
+            GameObject.Find("BlackPanel").GetComponent<BlackOut>().flg = true;
         }
 
-        if(Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             //”­•\‰ï—p
             if (hp < 50)
