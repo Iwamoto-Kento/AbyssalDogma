@@ -22,15 +22,15 @@ public class PlayerHP : MonoBehaviour
             GameObject.Find("BlackPanel").GetComponent<BlackOut>().flg = true;
         }
 
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            //発表会用
-            if (hp < 50)
-            {
-                hp++;
-                slider.value = hp;
-            }
-        }
+        //if (Input.GetKey(KeyCode.RightArrow))
+        //{
+        //    //発表会用
+        //    if (hp < 50)
+        //    {
+        //        hp++;
+        //        slider.value = hp;
+        //    }
+        //}
     }
 
     public void Damage()
