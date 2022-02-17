@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
 
     Hook m_Hook;
     // Start is called before the first frame update
+
     void Start()
     {
         anime = GetComponent<Animator>();
@@ -39,8 +40,6 @@ public class Player : MonoBehaviour
     void Update()
     {
         //WASD入力から、XZ平面（水平な地面）を移動する方向(velocity)を得ます
-
-
 
     }
 

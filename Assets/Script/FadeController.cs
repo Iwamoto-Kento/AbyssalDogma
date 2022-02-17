@@ -10,6 +10,7 @@ public class FadeController : MonoBehaviour
 
 	public bool isFadeOut = false;  //フェードアウト処理の開始、完了を管理するフラグ
 	public bool GameClearFlg = false;
+	OpenChest chest;
 
 	Image fadeImage;                //透明度を変更するパネルのイメージ
 
@@ -20,11 +21,13 @@ public class FadeController : MonoBehaviour
 		green = fadeImage.color.g;
 		blue = fadeImage.color.b;
 		alfa = fadeImage.color.a;
+
+		chest = FindObjectOfType<OpenChest>();
 	}
 
 	void Update()
 	{
-		if (GameObject.Find("Chest").GetComponent<OpenChest>().flg == true)
+		if (chest.flg == true)
         {
 			StartFadeOut();
 		}

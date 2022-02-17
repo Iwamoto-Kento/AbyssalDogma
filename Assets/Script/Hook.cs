@@ -41,6 +41,9 @@ public class Hook : MonoBehaviour
     [SerializeField] public AudioClip sound;
     AudioSource audioSource;
 
+    bool GameClearFlg = false;
+    bool GameOverFlg = false;
+    bool HookStopFlg = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -61,7 +64,12 @@ public class Hook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        GameClearFlg = GameObject.Find("Panel").GetComponent<FadeController>().GameClearFlg;
+        GameOverFlg = GameObject.Find("BlackPanel").GetComponent<BlackOut>().GameOverFlg;
+        if(GameClearFlg == true || GameOverFlg == true)
+        {
+            HookStopFlg = true;
+        }
         //クリック時のフックを飛ばす準備
         if (m_HookFlg != true)
         {
@@ -101,7 +109,7 @@ public class Hook : MonoBehaviour
         else
         {
             m_Hook.transform.LookAt(m_Arm.transform.position);
-           
+
         }
 
 
